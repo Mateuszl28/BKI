@@ -1,0 +1,18 @@
+generator client {
+provider = "prisma-client-js"
+}
+
+
+datasource db {
+provider = env("DATABASE_PROVIDER") != null ? env("DATABASE_PROVIDER") : "sqlite"
+url = env("DATABASE_URL")
+}
+
+
+model Drink {
+id Int @id @default(autoincrement())
+name String
+brand String?
+abv Float? // alcohol by volume
+createdAt DateTime @default(now())
+updatedAt DateTime @up
