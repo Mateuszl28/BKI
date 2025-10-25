@@ -232,4 +232,96 @@
 			transform: translateY(-5px);
 		}
 	}
+	<!-- 🔹 GENERATOR KAWAŁÓW 🔹 -->
+<script>
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		// --- Wstawiamy generator kawałów na stronę ---
+		const script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.innerHTML = `
+			(() => {
+			  const JOKES = [
+			    { t: "Dlaczego programiści mylą Halloween i Boże Narodzenie? Bo 31 OCT = 25 DEC.", c: "programistyczny" },
+			    { t: "Panie doktorze, wszyscy mnie ignorują! — Następny proszę.", c: "suchar" },
+			    { t: "— Tato, zimno! — To się ociepl. — Ale jak? — No weź weźli i weźli weź.", c: "papa" },
+			    { t: "Debugowanie: jak bycie detektywem w filmie, w którym sam jesteś mordercą.", c: "programistyczny" },
+			    { t: "Nie odkładam na później. Po prostu planuję na nieokreśloną przyszłość.", c: "życiowy" },
+			    { t: "Kelner! W mojej zupie jest błąd! — To nie błąd, to feature.", c: "programistyczny" },
+			    { t: "Moje hasło jest jak cebula: doprowadza mnie do łez.", c: "programistyczny" },
+			  ];
+
+			  const css = \`
+			    .joke-popup {
+			      position: fixed;
+			      padding: 12px 16px;
+			      background: #141a2e;
+			      color: #e8edff;
+			      border-radius: 12px;
+			      border: 1px solid rgba(122,162,255,0.3);
+			      box-shadow: 0 8px 24px rgba(0,0,0,.35);
+			      z-index: 9999;
+			      max-width: 320px;
+			      line-height: 1.4;
+			      font-family: system-ui, sans-serif;
+			      animation: popupIn 0.3s ease;
+			    }
+			    .joke-popup button {
+			      margin-top: 8px;
+			      background: #1a2342;
+			      color: #fff;
+			      border: none;
+			      border-radius: 6px;
+			      padding: 4px 8px;
+			      cursor: pointer;
+			    }
+			    @keyframes popupIn {
+			      from { opacity: 0; transform: scale(0.9); }
+			      to { opacity: 1; transform: scale(1); }
+			    }
+			  \`;
+
+			  const style = document.createElement('style');
+			  style.innerHTML = css;
+			  document.head.appendChild(style);
+
+			  function randomJoke() {
+			    const j = JOKES[Math.floor(Math.random() * JOKES.length)];
+			    showPopup(j.t);
+			  }
+
+			  function showPopup(text) {
+			    const popup = document.createElement('div');
+			    popup.className = 'joke-popup';
+			    popup.textContent = text;
+			    const btn = document.createElement('button');
+			    btn.textContent = '😂 Jeszcze jeden';
+			    btn.onclick = () => {
+			      popup.remove();
+			      randomJoke();
+			    };
+			    popup.appendChild(document.createElement('br'));
+			    popup.appendChild(btn);
+
+			    // losowa pozycja na ekranie
+			    const vw = window.innerWidth;
+			    const vh = window.innerHeight;
+			    popup.style.left = Math.floor(Math.random() * (vw - 350)) + 'px';
+			    popup.style.top = Math.floor(Math.random() * (vh - 200)) + 'px';
+			    document.body.appendChild(popup);
+
+			    setTimeout(() => popup.remove(), 8000);
+			  }
+
+			  // pokaz pierwszy kawał po 5 sekundach i co 20 sekund nowy
+			  setTimeout(randomJoke, 5000);
+			  setInterval(randomJoke, 20000);
+			})();
+		`;
+		document.body.appendChild(script);
+	});
+</script>
+<!-- 🔹 KONIEC BLOKU 🔹 -->
+
 </style>
