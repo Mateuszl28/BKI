@@ -28,7 +28,7 @@ Aplikacja dostępna na:
 ## 📱 Użycie na telefonie
 
 1. Upewnij się że komputer i telefon są w tej samej sieci WiFi
-2. Otwórz na telefonie adres Network URL (np. `http://10.10.236.43:5173`)
+2. Otwórz na telefonie adres Network URL (np. `http://10.l.236.43:5173`)
 3. Kliknij przycisk lokalizacji 📍 (pozwól przeglądarce na dostęp)
 4. Kliknij "Załaduj dane" 📡 aby pobrać rzeczywiste sklepy z OpenStreetMap
 
