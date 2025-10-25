@@ -22,7 +22,7 @@
 <style lang="scss">
 	.location-btn {
 		position: fixed;
-		bottom: 100px;
+		bottom: 170px;
 		right: 20px;
 		width: 56px;
 		height: 56px;
@@ -31,17 +31,17 @@
 		border: 2px solid #667eea;
 		color: #667eea;
 		font-size: 24px;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 		cursor: pointer;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		transition: all 0.3s ease;
-		z-index: 1000;
+		z-index: 1700;
 
 		&:hover {
-			transform: scale(1.1);
-			box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+			transform: scale(1.08);
+			box-shadow: 0 5px 14px rgba(102, 126, 234, 0.35);
 		}
 
 		&:active {
@@ -61,16 +61,16 @@
 
 	.error-toast {
 		position: fixed;
-		bottom: 170px;
+		bottom: 238px;
 		right: 20px;
 		background: #ff5252;
 		color: white;
-		padding: 12px 16px;
+		padding: 10px 14px;
 		border-radius: 8px;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-		font-size: 14px;
-		max-width: 280px;
-		z-index: 1001;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+		font-size: 13px;
+		max-width: 240px;
+		z-index: 1701;
 		animation: slideIn 0.3s ease;
 	}
 
@@ -97,14 +97,14 @@
 
 	@media (max-width: 480px) {
 		.location-btn {
-			bottom: 80px;
+			bottom: 165px;
 			right: 10px;
-			width: 52px;
-			height: 52px;
+			width: 54px;
+			height: 54px;
 		}
 
 		.error-toast {
-			bottom: 145px;
+			bottom: 230px;
 			right: 10px;
 			max-width: calc(100vw - 20px);
 		}

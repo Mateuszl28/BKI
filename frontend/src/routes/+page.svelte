@@ -4,31 +4,30 @@
 	import Legend from '$lib/components/Legend.svelte';
 	import FloatingButton from '$lib/components/FloatingButton.svelte';
 	import LocationButton from '$lib/components/LocationButton.svelte';
-	import LoadDataButton from '$lib/components/LoadDataButton.svelte';
+	import RoutePanel from '$lib/components/RoutePanel.svelte';
+	import { poiStore } from '$lib/stores/poi.svelte';
 
-	let showMenu = $state(false);
+	let mapInstance = $state<any>(null);
+	let routePanelRef: any;
 
-	function handleMenuClick() {
-		showMenu = !showMenu;
-		console.log('Menu kliknięte');
-	}
-
-	function handleAddDanger() {
-		alert('🚨 Funkcja dodawania niebezpiecznych miejsc - wkrótce!');
+	function handleRouteClick() {
+		if (routePanelRef) {
+			routePanelRef.toggle();
+		}
 	}
 </script>
 
 <div class="app-container">
-	<Header onMenuClick={handleMenuClick} />
+	<Header />
 
 	<main class="map-view">
-		<Map />
+		<Map bind:mapInstance />
 	</main>
 
 	<Legend />
 	<LocationButton />
-	<LoadDataButton />
-	<FloatingButton icon="⚠️" label="Zgłoś niebezpieczne miejsce" onclick={handleAddDanger} />
+	<FloatingButton icon="🗺️" label="Zaplanuj trasę" onclick={handleRouteClick} />
+	<RoutePanel bind:this={routePanelRef} bind:map={mapInstance} pois={poiStore.pois} />
 </div>
 
 <style lang="scss">

@@ -1,11 +1,4 @@
 <script lang="ts">
-	import type { MouseEventHandler } from 'svelte/elements';
-
-	let { onMenuClick = () => {} }: { onMenuClick?: () => void } = $props();
-
-	const handleClick: MouseEventHandler<HTMLButtonElement> = (e) => {
-		onMenuClick();
-	};
 </script>
 
 <header class="app-header">
@@ -14,9 +7,6 @@
 			<span class="icon">🍺</span>
 			<h1>Alko Radar</h1>
 		</div>
-		<button class="menu-btn" onclick={handleClick}>
-			<span>☰</span>
-		</button>
 	</div>
 	<div class="header-subtitle">
 		<p>Twój przewodnik po niebezpiecznych terenach</p>
@@ -38,7 +28,7 @@
 
 	.header-content {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
 	}
 
@@ -63,33 +53,9 @@
 		}
 	}
 
-	.menu-btn {
-		background: rgba(255, 255, 255, 0.1);
-		border: 2px solid rgba(255, 255, 255, 0.2);
-		border-radius: 8px;
-		color: white;
-		font-size: 24px;
-		width: 44px;
-		height: 44px;
-		cursor: pointer;
-		transition: all 0.3s;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-		&:hover {
-			background: rgba(255, 255, 255, 0.2);
-			transform: scale(1.05);
-		}
-
-		&:active {
-			transform: scale(0.95);
-		}
-	}
-
 	.header-subtitle {
 		margin-top: 5px;
-		
+
 		p {
 			margin: 0;
 			font-size: 12px;
@@ -99,7 +65,8 @@
 	}
 
 	@keyframes swing {
-		0%, 100% {
+		0%,
+		100% {
 			transform: rotate(0deg);
 		}
 		25% {
@@ -110,4 +77,3 @@
 		}
 	}
 </style>
-
