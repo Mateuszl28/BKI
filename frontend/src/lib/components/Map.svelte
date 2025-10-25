@@ -389,7 +389,7 @@
 			<button class="btn tiny" onclick={newJoke}>Jeszcze! 😄</button>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!-- TOAST -->
 {#if toast}

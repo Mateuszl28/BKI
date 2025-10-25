@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Map from '$lib/components/Map.svelte';
 	import Header from '$lib/components/Header.svelte';
-	import Legend from '$lib/components/Legend.svelte';
 	import FloatingButton from '$lib/components/FloatingButton.svelte';
 	import LocationButton from '$lib/components/LocationButton.svelte';
 	import LoadDataButton from '$lib/components/LoadDataButton.svelte';
@@ -25,10 +24,9 @@
 		<Map />
 	</main>
 
-	<Legend />
-	<LocationButton />
+	<!-- <LocationButton /> -->
 	<LoadDataButton />
-	<FloatingButton icon="⚠️" label="Zgłoś niebezpieczne miejsce" onclick={handleAddDanger} />
+	<!-- <FloatingButton icon="⚠️" label="Zgłoś niebezpieczne miejsce" onclick={handleAddDanger} /> -->
 </div>
 
 <style lang="scss">
