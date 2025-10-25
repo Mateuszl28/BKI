@@ -1,39 +1,41 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
+	import { browser } from '$app/environment';
 	import type L from 'leaflet';
 	import { locationStore } from '$lib/stores/location.svelte';
 	import { poiStore } from '$lib/stores/poi.svelte';
 	import type { POI } from '$lib/types/poi';
-	// ❌ usunięto import fetchPOIsNearby — używamy lokalnej funkcji z retry
-	// import { fetchPOIsNearby } from '$lib/utils/overpass';
+	// import { fetchPOIsNearby } from '$lib/utils/overpass'; // nie używamy – mamy lokalny fetch
 
+	// ---- Map + warstwy
 	let mapContainer: HTMLDivElement;
 	let map: L.Map | null = null;
 	let userMarker: L.Marker | null = null;
 	let userAccuracyCircle: L.Circle | null = null;
 	let poiLayer: L.LayerGroup | null = null;
 	let radiusCircle: L.Circle | null = null;
+	let Llib: typeof import('leaflet') | null = null;
 
-	let isTracking = false;
-	let searchQuery = '';
-	let searchResults: Array<{ display_name: string; lat: string; lon: string }> = [];
-	let showSuggestions = false;
+	// ---- Runes (Svelte 5) – stan reaktywny
+	let isTracking = $state(false);
+	let searchQuery = $state('');
+	let searchResults = $state<Array<{ display_name: string; lat: string; lon: string }>>([]);
+	let showSuggestions = $state(false);
 
-	// Filtrowanie
 	const allTypes = ['monopolowy', 'klub', 'pub', 'policja', 'stacjabenzynowa'] as const;
 	type PoiType = typeof allTypes[number];
-	let enabledTypes: Record<PoiType, boolean> = {
+
+	let enabledTypes = $state<Record<PoiType, boolean>>({
 		monopolowy: true,
 		klub: true,
 		pub: true,
 		policja: true,
 		stacjabenzynowa: true
-	};
-	let minDanger = 7;     // minimalny poziom zagrożenia
-	let filterRadiusKm = 3; // promień filtrowania w km
-	let filterCenter: { lat: number; lng: number } | null = null;
+	});
+	let minDanger = $state(7);
+	let filterRadiusKm = $state(3);
+	let filterCenter = $state<{ lat: number; lng: number } | null>(null);
 
-	// Ikony emoji dla typów
 	const dangerIcons: Record<PoiType | 'user', string> = {
 		monopolowy: '🍷',
 		klub: '🎵',
@@ -43,18 +45,15 @@
 		user: '📍'
 	};
 
-	const DEFAULT_VIEW = {
-		lat: 53.01812167,
-		lng: 18.60666329,
-		zoom: 13
-	};
+	const DEFAULT_VIEW = { lat: 53.01812167, lng: 18.60666329, zoom: 13 };
 
 	function saveView() {
-		if (!map) return;
+		if (!browser || !map) return;
 		const c = map.getCenter();
 		localStorage.setItem('map:view', JSON.stringify({ lat: c.lat, lng: c.lng, zoom: map.getZoom() }));
 	}
 	function loadView() {
+		if (!browser) return DEFAULT_VIEW;
 		try {
 			const raw = localStorage.getItem('map:view');
 			if (!raw) return DEFAULT_VIEW;
@@ -65,9 +64,7 @@
 		}
 	}
 
-	let Llib: typeof import('leaflet') | null = null;
-
-	// ===== Overpass: lokalny fetch z retry i zapasowymi węzłami =====
+	// ===== Overpass – lokalny fetch z retry i zapasowymi węzłami (SSR-safe) =====
 	type OverpassPOI = {
 		lat: number; lng: number; name?: string; address?: string; type: 'monopolowy'|'klub'|'pub'|'policja'|'stacjabenzynowa';
 		danger: number; description?: string;
@@ -87,7 +84,6 @@
 				});
 				clearTimeout(t);
 				if (res.ok) return await res.json();
-				// 429/5xx – poczekaj i spróbuj ponownie / inny węzeł
 				await new Promise(r => setTimeout(r, 500 + i * 800));
 			} catch {
 				clearTimeout(t);
@@ -134,7 +130,7 @@
 			if (tags.amenity === 'nightclub') return 'klub';
 			if (tags.amenity === 'pub') return 'pub';
 			if (tags.amenity === 'police') return 'policja';
-			return 'stacjabenzynowa'; // amenity=fuel
+			return 'stacjabenzynowa';
 		};
 
 		return elements
@@ -143,47 +139,31 @@
 				const t = e.tags || {};
 				const name = t.name || 'Miejsce';
 				const addr = [t['addr:street'], t['addr:housenumber'], t['addr:city']].filter(Boolean).join(' ') || '';
-				// prosta demo heurystyka danger; podmień na swój atrybut jeśli masz
 				const danger = t.amenity === 'police' ? 7 : (t.amenity === 'nightclub' ? 9 : (t.shop === 'alcohol' ? 8 : 7));
-				return {
-					lat: e.lat, lng: e.lon,
-					name, address: addr,
-					type: mapType(t),
-					danger,
-					description: t.operator || t.brand || ''
-				} as OverpassPOI;
+				return { lat: e.lat, lng: e.lon, name, address: addr, type: mapType(t), danger, description: t.operator || t.brand || '' } as OverpassPOI;
 			});
 	}
 
-	// ===== Nominatim: bez User-Agent, z &email, miękkie błędy =====
+	// ===== Nominatim – bez User-Agent, SSR-safe =====
 	let searchDebounce: number | undefined;
 
 	function onSearchInput() {
 		showSuggestions = true;
-		clearTimeout(searchDebounce);
-		searchDebounce = window.setTimeout(fetchSuggestions, 300);
+		if (searchDebounce) clearTimeout(searchDebounce);
+		// Używamy globalnego setTimeout, nie window.*
+		searchDebounce = setTimeout(fetchSuggestions, 300) as unknown as number;
 	}
 
 	async function fetchSuggestions() {
+		if (!browser) return; // nic nie rób po stronie SSR
 		if (!searchQuery?.trim()) { searchResults = []; return; }
 		try {
-			const url =
-				`https://nominatim.openstreetmap.org/search?` +
+			const url = `https://nominatim.openstreetmap.org/search?` +
 				`q=${encodeURIComponent(searchQuery)}` +
-				`&format=json&addressdetails=0&limit=5&namedetails=0` +
-				`&accept-language=pl&email=test@example.com`;
+				`&format=json&addressdetails=0&limit=5&namedetails=0&accept-language=pl&email=test@example.com`;
 
-			const res = await fetch(url, {
-				method: 'GET',
-				mode: 'cors',
-				headers: { 'Accept': 'application/json' } // bez User-Agent
-			});
-
-			if (!res.ok) {
-				console.warn('Nominatim HTTP', res.status, res.statusText);
-				searchResults = [];
-				return;
-			}
+			const res = await fetch(url, { method: 'GET', mode: 'cors', headers: { Accept: 'application/json' } });
+			if (!res.ok) { console.warn('Nominatim HTTP', res.status, res.statusText); searchResults = []; return; }
 			searchResults = await res.json();
 		} catch (e) {
 			console.warn('Geocode error', e);
@@ -205,8 +185,10 @@
 		refreshPOIMarkers();
 	}
 
-	// ===== Inicjalizacja mapy =====
+	// ===== Inicjalizacja tylko w przeglądarce =====
 	onMount(async () => {
+		if (!browser) return;
+
 		Llib = await import('leaflet');
 		await import('leaflet/dist/leaflet.css');
 
@@ -228,7 +210,7 @@
 		L.control.scale({ metric: true }).addTo(map);
 		poiLayer = L.layerGroup().addTo(map);
 
-		// Załaduj POI z Overpass (miękki fallback)
+		// Załaduj POI (miękki fallback)
 		const seedLat = 53.01809179200012;
 		const seedLng = 18.607055641182555;
 
@@ -242,30 +224,33 @@
 		}
 		poiStore.loadDemoData(newPOIs);
 
-		// Promień filtracji startowo na środku widoku
 		filterCenter = { lat: view.lat, lng: view.lng };
 		drawRadiusCircle();
 
-		map.on('moveend zoomend', saveView);
+		map.on('moveend', saveView);
+		map.on('zoomend', saveView);
 
-		// Klik w mapę: ustaw centrum filtra
+		// Klik ustawia centrum filtra
 		map.on('click', (e: any) => {
 			filterCenter = { lat: e.latlng.lat, lng: e.latlng.lng };
 			drawRadiusCircle();
 			refreshPOIMarkers();
 		});
 
-		// Skróty klawiszowe
-		window.addEventListener('keydown', onKey);
+		// Skróty (guard na window)
+		if (typeof window !== 'undefined') {
+			window.addEventListener('keydown', onKey);
+		}
 
 		refreshPOIMarkers();
 	});
 
 	function onKey(e: KeyboardEvent) {
 		if (!map) return;
-		if (e.key.toLowerCase() === 'l') locateUser();
-		if (e.key.toLowerCase() === 'f') fitToPois();
-		if (e.key.toLowerCase() === 'r') { resetFilters(); }
+		const k = e.key.toLowerCase();
+		if (k === 'l') locateUser();
+		if (k === 'f') fitToPois();
+		if (k === 'r') resetFilters();
 	}
 
 	function resetFilters() {
@@ -350,6 +335,8 @@
 
 				const m = L.marker([poi.lat, poi.lng], { icon }).bindPopup(popupContent);
 				m.on('popupopen', () => {
+					// copy to clipboard – tylko w przeglądarce
+					if (!browser) return;
 					setTimeout(() => {
 						const el = document.getElementById(copyBtnId);
 						if (el) {
@@ -369,7 +356,6 @@
 				markers.push(m);
 			}
 
-			// Jeżeli włączone śledzenie — nie ruszaj widoku; inaczej dopasuj przy pierwszym odświeżeniu
 			if (markers.length && map && !isTracking) {
 				const g = L.featureGroup(markers);
 				map.fitBounds(g.getBounds().pad(0.2));
@@ -380,12 +366,10 @@
 	}
 
 	async function locateUser() {
+		if (!browser) return;
 		const L = Llib!;
 		if (!map) return;
-		if (!navigator.geolocation) {
-			alert('Geolokalizacja niedostępna w tej przeglądarce.');
-			return;
-		}
+		if (!navigator.geolocation) { alert('Geolokalizacja niedostępna w tej przeglądarce.'); return; }
 		navigator.geolocation.getCurrentPosition((pos) => {
 			updateUserMarker(L, pos.coords.latitude, pos.coords.longitude, pos.coords.accuracy);
 			map!.setView([pos.coords.latitude, pos.coords.longitude], Math.max(15, map!.getZoom()));
@@ -401,7 +385,7 @@
 	let watchId: number | null = null;
 	function toggleTracking() { if (isTracking) stopTracking(); else startTracking(); }
 	function startTracking() {
-		if (!navigator.geolocation) return;
+		if (!browser || !navigator.geolocation) return;
 		isTracking = true;
 		watchId = navigator.geolocation.watchPosition((pos) => {
 			updateUserMarker(Llib!, pos.coords.latitude, pos.coords.longitude, pos.coords.accuracy);
@@ -410,16 +394,14 @@
 	}
 	function stopTracking() {
 		isTracking = false;
+		if (!browser) return;
 		if (watchId !== null) { navigator.geolocation.clearWatch(watchId); watchId = null; }
 	}
 
 	function updateUserMarker(L: any, lat: number, lng: number, accuracy?: number) {
 		if (!map) return;
 		if (userMarker) map.removeLayer(userMarker);
-		if (userAccuracyCircle) {
-			map.removeLayer(userAccuracyCircle);
-			userAccuracyCircle = null;
-		}
+		if (userAccuracyCircle) { map.removeLayer(userAccuracyCircle); userAccuracyCircle = null; }
 
 		const userIcon = L.divIcon({
 			html: `<div class="user-marker">${dangerIcons.user}</div>`,
@@ -455,7 +437,7 @@
 		map.fitBounds(group.getBounds().pad(0.2));
 	}
 
-	// Reaktywne odświeżenia
+	// Reaktywne odświeżenie po zmianie store
 	$effect(() => {
 		const pois = poiStore.pois;
 		if (pois.length > 0 && map) {
@@ -465,7 +447,9 @@
 
 	onDestroy(() => {
 		locationStore.stopTracking?.();
-		window.removeEventListener('keydown', onKey);
+		if (browser && typeof window !== 'undefined') {
+			window.removeEventListener('keydown', onKey);
+		}
 		if (map) { map.remove(); map = null; }
 	});
 </script>
@@ -477,45 +461,49 @@
 			type="text"
 			placeholder="Szukaj adresu / miejsca…"
 			bind:value={searchQuery}
-			on:input={onSearchInput}
-			on:focus={() => showSuggestions = true}
-			on:blur={() => setTimeout(() => showSuggestions = false, 150)}
+			oninput={onSearchInput}
+			onfocus={() => showSuggestions = true}
+			onblur={() => setTimeout(() => showSuggestions = false, 150)}
+			aria-label="Pole wyszukiwania"
 		/>
-		<button class="btn" on:click={fetchSuggestions}>Szukaj</button>
-		<button class="btn" on:click={() => locateUser()}>Lokalizuj (L)</button>
-		<button class="btn" on:click={() => toggleTracking()}>{isTracking ? 'Wyłącz śledzenie' : 'Włącz śledzenie'}</button>
+		<button class="btn" onclick={fetchSuggestions}>Szukaj</button>
+		<button class="btn" onclick={() => locateUser()}>Lokalizuj (L)</button>
+		<button class="btn" onclick={() => toggleTracking()}>{isTracking ? 'Wyłącz śledzenie' : 'Włącz śledzenie'}</button>
 	</div>
 
 	{#if showSuggestions && searchResults.length}
-	<ul class="suggestions">
+	<ul class="suggestions" role="listbox" aria-label="Podpowiedzi wyszukiwania">
 		{#each searchResults as s}
-			<li on:mousedown={() => chooseSuggestion(s)}>{s.display_name}</li>
+			<li role="button" tabindex="0"
+				onmousedown={() => chooseSuggestion(s)}
+				onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && chooseSuggestion(s)}
+			>{s.display_name}</li>
 		{/each}
 	</ul>
 	{/if}
 
 	<div class="row">
-		<label>Min. zagrożenie: <strong>{minDanger}</strong></label>
-		<input type="range" min="0" max="10" step="1" bind:value={minDanger} on:change={refreshPOIMarkers} />
+		<label for="minDanger">Min. zagrożenie: <strong>{minDanger}</strong></label>
+		<input id="minDanger" type="range" min="0" max="10" step="1" bind:value={minDanger} onchange={refreshPOIMarkers} />
 	</div>
 
 	<div class="row">
-		<label>Promień: <strong>{filterRadiusKm} km</strong></label>
-		<input type="range" min="0" max="10" step="0.5" bind:value={filterRadiusKm} on:input={drawRadiusCircle} on:change={refreshPOIMarkers} />
+		<label for="radius">Promień: <strong>{filterRadiusKm} km</strong></label>
+		<input id="radius" type="range" min="0" max="10" step="0.5" bind:value={filterRadiusKm} oninput={drawRadiusCircle} onchange={refreshPOIMarkers} />
 	</div>
 
 	<div class="row tags">
 		{#each allTypes as t}
 			<label class="tag">
-				<input type="checkbox" bind:checked={enabledTypes[t]} on:change={refreshPOIMarkers} />
+				<input type="checkbox" bind:checked={enabledTypes[t]} onchange={refreshPOIMarkers} aria-label={`Filtr typu ${t}`} />
 				<span>{dangerIcons[t]} {t}</span>
 			</label>
 		{/each}
 	</div>
 
 	<div class="row">
-		<button class="btn secondary" on:click={fitToPois}>Dopasuj do POI (F)</button>
-		<button class="btn secondary" on:click={resetFilters}>Reset filtrów (R)</button>
+		<button class="btn secondary" onclick={fitToPois}>Dopasuj do POI (F)</button>
+		<button class="btn secondary" onclick={resetFilters}>Reset filtrów (R)</button>
 	</div>
 
 	<p class="hint">Wskazówka: kliknij na mapie, aby przenieść centrum filtra (pomarańczowy okrąg).</p>
@@ -526,147 +514,50 @@
 </div>
 
 <style lang="scss">
-	.map-wrapper {
-		width: 100%;
-		height: 100%;
-		position: relative;
-	}
-
-	.map-container {
-		width: 100%;
-		height: 100%;
-		border-radius: 0;
-		z-index: 1;
-	}
+	.map-wrapper { width: 100%; height: 100%; position: relative; }
+	.map-container { width: 100%; height: 100%; border-radius: 0; z-index: 1; }
 
 	/* PANEL */
 	.controls {
-		position: absolute;
-		top: 12px;
-		left: 12px;
-		z-index: 1000;
-		background: rgba(255,255,255,0.94);
-		backdrop-filter: blur(3px);
-		border-radius: 12px;
-		box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-		padding: 10px 12px;
-		min-width: 320px;
-		max-width: min(92vw, 520px);
+		position: absolute; top: 12px; left: 12px; z-index: 1000;
+		background: rgba(255,255,255,0.94); backdrop-filter: blur(3px);
+		border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+		padding: 10px 12px; min-width: 320px; max-width: min(92vw, 520px);
 		font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 	}
-
 	.controls .row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; flex-wrap: wrap; }
-	.controls input[type="text"] {
-		flex: 1;
-		padding: 8px 10px;
-		border: 1px solid #ddd;
-		border-radius: 8px;
-		font-size: 14px;
-		outline: none;
-	}
+	.controls input[type="text"] { flex: 1; padding: 8px 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; outline: none; }
 	.controls input[type="text"]:focus { border-color: #999; }
 	.controls input[type="range"] { flex: 1; }
 	.controls label { font-size: 13px; color: #333; }
 
-	.controls .btn {
-		padding: 8px 10px;
-		border-radius: 8px;
-		border: none;
-		background: #1a73e8;
-		color: #fff;
-		cursor: pointer;
-		font-size: 13px;
-		transition: transform .06s ease, box-shadow .2s ease;
-		box-shadow: 0 2px 8px rgba(26,115,232,.25);
-		white-space: nowrap;
-	}
+	.controls .btn { padding: 8px 10px; border-radius: 8px; border: none; background: #1a73e8; color: #fff; cursor: pointer; font-size: 13px; transition: transform .06s ease, box-shadow .2s ease; box-shadow: 0 2px 8px rgba(26,115,232,.25); white-space: nowrap; }
 	.controls .btn:hover { transform: translateY(-1px); }
 	.controls .btn.secondary { background: #e0e0e0; color: #222; box-shadow: none; }
 	.controls .hint { margin: 6px 2px 0; font-size: 12px; color: #666; }
 
-	.suggestions {
-		margin: -4px 0 8px;
-		padding: 4px;
-		border: 1px solid #e5e5e5;
-		border-radius: 8px;
-		background: #fff;
-		max-height: 220px;
-		overflow: auto;
-		list-style: none;
-	}
-	.suggestions li {
-		padding: 6px 8px;
-		border-radius: 6px;
-		cursor: pointer;
-		font-size: 13px;
-	}
+	.suggestions { margin: -4px 0 8px; padding: 4px; border: 1px solid #e5e5e5; border-radius: 8px; background: #fff; max-height: 220px; overflow: auto; list-style: none; }
+	.suggestions li { padding: 6px 8px; border-radius: 6px; cursor: pointer; font-size: 13px; }
 	.suggestions li:hover { background: #f2f6ff; }
 
 	.tags { gap: 10px; }
-	.tag {
-		display: inline-flex;
-		align-items: center;
-		gap: 6px;
-		background: #f7f7f7;
-		border: 1px solid #eee;
-		border-radius: 999px;
-		padding: 4px 10px;
-		font-size: 13px;
-		transition: background .2s ease;
-	}
+	.tag { display: inline-flex; align-items: center; gap: 6px; background: #f7f7f7; border: 1px solid #eee; border-radius: 999px; padding: 4px 10px; font-size: 13px; transition: background .2s ease; }
 	.tag:hover { background: #efefef; }
 	.tag input { accent-color: #1a73e8; }
 
-	:global(.custom-div-icon) {
-		background: transparent !important;
-		border: none !important;
-	}
-
-	:global(.user-marker) {
-		font-size: 30px;
-		animation: pulse 2s infinite;
-		filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
-	}
-
+	:global(.custom-div-icon) { background: transparent !important; border: none !important; }
+	:global(.user-marker) { font-size: 30px; animation: pulse 2s infinite; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3)); }
 	:global(.danger-marker) {
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border: 3px solid #fff;
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-		animation: bounce 2s infinite;
-		cursor: pointer;
-		transition: transform 0.2s;
-		font-size: 24px;
-
-		&:hover { transform: scale(1.2); }
+		width: 40px; height: 40px; border-radius: 50%;
+		display: flex; align-items: center; justify-content: center;
+		border: 3px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+		animation: bounce 2s infinite; cursor: pointer; transition: transform 0.2s; font-size: 24px;
 	}
+	:global(.danger-marker:hover) { transform: scale(1.2); }
+	:global(.danger-7), :global(.danger-8) { background: linear-gradient(135deg, #ffa500, #ff6b00); }
+	:global(.danger-9), :global(.danger-10) { background: linear-gradient(135deg, #ff0000, #cc0000); }
+	:global(.leaflet-popup-content-wrapper) { border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
 
-	:global(.danger-7),
-	:global(.danger-8) {
-		background: linear-gradient(135deg, #ffa500, #ff6b00);
-	}
-
-	:global(.danger-9),
-	:global(.danger-10) {
-		background: linear-gradient(135deg, #ff0000, #cc0000);
-	}
-
-	:global(.leaflet-popup-content-wrapper) {
-		border-radius: 12px;
-		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-	}
-
-	@keyframes pulse {
-		0%, 100% { transform: scale(1); }
-		50% { transform: scale(1.1); }
-	}
-
-	@keyframes bounce {
-		0%, 100% { transform: translateY(0); }
-		50% { transform: translateY(-5px); }
-	}
+	@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+	@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
 </style>
