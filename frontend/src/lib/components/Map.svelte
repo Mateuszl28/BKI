@@ -21,6 +21,8 @@
 
 	let mapContainer: HTMLDivElement;
 	let map: L.Map | null = null;
+	let lastRenderedPois: POI[] = [];
+
 
 	let Lref: typeof import('leaflet') | null = null;
 
