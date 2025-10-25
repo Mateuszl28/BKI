@@ -16,7 +16,8 @@
 
 	// ==== STAN (Svelte 5 runes)
 	let isTracking = $state(false);
-	let isSheetOpen = $state(false); // dolny panel filtrów
+	let isSheetOpen = $state(false);      // dolny panel filtrów
+	let isLegendOpen = $state(false);     // dolny panel LEGENDY (NOWE)
 	let searchQuery = $state('');
 	let searchResults = $state<Array<{ display_name: string; lat: string; lon: string }>>([]);
 	let showSuggestions = $state(false);
@@ -25,11 +26,7 @@
 	type PoiType = typeof allTypes[number];
 
 	let enabledTypes = $state<Record<PoiType, boolean>>({
-		monopolowy: true,
-		klub: true,
-		pub: true,
-		policja: true,
-		stacjabenzynowa: true
+		monopolowy: true, klub: true, pub: true, policja: true, stacjabenzynowa: true
 	});
 	let minDanger = $state(7);
 	let filterRadiusKm = $state(3);
@@ -152,34 +149,28 @@
 		map = L.map(mapContainer, {
 			center: [view.lat, view.lng],
 			zoom: view.zoom,
-			zoomControl: false, // włączymy własne przyciski (większe na mobile)
+			zoomControl: false,
 			attributionControl: true
 		});
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			attribution: '© OpenStreetMap contributors', maxZoom: 19
 		}).addTo(map);
-		// własne +/- (większe)
 		L.control.zoom({ position: 'bottomright' }).addTo(map);
 		L.control.scale({ metric: true }).addTo(map);
 
 		poiLayer = L.layerGroup().addTo(map);
 
-		// Początkowe dane
 		const seedLat = 53.01809179200012;
 		const seedLng = 18.607055641182555;
 		let newPOIs: POI[] = [];
 		try { newPOIs = await fetchPOIsNearbyLocal(seedLat, seedLng, 3) as unknown as POI[]; } catch {}
 		poiStore.loadDemoData(newPOIs);
 
-		// Centrum filtra startowo = środek widoku
 		filterCenter = { lat: view.lat, lng: view.lng };
 		drawRadiusCircle();
 
-		// Zapisywanie widoku
 		map.on('moveend', saveView, { passive: true } as any);
 		map.on('zoomend', saveView, { passive: true } as any);
-
-		// Tap w mapę → ustaw środek filtra
 		map.on('click', (e: any) => {
 			filterCenter = { lat: e.latlng.lat, lng: e.latlng.lng };
 			drawRadiusCircle(); refreshPOIMarkers();
@@ -319,18 +310,22 @@
 	$effect(() => { const pois = poiStore.pois; if (pois.length > 0 && map) refreshPOIMarkers(); });
 </script>
 
-<!-- FAB-y (mobilne przyciski) -->
+<!-- FAB-y -->
 <div class="fabs" role="toolbar" aria-label="Nawigacja">
 	<button class="fab" onclick={() => locateUser()} aria-label="Zlokalizuj mnie">📍</button>
 	<button class="fab" onclick={() => toggleTracking()} aria-pressed={isTracking} aria-label="Śledzenie">
 		{isTracking ? '🟢' : '🛰️'}
 	</button>
-	<button class="fab" onclick={() => isSheetOpen = !isSheetOpen} aria-expanded={isSheetOpen} aria-controls="sheet">
+	<button class="fab" onclick={() => isSheetOpen = !isSheetOpen} aria-expanded={isSheetOpen} aria-controls="sheet" aria-label="Filtry">
 		⚙️
+	</button>
+	<!-- NOWE: FAB do LEGENDY -->
+	<button class="fab" onclick={() => isLegendOpen = !isLegendOpen} aria-expanded={isLegendOpen} aria-controls="legend-sheet" aria-label="Legenda zagrożeń">
+		📘
 	</button>
 </div>
 
-<!-- DOLNY SHEET z filtrami i wyszukiwarką -->
+<!-- DOLNY SHEET: FILTRY -->
 <div id="sheet" class="sheet {isSheetOpen ? 'open' : ''}" role="dialog" aria-modal="false" aria-label="Filtry i wyszukiwanie">
 	<div class="sheet-handle" ontouchstart={() => isSheetOpen = !isSheetOpen} onclick={() => isSheetOpen = !isSheetOpen}></div>
 
@@ -385,6 +380,36 @@
 	</div>
 </div>
 
+<!-- DOLNY SHEET: LEGENDA (NOWE) -->
+<div id="legend-sheet" class="sheet legend {isLegendOpen ? 'open' : ''}" role="dialog" aria-modal="false" aria-label="Legenda zagrożeń">
+	<div class="sheet-handle" ontouchstart={() => isLegendOpen = !isLegendOpen} onclick={() => isLegendOpen = !isLegendOpen}></div>
+
+	<div class="sheet-content legend-content">
+		<h3 class="legend-title">Legenda Zagrożeń</h3>
+
+		<ul class="legend-list" aria-label="Typy miejsc">
+			<li><span class="ico">🍷</span> Sklep monopolowy</li>
+			<li><span class="ico">🎵</span> Klub nocny</li>
+			<li><span class="ico">🍺</span> Pub/Bar</li>
+			<li><span class="ico">🚨</span> Zgłoszenie policyjne</li>
+			<li><span class="ico">⚠️</span> User-generated</li>
+		</ul>
+
+		<div class="legend-scale">
+			<p>Skala niebezpieczeństwa:</p>
+			<div class="scale-row">
+				<span class="chip chip-low"></span><span class="lbl">1–6</span>
+			</div>
+			<div class="scale-row">
+				<span class="chip chip-mid"></span><span class="lbl">7–8</span>
+			</div>
+			<div class="scale-row">
+				<span class="chip chip-high"></span><span class="lbl">9–10</span>
+			</div>
+		</div>
+	</div>
+</div>
+
 <!-- MAPA -->
 <div class="map-wrapper">
 	<div bind:this={mapContainer} class="map-container" aria-label="Mapa"></div>
@@ -411,7 +436,7 @@
 	}
 	.fab[aria-pressed="true"] { background: #0a8f39; }
 
-	/* Bottom sheet */
+	/* Bottom sheets – wspólna baza */
 	.sheet {
 		position: fixed; left: 0; right: 0;
 		bottom: calc(-60vh + max(12px, env(safe-area-inset-bottom)) );
@@ -434,6 +459,25 @@
 		margin: 8px auto; cursor: pointer;
 	}
 	.sheet-content { padding: 8px 12px 12px; max-width: 720px; margin: 0 auto; }
+	.sheet-content p { margin: 0; }
+
+	/* LEGEND – styl */
+	.legend-content { padding-top: 4px; }
+	.legend-title {
+		font-size: 16px; font-weight: 700; margin: 4px 0 10px;
+		background: #e7f1ff; display: inline-flex; gap: 8px; align-items: center;
+		padding: 6px 10px; border-radius: 10px;
+	}
+	.legend-list { list-style: none; margin: 0 0 12px 0; padding: 0; }
+	.legend-list li { display: flex; align-items: center; gap: 10px; padding: 8px 6px; font-size: 15px; }
+	.legend-list .ico { width: 22px; text-align: center; font-size: 18px; }
+
+	.legend-scale .scale-row { display: flex; align-items: center; gap: 10px; margin: 6px 0; }
+	.legend-scale .chip { display: inline-block; width: 90px; height: 16px; border-radius: 6px; }
+	.chip-low  { background: #dff3e3; border: 1px solid #b8e1c1; }
+	.chip-mid  { background: #ffe9cc; border: 1px solid #ffd19b; }
+	.chip-high { background: #ffd6d9; border: 1px solid #ffb3ba; }
+	.legend-scale .lbl { font-size: 14px; color: #333; }
 
 	/* Form / listy – duże hit-targety */
 	.row { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; flex-wrap: wrap; }
@@ -492,11 +536,15 @@
 	/* Tryb ciemny */
 	@media (prefers-color-scheme: dark) {
 		.sheet { background: rgba(23,23,23,0.98); color: #eaeaea; }
+		.sheet.legend .legend-title { background: #1b2a3b; }
 		input[type="text"] { background: #141414; color: #eaeaea; border-color: #333; }
 		.btn.secondary { background: #333; color: #eaeaea; }
 		.suggestions { background: #141414; border-color: #333; }
 		.suggestions li { border-bottom-color: #222; }
 		.tag { background: #141414; border-color: #333; }
+		.chip-low  { background: #173d2b; border-color: #236b47; }
+		.chip-mid  { background: #4b3615; border-color: #7a5722; }
+		.chip-high { background: #4a1d23; border-color: #7a2e38; }
 	}
 	/* Safe areas (notch) */
 	.sheet-content { padding-bottom: calc(12px + env(safe-area-inset-bottom)); }
