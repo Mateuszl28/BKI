@@ -1,0 +1,2004 @@
+{
+    "search_metadata": {
+        "id": "68fc79e69d26cfe1d6b6d54c",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/369f171bfc4abb40/68fc79e69d26cfe1d6b6d54c.json",
+        "created_at": "2025-10-25 07:19:02 UTC",
+        "processed_at": "2025-10-25 07:19:02 UTC",
+        "google_maps_url": "https://www.google.com/maps/search/klub/@53.01896626995,18.6078370132,14z?hl=en",
+        "raw_html_file": "https://serpapi.com/searches/369f171bfc4abb40/68fc79e69d26cfe1d6b6d54c.html",
+        "total_time_taken": 0.68
+    },
+    "search_parameters": {
+        "engine": "google_maps",
+        "type": "search",
+        "q": "klub",
+        "ll": "@53.01896626995,18.6078370132,14z",
+        "google_domain": "google.com",
+        "hl": "en"
+    },
+    "search_information": {
+        "local_results_state": "Results for exact spelling",
+        "query_displayed": "klub"
+    },
+    "local_results": [
+        {
+            "position": 1,
+            "title": "Students Club FRAME",
+            "place_id": "ChIJj1rBKhw1A0cRSwsn4_F5SO4",
+            "data_id": "0x4703351c2ac15a8f:0xee4879f1e3270b4b",
+            "data_cid": "17170107659155082059",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703351c2ac15a8f%3A0xee4879f1e3270b4b&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703351c2ac15a8f%3A0xee4879f1e3270b4b&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.008599,
+                "longitude": 18.6058864
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJj1rBKhw1A0cRSwsn4_F5SO4",
+            "provider_id": "/g/1tdw2527",
+            "rating": 4.5,
+            "reviews": 949,
+            "price": "zł 1–20",
+            "type": "Night club",
+            "types": [
+                "Night club",
+                "Club",
+                "Pub",
+                "Sports bar"
+            ],
+            "type_id": "night_club",
+            "type_ids": [
+                "night_club",
+                "club",
+                "pub",
+                "sports_bar"
+            ],
+            "address": "Żeglarska 5, 87-100 Toruń, Poland",
+            "phone": "+48 56 621 14 33",
+            "website": "http://kadr.torun.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Outdoor seating",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great beer selection",
+                        "Great cocktails",
+                        "Karaoke"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food",
+                        "Happy hour drinks",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Gender-neutral restroom",
+                        "Restroom",
+                        "Wi-Fi",
+                        "Free Wi-Fi"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Trendy"
+                    ]
+                },
+                {
+                    "crowd": [
+                        "Groups",
+                        "Tourists"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "user_review": "Staff are super friendly and drinks are priced good.",
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM9qX2cuf-JgiGthMqITYMzg473YgOJUTMLTxo8=w80-h106-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/BtePFXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFnga1kYYZRcmqbrlZ7pXpLhW-gZEulblW5ibhyZ7u8VGuLrE1KRb2FbbmGgm2FoYKabrZuXDwCooCEt"
+        },
+        {
+            "position": 2,
+            "title": "Kredens Pub",
+            "place_id": "ChIJa_1ciR01A0cRBQ9hn8imFJQ",
+            "data_id": "0x4703351d895cfd6b:0x9414a6c89f610f05",
+            "data_cid": "10670336797745155845",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703351d895cfd6b%3A0x9414a6c89f610f05&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703351d895cfd6b%3A0x9414a6c89f610f05&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0113317,
+                "longitude": 18.605063599999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJa_1ciR01A0cRBQ9hn8imFJQ",
+            "provider_id": "/g/1ptw3d9_6",
+            "rating": 4.5,
+            "reviews": 2242,
+            "price": "zł 1–20",
+            "type": "Pub",
+            "types": [
+                "Pub",
+                "Club",
+                "Disco club",
+                "Pizza restaurant"
+            ],
+            "type_id": "pub",
+            "type_ids": [
+                "pub",
+                "club",
+                "disco",
+                "pizza_restaurant"
+            ],
+            "address": "Szewska 10, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 1 PM",
+            "hours": "Closed ⋅ Opens 1 PM",
+            "operating_hours": {
+                "saturday": "1 PM–3 AM",
+                "sunday": "1 PM–12 AM",
+                "monday": "1 PM–2 AM",
+                "tuesday": "1 PM–2 AM",
+                "wednesday": "1 PM–2 AM",
+                "thursday": "1 PM–2 AM",
+                "friday": "1 PM–3 AM"
+            },
+            "phone": "+48 533 332 929",
+            "website": "https://www.facebook.com/kredens.torun/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Onsite services",
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great beer selection",
+                        "Great cocktails",
+                        "Live music",
+                        "Live performances"
+                    ]
+                },
+                {
+                    "popular_for": [
+                        "Solo dining"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food",
+                        "Food at bar",
+                        "Happy hour drinks",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual",
+                        "Cozy",
+                        "Trendy"
+                    ]
+                },
+                {
+                    "crowd": [
+                        "Groups",
+                        "Tourists"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Paid street parking"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "user_review": "Truly massive selection of drinks, all reasonably priced.",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSye7_BazfaLO4drZE3waV0_v9KEN_DDZVwlclAh-QQ0xSZX3xQoVgy2i-Y3wqapInBsgpOqr7_SrpDHz1xsrZ9KHm4adqgnvqwFISohkPmVnygI2u3W2r8eO5MR7EfVRL0qWKc=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/ZteL73icBcFdboIwAADgE1WQ6hhL9qABlaAyJCmTF9LU2hpLf9GC59slvM2-7_3Hh0G7ryAQHM6YUkzQh6OWKDlQOcyI6gOmHSAOuGC1DW-inmjcrfHrivfl4mLbDHqMwu6ZFNmxS9MWeUHEioOqCse6_YVjpRCbohs4Q2-wzuXaMV0aG3e11enuNR-dbZNi1y_wxTD5NH6T14rff3okJ5ZHD9hE9pOWy8Mpzq7otA9NU5BvP_-AgCcRuAOp_gH7NEV1"
+        },
+        {
+            "position": 3,
+            "title": "Stars Club & Lounge",
+            "place_id": "ChIJQYiWTAM1A0cR5hiMA1z5dl8",
+            "data_id": "0x470335034c968841:0x5f76f95c038c18e6",
+            "data_cid": "6878959654446831846",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335034c968841%3A0x5f76f95c038c18e6&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335034c968841%3A0x5f76f95c038c18e6&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0078384,
+                "longitude": 18.5976125
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQYiWTAM1A0cR5hiMA1z5dl8",
+            "provider_id": "/g/1pp2vf8my",
+            "rating": 4.1,
+            "reviews": 634,
+            "type": "Night club",
+            "types": [
+                "Night club",
+                "Bar",
+                "Disco club",
+                "Live music venue"
+            ],
+            "type_id": "night_club",
+            "type_ids": [
+                "night_club",
+                "bar",
+                "disco",
+                "live_music_venue"
+            ],
+            "address": "Bulwar Filadelfijski 11, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 9 PM",
+            "hours": "Closed ⋅ Opens 9 PM",
+            "operating_hours": {
+                "saturday": "9 PM–5 AM",
+                "sunday": "Closed",
+                "monday": "Closed",
+                "tuesday": "Closed",
+                "wednesday": "Closed",
+                "thursday": "Closed",
+                "friday": "Closed"
+            },
+            "phone": "+48 516 857 514",
+            "website": "http://www.klubstars.pl/",
+            "extensions": [
+                {
+                    "from_the_business": [
+                        "Identifies as women-owned"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Live performances"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot",
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Bar onsite",
+                        "Restroom",
+                        "Wi-Fi",
+                        "Free Wi-Fi"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "amenities": [
+                        "Restaurant"
+                    ]
+                }
+            ],
+            "user_review": "Very good don't remember how I got home",
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP4bah5gPHYXvqUSslBGtkbeY_l6DjO_NnXw-jm=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/HCMz8HicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQYJKUmGGaHuARGVFWGBpcnOPkXpKdlBoZn2PmkuUf75cXUa6blWtbbmhsoZthaaSbrZuXDwC8wCH0"
+        },
+        {
+            "position": 4,
+            "title": "Lucas Silent Disco",
+            "place_id": "ChIJJY7O3Y81A0cRM3Qz2q5XwSk",
+            "data_id": "0x4703358fddce8e25:0x29c157aeda337433",
+            "data_cid": "3008782434556933171",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703358fddce8e25%3A0x29c157aeda337433&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703358fddce8e25%3A0x29c157aeda337433&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0095588,
+                "longitude": 18.5921764
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJJY7O3Y81A0cRM3Qz2q5XwSk",
+            "provider_id": "/g/11fwc6rh2l",
+            "rating": 4.9,
+            "reviews": 90,
+            "type": "Event management company",
+            "types": [
+                "Event management company",
+                "Disco club",
+                "Festival"
+            ],
+            "type_id": "event_management_company",
+            "type_ids": [
+                "event_management_company",
+                "disco",
+                "festival"
+            ],
+            "address": "Bydgoska 8/m.5, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 8 PM",
+            "hours": "Open ⋅ Closes 8 PM",
+            "operating_hours": {
+                "saturday": "9 AM–8 PM",
+                "sunday": "Closed",
+                "monday": "9 AM–8 PM",
+                "tuesday": "9 AM–8 PM",
+                "wednesday": "9 AM–8 PM",
+                "thursday": "9 AM–8 PM",
+                "friday": "9 AM–8 PM"
+            },
+            "phone": "+48 665 210 165",
+            "website": "https://lucassilentdisco.pl/",
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMjtpL-ggphx52x2Zf0PXwR9Zt6w7AwiBtBqJXx=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/1vPDAHicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngm1VS4KObnl6QUWFqVGEUlWYQEFEeZBlVYlZu7lie6VTiVOgVUWFbbmhsoZthaaSbrZuXDwC4CiGx"
+        },
+        {
+            "position": 5,
+            "title": "HEX Club",
+            "place_id": "ChIJKyDrDqE1A0cR1FLjuAVfsuo",
+            "data_id": "0x470335a10eeb202b:0xeab25f05b8e352d4",
+            "data_cid": "16911684028911014612",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335a10eeb202b%3A0xeab25f05b8e352d4&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335a10eeb202b%3A0xeab25f05b8e352d4&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0103897,
+                "longitude": 18.6046843
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKyDrDqE1A0cR1FLjuAVfsuo",
+            "provider_id": "/g/11fnxkzff6",
+            "rating": 2.5,
+            "reviews": 424,
+            "price": "$$",
+            "type": "Night club",
+            "types": [
+                "Night club",
+                "Bar"
+            ],
+            "type_id": "night_club",
+            "type_ids": [
+                "night_club",
+                "bar"
+            ],
+            "address": "Rynek Staromiejski 1, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 10 PM",
+            "hours": "Closed ⋅ Opens 10 PM",
+            "operating_hours": {
+                "saturday": "10 PM–5 AM",
+                "sunday": "Closed",
+                "monday": "Closed",
+                "tuesday": "Closed",
+                "wednesday": "Closed",
+                "thursday": "10 PM–4 AM",
+                "friday": "10 PM–5 AM"
+            },
+            "phone": "+48 725 661 725",
+            "website": "http://www.facebook.com/hexclubtorun",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Trendy"
+                    ]
+                },
+                {
+                    "crowd": [
+                        "Groups"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "user_review": "This place is fun fr fr!!",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz9jqFDIXwhHKWkku1QwgsVSjjE0knR1WvUoMs1mMljQVQBntAUFdK3flM-Ow9UE12QAtjvJ1X1QkMCSQTQ2Yb7yV9GhA040oyM-0HWiFNmNSfyBkE4pQSiYmUEq2OYqcOkDiOA=w80-h106-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/hAaTJHicBcFtDoIgAADQE5FgrbKtH1Ta18gRqfk3MxEQNChn9-sQ3ab3fl_uXGsXnqf4eFQZU6nyZctnYbQrtRsVpvGq1oLCAuvhLawV-wSiizb7a893x0zKF6J9ZVMmRAilPqPsnRhiUUOUoCldaYeT6H4cPxQBcR8kIfIpduJ9QFdEJVkzeqF-fpsNabDlGE6gGQiAu6yOTs2JPYaVDCctZXXeJGHnx3lXxHJTx3jZzyHgCE6BBNr8AdCrQ90"
+        },
+        {
+            "position": 6,
+            "title": "Klub Muzyczny Lizard King",
+            "place_id": "ChIJ7UTuzh01A0cRcCeteEseWWE",
+            "data_id": "0x4703351dceee44ed:0x61591e4b78ad2770",
+            "data_cid": "7014671204102252400",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703351dceee44ed%3A0x61591e4b78ad2770&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703351dceee44ed%3A0x61591e4b78ad2770&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.009339999999995,
+                "longitude": 18.605017999999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ7UTuzh01A0cRcCeteEseWWE",
+            "provider_id": "/g/1tfc59fd",
+            "rating": 4.4,
+            "reviews": 1943,
+            "type": "Live music venue",
+            "types": [
+                "Live music venue",
+                "Concert hall"
+            ],
+            "type_id": "live_music_venue",
+            "type_ids": [
+                "live_music_venue",
+                "concert_hall"
+            ],
+            "address": "Mikołaja Kopernika 3, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 8 PM",
+            "hours": "Closed ⋅ Opens 8 PM",
+            "operating_hours": {
+                "saturday": "8 PM–4 AM",
+                "sunday": "Closed",
+                "monday": "Closed",
+                "tuesday": "6–11 PM",
+                "wednesday": "6–11 PM",
+                "thursday": "6–11 PM",
+                "friday": "8 PM–4 AM"
+            },
+            "phone": "+48 56 610 67 39",
+            "website": "http://www.lizardking-torun.pl/",
+            "extensions": [
+                {
+                    "highlights": [
+                        "Live performances"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Bar onsite",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restaurant"
+                    ]
+                }
+            ],
+            "user_review": "Fab location, no problem to get there, after 9pm you need to pay entrance.",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSweN4XsgUAxWU1f5TT7jeLS0SCH6TI3IJOc5xNN7aggc9BDtO0tgtLZXZ23Jm0KCg1TKoU6upv-aDHm8xy3tpHslkAL-llaSrjNUjN66ovjVbzTshig7uefoGavp4J5SW1FTfI=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/AXRPxXicBcFLDoIwFADAE1X-oCYuEKOApC5axLjDpjzEQhtbED2fl_A2zvy-rTFKry1LtN4CpATBR82fTA6GD2bBZG-B0ohppK34YN8FeXHsXzSU8VyVThNQGnW8IDZJ0pBmXpafWDBjHNUAbLXdmZNtwBTXy9X18t4-JuDQoyzDUU2o3qX9cn57RqVaPOICCVGTZ4fLDoehnLrz7UN1e4do5I081JPy84BUzp422ebluC5qVy56oEH-AT60Q_I"
+        },
+        {
+            "position": 7,
+            "title": "Klub NRD",
+            "place_id": "ChIJXW_7LOA0A0cRnpL05PZifBU",
+            "data_id": "0x470334e02cfb6f5d:0x157c62f6e4f4929e",
+            "data_cid": "1548221184451318430",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334e02cfb6f5d%3A0x157c62f6e4f4929e&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334e02cfb6f5d%3A0x157c62f6e4f4929e&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.010922099999995,
+                "longitude": 18.6119548
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXW_7LOA0A0cRnpL05PZifBU",
+            "provider_id": "/g/1ptvsn29f",
+            "rating": 4.4,
+            "reviews": 1172,
+            "type": "Live music venue",
+            "types": [
+                "Live music venue"
+            ],
+            "type_id": "live_music_venue",
+            "type_ids": [
+                "live_music_venue"
+            ],
+            "address": "Browarna 6, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 9 PM",
+            "hours": "Closed ⋅ Opens 9 PM",
+            "operating_hours": {
+                "saturday": "12–6 AM, 9 PM–12 AM",
+                "sunday": "12–6 AM, 6 PM–12 AM",
+                "monday": "Closed",
+                "tuesday": "Closed",
+                "wednesday": "6 PM–12 AM",
+                "thursday": "6 PM–12 AM",
+                "friday": "9 PM–12 AM"
+            },
+            "phone": "+48 792 293 556",
+            "website": "https://www.facebook.com/enerdeclub",
+            "extensions": [
+                {
+                    "highlights": [
+                        "Live performances"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Bar onsite",
+                        "Restroom",
+                        "Wi-Fi",
+                        "Free Wi-Fi"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restaurant"
+                    ]
+                }
+            ],
+            "user_review": "Best after after party bar in town!",
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMd4Dco2uU_q0xhrO7-bnr9GTArDoXCbRs6a0GY=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/Y81C6XicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngm2LikpxvVBoaX2hQkVHkb66blFdk6R7iWOSSH-GcFFRslmjgHmlbbmhsoZthaaSbrZuXDwCnpiEf"
+        },
+        {
+            "position": 8,
+            "title": "HARD ROCK PUB PAMELA KLUB MUZYCZNY",
+            "place_id": "ChIJR1mxi_o0A0cRfQjsPozjcAA",
+            "data_id": "0x470334fa8bb15947:0x70e38c3eec087d",
+            "data_cid": "31775388882176125",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334fa8bb15947%3A0x70e38c3eec087d&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334fa8bb15947%3A0x70e38c3eec087d&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0219039,
+                "longitude": 18.602229899999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJR1mxi_o0A0cRfQjsPozjcAA",
+            "provider_id": "/g/1tr8k853",
+            "rating": 4.7,
+            "reviews": 887,
+            "price": "zł 1–20",
+            "type": "Brewpub",
+            "types": [
+                "Brewpub"
+            ],
+            "type_id": "brewpub",
+            "type_ids": [
+                "brewpub"
+            ],
+            "address": "Legionów 36, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 2 AM",
+            "hours": "Open ⋅ Closes 2 AM",
+            "operating_hours": {
+                "saturday": "9 AM–2 AM",
+                "sunday": "9 AM–2 AM",
+                "monday": "9 AM–2 AM",
+                "tuesday": "9 AM–2 AM",
+                "wednesday": "9 AM–2 AM",
+                "thursday": "9 AM–12 AM",
+                "friday": "9 AM–2 AM"
+            },
+            "phone": "+48 56 661 05 65",
+            "website": "http://www.pubpamela.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Outdoor seating",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Bar games",
+                        "Great beer selection",
+                        "Live music",
+                        "Live performances"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Food",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual",
+                        "Cozy",
+                        "Trendy"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "user_review": "Good drink choice and beers.",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyJSE5uU4BMrUoWYoZxuV8G-eVlRQjLxLI23lwXfLgdGGw_C2Rt2ChK_PAJAMhQ3TVfyPVcDYqll0CWDhXYB2Mnj8IiLhBESeQ87gl3pFbRNVzIpvdPw2CL6Q8XTz8ELzFxb8-v=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/hTcMCnicBcHtFoEwAADQJ5qyfIxz_KikE8vpgyl_Okdmw7TYUno_D-Ft3Pv7cq1rNTcMwa0Bk5IJ2ij6KmWlaaUHpXwYrFagVEAZtm9eRfpZp9642Y-c8LWXh1weu4YgH1AikviGOxxAS7TZBbOz77eFCxMNXb4pIntthzy2duTyiUi5zJ9CmO5hybPcgWF1Q8EVc8dLaYymTFj16pRsSR_U73PUQhdPYpTteuThftWdEHgv2iGEgM8guINK_gGv30Pa"
+        },
+        {
+            "position": 9,
+            "title": "Klub Wehikuł Czasu Toruń",
+            "place_id": "ChIJufWlSxw1A0cRKHUWPEBz9UE",
+            "data_id": "0x4703351c4ba5f5b9:0x41f573403c167528",
+            "data_cid": "4752831701482632488",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703351c4ba5f5b9%3A0x41f573403c167528&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703351c4ba5f5b9%3A0x41f573403c167528&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0094253,
+                "longitude": 18.6087404
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJufWlSxw1A0cRKHUWPEBz9UE",
+            "provider_id": "/g/11c58kk6bg",
+            "rating": 4.2,
+            "reviews": 537,
+            "price": "zł 1–40",
+            "type": "Night club",
+            "types": [
+                "Night club",
+                "Karaoke bar",
+                "Brewpub",
+                "Pool billard club"
+            ],
+            "type_id": "night_club",
+            "type_ids": [
+                "night_club",
+                "karaoke_bar",
+                "brewpub",
+                "pool_billard_club"
+            ],
+            "address": "53°00'31.9 N 18°36'13.0, Mostowa 14/E, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 8 PM",
+            "hours": "Closed ⋅ Opens 8 PM",
+            "operating_hours": {
+                "saturday": "8 PM–3 AM",
+                "sunday": "Closed",
+                "monday": "Closed",
+                "tuesday": "Closed",
+                "wednesday": "6 PM–3 AM",
+                "thursday": "6 PM–3 AM",
+                "friday": "6 PM–3 AM"
+            },
+            "phone": "+48 607 598 249",
+            "website": "https://wehikulczasutorun.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Bar games",
+                        "Great beer selection",
+                        "Karaoke"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual",
+                        "Cozy",
+                        "Trendy"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "user_review": "Good music (heavy rock), good beers good service",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzWBgax_LDxlkTDyEI6KRhDwLlorXkzYOdJK0NkWAq4CiDbuzfooz5ZA0J5Od5s_AqOPG3xVj5PMOkzCk8EOruorhNXrRl8jOFHgB_HGO5eMUTmO8QMXs8-FqhXyg_4Yk2pWpG5=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/qv3oRXicBcHbEoFAGADgJ1ol1sSMi-jglCWH4qYh2WVXf-3WyL6fh_A2vu_3ZXVdqpFhCNbrUAAq8kblMoOizou6k8HLoKVCmULKcALzIXY6ntBLm67cVvC9-_Hmg2XE3PdKgEy4PpHbYmmueexU_enDvTb6DqDx2TEXmNywSp2KbIJee3ziTUi4nnLbI7IBydaJjIT9JP6MTtJZQHAeHvYvYm_DRNnIr1jyoWn_xK0yLgM8fnctC7GhhTgq4A84gEUn"
+        },
+        {
+            "position": 10,
+            "title": "Mystiq Club",
+            "place_id": "ChIJUZytgLs1A0cR_IvnY2CyaCc",
+            "data_id": "0x470335bb80ad9c51:0x2768b26063e78bfc",
+            "data_cid": "2839715692119821308",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335bb80ad9c51%3A0x2768b26063e78bfc&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335bb80ad9c51%3A0x2768b26063e78bfc&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0116294,
+                "longitude": 18.6045028
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJUZytgLs1A0cR_IvnY2CyaCc",
+            "provider_id": "/g/11w1kdn307",
+            "rating": 2.9,
+            "reviews": 20,
+            "price": "zł 20–40",
+            "type": "Night club",
+            "types": [
+                "Night club",
+                "Club",
+                "Cocktail bar",
+                "Disco club",
+                "DJ service",
+                "Live music bar"
+            ],
+            "type_id": "night_club",
+            "type_ids": [
+                "night_club",
+                "club",
+                "cocktail_bar",
+                "disco",
+                "dj",
+                "live_music_bar"
+            ],
+            "address": "Chełmińska 12, 87-100 Toruń, Poland",
+            "phone": "+48 795 900 934",
+            "website": "https://www.facebook.com/mystiqclub?paipv=0&eav=Afbwn-MUQn2ommB5kT7yBaoCBit_bcXNCqLz4HNzYwLK1u-lejIZpZdgKvsihTUSF9U&_rdr",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Outdoor seating",
+                        "Onsite services",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great cocktails",
+                        "Live music",
+                        "Live performances"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food",
+                        "Happy hour drinks",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom",
+                        "Wi-Fi",
+                        "Free Wi-Fi"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Trendy"
+                    ]
+                },
+                {
+                    "crowd": [
+                        "Groups"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom",
+                        "Wheelchair accessible seating"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNVIoRmIBTr_DIGf4tuwjxSr8qo43UtSZpT5Vjh=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/EGe-lnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngF-aZH5Tr6RRSFO_i6Z5mUlJanlURXGRRmG9iHFoSHFUQYhqWlWFbbmhsoZthaaSbrZuXDwC6HCHU"
+        },
+        {
+            "position": 11,
+            "title": "Night Club \"Golden Time\" go go bar Torun",
+            "place_id": "ChIJa9DL7uE0A0cRcyNLPrdmJqs",
+            "data_id": "0x470334e1eecbd06b:0xab2666b73e4b2373",
+            "data_cid": "12332657566810841971",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334e1eecbd06b%3A0xab2666b73e4b2373&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334e1eecbd06b%3A0xab2666b73e4b2373&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.011874,
+                "longitude": 18.609512199999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJa9DL7uE0A0cRcyNLPrdmJqs",
+            "provider_id": "/g/11c6065x3d",
+            "rating": 3.3,
+            "reviews": 16,
+            "type": "Night club",
+            "types": [
+                "Night club"
+            ],
+            "type_id": "night_club",
+            "type_ids": [
+                "night_club"
+            ],
+            "address": "Prosta 5, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 9 PM",
+            "hours": "Closed ⋅ Opens 9 PM",
+            "operating_hours": {
+                "saturday": "9 PM–5 AM",
+                "sunday": "9 PM–5 AM",
+                "monday": "Closed",
+                "tuesday": "9 PM–5 AM",
+                "wednesday": "9 PM–5 AM",
+                "thursday": "9 PM–5 AM",
+                "friday": "9 PM–5 AM"
+            },
+            "phone": "+48 515 276 080",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz0znQOxYD-1-4-bnt3422IUAItM-JMnMhEOc7S8bt4g1QhrcSvm4InwDSgQd6CXG1Vuvyln5n44H9i30BFQXBgrJV0aOVSVEAnR6V2DTpnhgGvkJ4epbAxhm8ovb0Spe0NuWWW=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/x3VoJHicBcHRToMwFADQL7qjQEVm4gOTiZAgYd3KfJTatGRw29DC5v7Pj9jfeM7jT3tv3UsQjDreKGPUKBcnZ2HQS_QbYaZAWQfCgQuyggwju5M7ts3tK4cQKPToYxpF5SkrfQ1VjbXeN-KZpb2nKmz1LNg60RKvOVPtT_J2LkK-rL8jPiGlH9shJrv39rxTc8XJd8MZ32d4SHiUHy1qVayXikrbZzc9pWbtCbOSfC5d171ewzgFvY3gAmj-ASCOQyk"
+        },
+        {
+            "position": 12,
+            "title": "Tutu Whiskey & Jazz Club",
+            "place_id": "ChIJi8hDNhw1A0cRvwJPsHCyJZs",
+            "data_id": "0x4703351c3643c88b:0x9b25b270b04f02bf",
+            "data_cid": "11179537847081173695",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703351c3643c88b%3A0x9b25b270b04f02bf&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703351c3643c88b%3A0x9b25b270b04f02bf&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0085592,
+                "longitude": 18.603654199999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJi8hDNhw1A0cRvwJPsHCyJZs",
+            "provider_id": "/g/1tfz_sdn",
+            "rating": 4.7,
+            "reviews": 1019,
+            "price": "zł 20–40",
+            "type": "Cocktail bar",
+            "types": [
+                "Cocktail bar",
+                "Jazz club"
+            ],
+            "type_id": "cocktail_bar",
+            "type_ids": [
+                "cocktail_bar",
+                "jazz_club"
+            ],
+            "address": "Ducha Świętego 4, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 2 PM",
+            "hours": "Closed ⋅ Opens 2 PM",
+            "operating_hours": {
+                "saturday": "2 PM–3 AM",
+                "sunday": "2 PM–1 AM",
+                "monday": "4 PM–1 AM",
+                "tuesday": "3 PM–1 AM",
+                "wednesday": "4 PM–1 AM",
+                "thursday": "3 PM–1 AM",
+                "friday": "3 PM–3 AM"
+            },
+            "phone": "+48 56 676 84 99",
+            "website": "https://kadr.torun.pl/tutu-jazz-and-whiskey-club/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Bar games",
+                        "Great beer selection",
+                        "Great cocktails",
+                        "Great wine list",
+                        "Live music",
+                        "Live performances"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food",
+                        "Happy hour drinks",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom",
+                        "Wi-Fi",
+                        "Free Wi-Fi"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual",
+                        "Cozy",
+                        "Trendy"
+                    ]
+                },
+                {
+                    "crowd": [
+                        "Groups",
+                        "Tourists"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "pets": [
+                        "Dogs allowed"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "user_review": "Drinks were very nice and reasonably priced.",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzhmnvWu9jPSMXDzrHudqwooGc61uS4WQWsFG-ie4NTZORw6A9Dig0sZP5Quyupn53WSHPTKiisWvnvkIJvANx0GF5HWM_RdQXrMFxUfGL78oPrQkbzuCPTjT5_75q2shYveErR=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/dYTg1HicBcFbcoIwFADQFUUQjRZn_GCqhLai4dGJ-uNMMSURTDCXBMv-uojupuf8_Yq-72Dlea2YTWqt65Zb4KbSqueqn1T67tUdoAoQeBHxZVuM4q4cs-GNFulxM5rEXh-D1qRaTG0xZxmDmCDJ5_vyfMiHRRRuZO3DmeLM_thO4RkrElp-SAnMKde8vbto__RJjBOWXvJrdjRp_Pz8Jrvli6Yma75G-0rLW4kvS_wIQJwc35p8PUyDAIkwQA1S-h9RvEWv"
+        },
+        {
+            "position": 13,
+            "title": "Largo Club Toruń",
+            "place_id": "ChIJe__DuD43A0cRVETs94S3grk",
+            "data_id": "0x4703373eb8c3ff7b:0xb982b784f7ec4454",
+            "data_cid": "13367448425712075860",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703373eb8c3ff7b%3A0xb982b784f7ec4454&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703373eb8c3ff7b%3A0xb982b784f7ec4454&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0104931,
+                "longitude": 18.6073932
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJe__DuD43A0cRVETs94S3grk",
+            "provider_id": "/g/11vprw3x06",
+            "rating": 4.1,
+            "reviews": 93,
+            "type": "Musical club",
+            "types": [
+                "Musical club"
+            ],
+            "type_id": "musical_club",
+            "type_ids": [
+                "musical_club"
+            ],
+            "address": "Szeroka 19, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 9 PM",
+            "hours": "Closed ⋅ Opens 9 PM",
+            "operating_hours": {
+                "saturday": "9 PM–5 AM",
+                "sunday": "Closed",
+                "monday": "Closed",
+                "tuesday": "Closed",
+                "wednesday": "Closed",
+                "thursday": "Closed",
+                "friday": "9 PM–4 AM"
+            },
+            "phone": "+48 725 446 798",
+            "website": "https://www.facebook.com/largoclubtorun",
+            "extensions": [
+                {
+                    "crowd": [
+                        "LGBTQ+ friendly",
+                        "Transgender safespace"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMPWnwwjgNmfCm0Bv70b0YoPbk0-FqdR_wL-4zF=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/-7qtYXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngGxCeV16ele6Xm-aca-BUZm6QZBCZH5CUbaDrVpgSFF_uo2tS5WZbbmhsoZthaaSbrZuXDwCxZyFD"
+        },
+        {
+            "position": 14,
+            "title": "Końcówa",
+            "place_id": "ChIJZ8tqTx41A0cRD_kFAoZposE",
+            "data_id": "0x4703351e4f6acb67:0xc1a269860205f90f",
+            "data_cid": "13952830619827697935",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703351e4f6acb67%3A0xc1a269860205f90f&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703351e4f6acb67%3A0xc1a269860205f90f&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0089748,
+                "longitude": 18.609747499999997
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJZ8tqTx41A0cRD_kFAoZposE",
+            "provider_id": "/g/1hc0rczgd",
+            "rating": 4.4,
+            "reviews": 360,
+            "price": "zł 1–20",
+            "type": "Brewpub",
+            "types": [
+                "Brewpub"
+            ],
+            "type_id": "brewpub",
+            "type_ids": [
+                "brewpub"
+            ],
+            "address": "Podmurna 4/6, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 4 PM Sun",
+            "hours": "Closed ⋅ Opens 4 PM Sun",
+            "operating_hours": {
+                "saturday": "Closed",
+                "sunday": "4–6 PM",
+                "monday": "4–11 PM",
+                "tuesday": "4–11 PM",
+                "wednesday": "4–11 PM",
+                "thursday": "4–11 PM",
+                "friday": "4 PM–4 AM"
+            },
+            "phone": "+48 889 146 996",
+            "website": "https://www.facebook.com/Ko%C5%83c%C3%93wa-104341228129598/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Outdoor seating",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great beer selection"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual",
+                        "Cozy",
+                        "Trendy"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "pets": [
+                        "Dogs allowed"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNkBhkvPi_WnSYNrPopmJsonVopN5rXUbWO7nPY=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/kQB2vnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngl-2UkV0WkBkfnhcc6VcUkF-Q61WcnxeWX-BnWhQRmhTub54XEGlbbmhkpJthaaSbrZuXDwDU5CJn"
+        },
+        {
+            "position": 15,
+            "title": "Klub Perła",
+            "place_id": "ChIJbUOeLpY1A0cRlNHzX6KXm2k",
+            "data_id": "0x470335962e9e436d:0x699b97a25ff3d194",
+            "data_cid": "7609842719022895508",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335962e9e436d%3A0x699b97a25ff3d194&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335962e9e436d%3A0x699b97a25ff3d194&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.026322199999996,
+                "longitude": 18.5996496
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJbUOeLpY1A0cRlNHzX6KXm2k",
+            "provider_id": "/g/11j2_5475c",
+            "rating": 4.5,
+            "reviews": 41,
+            "price": "zł 1–20",
+            "unclaimed_listing": true,
+            "type": "Bar",
+            "types": [
+                "Bar"
+            ],
+            "type_id": "bar",
+            "type_ids": [
+                "bar"
+            ],
+            "address": "Józefa Wybickiego 62A, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 10 AM",
+            "hours": "Closed ⋅ Opens 10 AM",
+            "operating_hours": {
+                "saturday": "10 AM–11:55 PM",
+                "sunday": "10 AM–11:55 PM",
+                "monday": "Closed",
+                "tuesday": "10 AM–11:55 PM",
+                "wednesday": "10 AM–11:55 PM",
+                "thursday": "10 AM–11:55 PM",
+                "friday": "10 AM–11:55 PM"
+            },
+            "extensions": [
+                {
+                    "service_options": [
+                        "Outdoor seating",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Bar games",
+                        "Great beer selection",
+                        "Great cocktails"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual",
+                        "Trendy"
+                    ]
+                },
+                {
+                    "crowd": [
+                        "Groups",
+                        "Tourists"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot",
+                        "Usually plenty of parking"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VEMuB4N1utDD_wGyM1wMGg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=335.42984&pitch=0&thumbfov=100",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/dfx1mHicHc1LDoIwFADA23RnP4IJmDQmBsMKl25JKbV9SaENfVC5jdfyNhovMPN5O8SYzowlXIzBDUyO8DI-HaKiNgTrjYqQqA4T2wRDt07DrMBfopoDjPJx69ZreRcrNk2f270TuWst0UOvPZgZZTJq0Y7a_BOXMFIbE8my4sTJ-kh2lWVRnGh5rKuSREDtJCf_5Rk2KTj_AmW6OVc"
+        },
+        {
+            "position": 16,
+            "title": "Laba Przystań Towarzyska",
+            "place_id": "ChIJf56wT-c1A0cRu_YZuUSJqJc",
+            "data_id": "0x470335e74fb09e7f:0x97a88944b919f6bb",
+            "data_cid": "10928135424070776507",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335e74fb09e7f%3A0x97a88944b919f6bb&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335e74fb09e7f%3A0x97a88944b919f6bb&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.006288999999995,
+                "longitude": 18.5941899
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJf56wT-c1A0cRu_YZuUSJqJc",
+            "provider_id": "/g/11nmlm80nm",
+            "rating": 4.4,
+            "reviews": 771,
+            "price": "zł 20–40",
+            "type": "Live music venue",
+            "types": [
+                "Live music venue",
+                "Food court"
+            ],
+            "type_id": "live_music_venue",
+            "type_ids": [
+                "live_music_venue",
+                "food_court"
+            ],
+            "address": "Księdza Jerzego Popiełuszki, 87-100 Przystań, Poland",
+            "open_state": "Closed ⋅ Opens 12 PM",
+            "hours": "Closed ⋅ Opens 12 PM",
+            "operating_hours": {
+                "saturday": "12 PM–4 AM",
+                "sunday": "12–10 PM",
+                "monday": "Closed",
+                "tuesday": "Closed",
+                "wednesday": "Closed",
+                "thursday": "Closed",
+                "friday": "6 PM–4 AM"
+            },
+            "phone": "+48 500 008 500",
+            "website": "http://www.labacorp.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "crowd": [
+                        "LGBTQ+ friendly",
+                        "Transgender safespace"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot",
+                        "Usually plenty of parking"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true
+            },
+            "user_review": "Great vibe, amazing drinks!",
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNm6HffCF8TMrwnHPh_3Rwdh-eh1NK5xJgXXIEA=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/4sBOH3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngl2vmkZbm7GYR4ltUnucRkBFvHFSekqGbmmHo521a4ZUeEeHp6mhbbmhmrJthaaSbrZuXDwCjqiEC"
+        },
+        {
+            "position": 17,
+            "title": "Od Nowa",
+            "place_id": "ChIJQza3nbs_A0cRRS9npxei2GQ",
+            "data_id": "0x47033fbb9db73643:0x64d8a217a7672f45",
+            "data_cid": "7266736221238800197",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x47033fbb9db73643%3A0x64d8a217a7672f45&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x47033fbb9db73643%3A0x64d8a217a7672f45&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0191594,
+                "longitude": 18.580497599999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQza3nbs_A0cRRS9npxei2GQ",
+            "provider_id": "/g/11j39x836s",
+            "rating": 4.7,
+            "reviews": 356,
+            "type": "Live music venue",
+            "types": [
+                "Live music venue"
+            ],
+            "type_id": "live_music_venue",
+            "type_ids": [
+                "live_music_venue"
+            ],
+            "address": "Jurija Gagarina 37a, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 10 AM Mon",
+            "hours": "Closed ⋅ Opens 10 AM Mon",
+            "operating_hours": {
+                "saturday": "Closed",
+                "sunday": "Closed",
+                "monday": "10 AM–4 PM",
+                "tuesday": "10 AM–4 PM",
+                "wednesday": "10 AM–4 PM",
+                "thursday": "10 AM–4 PM",
+                "friday": "10 AM–4 PM"
+            },
+            "phone": "+48 56 611 22 66",
+            "website": "http://odnowa.umk.pl/",
+            "extensions": [
+                {
+                    "highlights": [
+                        "Live performances"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot",
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Bar onsite",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "amenities": [
+                        "Restaurant"
+                    ]
+                }
+            ],
+            "user_review": "Beautiful place",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxUsELCLrPoKZiL-DOYbETvX3-Z4dot3s4izC-UxycwCZKylZpUGcH0GDsAWUEFzN34p1reEDKhqNPyrnwPoXkVm_--mLwCAzlutYTanVjuoXCQaBeLuXeG4aOZZypbzKzFKL2DTw=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/eyNsonicBcHRToMwFADQL7pjA15m4gMWxpI2G0aYrC-G1QZwpbfSYkd_0G_wbzzn73dwztinKFJDsukReyUXK2eB2kntNgKnqDcWhAUbZeV2VG-PxhaMsLlCykcG-fl6K-qfNgGefqJLbDoGAs1jFZ5wuipumlIct2Vus_emOIRTkprdLIucDt-nap21r7C9X6YPgIl5kgW1uGvd6cvXgi157V4kW1pZpt2Z89XcAg0HyuK89s9-F8cw7GO4g8Z_pc1Gig"
+        },
+        {
+            "position": 18,
+            "title": "Fight Club Toruń",
+            "place_id": "ChIJ91z0OVY1A0cRloYTrEkdZQQ",
+            "data_id": "0x4703355639f45cf7:0x4651d49ac138696",
+            "data_cid": "316691551056266902",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703355639f45cf7%3A0x4651d49ac138696&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703355639f45cf7%3A0x4651d49ac138696&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0325304,
+                "longitude": 18.62632
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ91z0OVY1A0cRloYTrEkdZQQ",
+            "provider_id": "/g/11wvbcp99z",
+            "rating": 5,
+            "reviews": 25,
+            "type": "Sports club",
+            "types": [
+                "Sports club"
+            ],
+            "type_id": "sports_club",
+            "type_ids": [
+                "sports_club"
+            ],
+            "address": "Towarowa 10/14, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 1 PM",
+            "hours": "Open ⋅ Closes 1 PM",
+            "operating_hours": {
+                "saturday": "9 AM–1 PM",
+                "sunday": "9 AM–12 PM",
+                "monday": "8 AM–9 PM",
+                "tuesday": "8 AM–9 PM",
+                "wednesday": "8 AM–9 PM",
+                "thursday": "8 AM–9 PM",
+                "friday": "8 AM–9 PM"
+            },
+            "website": "https://www.facebook.com/share/15QAM2LLCV/?mibextid=wwXIfr",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Onsite services"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot"
+                    ]
+                }
+            ],
+            "service_options": {
+                "onsite_services": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNej8HJY3ChMLfoozehBkVXOejRgQIc3hcZCZlG=w97-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/h4dkCHicuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngl5pl4eEVaeyc4euTlp9flZrhlB0W4Z-aFZQe6JlsnJEc5RyV425bbmmum2FppJutm5cPAJFsIWo"
+        },
+        {
+            "position": 19,
+            "title": "Hipisówka",
+            "place_id": "ChIJx11u7p8zA0cRMFo2L0vBYzU",
+            "data_id": "0x4703339fee6e5dc7:0x3563c14b2f365a30",
+            "data_cid": "3847131035363334704",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703339fee6e5dc7%3A0x3563c14b2f365a30&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703339fee6e5dc7%3A0x3563c14b2f365a30&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0095634,
+                "longitude": 18.604643499999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJx11u7p8zA0cRMFo2L0vBYzU",
+            "provider_id": "/g/11c2ls35pc",
+            "rating": 4.7,
+            "reviews": 396,
+            "price": "zł 20–40",
+            "type": "Bar",
+            "types": [
+                "Bar",
+                "Live music venue"
+            ],
+            "type_id": "bar",
+            "type_ids": [
+                "bar",
+                "live_music_venue"
+            ],
+            "address": "87-100, Mikołaja Kopernika 20, Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 7 PM",
+            "hours": "Closed ⋅ Opens 7 PM",
+            "operating_hours": {
+                "saturday": "7 PM–3 AM",
+                "sunday": "Closed",
+                "monday": "Closed",
+                "tuesday": "Closed",
+                "wednesday": "Closed",
+                "thursday": "Closed",
+                "friday": "7 PM–3 AM"
+            },
+            "phone": "+48 603 067 731",
+            "website": "https://www.facebook.com/HipisowkaKlubMuzyczny",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Bar games",
+                        "Great beer selection",
+                        "Great cocktails",
+                        "Karaoke",
+                        "Live music",
+                        "Live performances"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Food",
+                        "Food at bar",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual",
+                        "Cozy",
+                        "Trendy"
+                    ]
+                },
+                {
+                    "crowd": [
+                        "Groups",
+                        "Tourists"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "user_review": "Great live rock bar, cheap drinks really friendly crowd",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwOWzEPjy3ic3FeAGHa3CXS-i7-GOdBZQqiW7YkmWxlPoxxbyzPUGjYVgE2hyc25xqo9g5s6DHdCQQyfFr2D1_E4wRvm6rPlzqxNjfqNOyXju4tFNWE7R3wsabdp6MJ4AXzJ4OYAQ=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/Uh0tbXicBcHbDoIgAADQL0ILTFdbD5aX1paXWqm9tEJDDUWFEvzBvqG_6ZzftxSi4ytdpyXSCGOEFm9eDJi1omiFhlmjk44DzAHXbX9W0dMYJpMb1QpVGHmF7e_uaJueQGUBP8w317ivEit7NYmkEZPyoabo7NfZhbiwVBguZM-WZMFNZ5dv41g9vQE685trjMdPYw4RnXoZ1M8-CFVavw3hBYlrHdHI74-8Mw97w06nvRFmdrwe5xCCcgnBC7TsD5ehRdE"
+        },
+        {
+            "position": 20,
+            "title": ",",
+            "place_id": "ChIJVdzYfvI1A0cRTEe_69jNAYM",
+            "data_id": "0x470335f27ed8dc55:0x8301cdd8ebbf474c",
+            "data_cid": "9440052625497081676",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335f27ed8dc55%3A0x8301cdd8ebbf474c&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335f27ed8dc55%3A0x8301cdd8ebbf474c&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.009785699999995,
+                "longitude": 18.605152399999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVdzYfvI1A0cRTEe_69jNAYM",
+            "provider_id": "/g/11wwfhht1g",
+            "rating": 4.1,
+            "reviews": 43,
+            "price": "zł 20–40",
+            "unclaimed_listing": true,
+            "type": "Lounge",
+            "types": [
+                "Lounge"
+            ],
+            "type_id": "lounge",
+            "type_ids": [
+                "lounge"
+            ],
+            "address": "Żeglarska 27, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 8 PM",
+            "hours": "Closed ⋅ Opens 8 PM",
+            "operating_hours": {
+                "saturday": "8 PM–4 AM",
+                "sunday": "Closed",
+                "monday": "Closed",
+                "tuesday": "7 PM–2 AM",
+                "wednesday": "7 PM–2 AM",
+                "thursday": "7 PM–2 AM",
+                "friday": "8 PM–4 AM"
+            },
+            "website": "https://www.instagram.com/jolka_jolka_pubtorun?igsh=MTRodmdiczFnaWFzNA==",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Onsite services",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great beer selection",
+                        "Great cocktails",
+                        "Karaoke",
+                        "Live music",
+                        "Live performances"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual",
+                        "Cozy",
+                        "Trendy"
+                    ]
+                },
+                {
+                    "crowd": [
+                        "Groups",
+                        "LGBTQ+ friendly"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSynhQDtpuyJNGExr1U-wCipxVPMDLRakNti7J0nreQYNmDnFzImok_lHOVMD2moW36d_0pAWf0S8jmy5ud43DToDWgthDcAMuxukJkbZ3XDjC9IKtWNJo9kA-20Sb9YNXuM0nTOT-jadHEq=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/E4g0d3icBcFbcoIwFADQFUUi8UVn-sEYq2KJVahofxwFJBCSm5JkhO6xC-hues7fL7dWmxfPazkZVQBVWzpTdjkoWyo7ykF6lTYoN8h44RrXbTIofqBWuyFi61XfjT_Rc1nr_vQR0_fjTTBbzyOsuvJwYZKqt5-tBHFtN_tTTH0JGZkVV6zD7IGTRSOHqSsmhKZAs8pymoex652IxP2LnGmzDLY7m7EIAhEiHyf34MLOLsYq3aeouRWb1ffrczwjiAc-EkjBP3wiR44"
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4053.01896626995%2C18.6078370132%2C14z&q=klub&start=20&type=search"
+    }
+}

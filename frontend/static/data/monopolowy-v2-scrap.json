@@ -1,0 +1,1622 @@
+{
+    "search_metadata": {
+        "id": "68fc7af3a4817c59c27b5047",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/58957e462f9d3abf/68fc7af3a4817c59c27b5047.json",
+        "created_at": "2025-10-25 07:23:31 UTC",
+        "processed_at": "2025-10-25 07:23:31 UTC",
+        "google_maps_url": "https://www.google.com/maps/search/monopolowy/@53.016108236310934,18.57749943348069,14z?hl=en",
+        "raw_html_file": "https://serpapi.com/searches/58957e462f9d3abf/68fc7af3a4817c59c27b5047.html",
+        "total_time_taken": 1.03
+    },
+    "search_parameters": {
+        "engine": "google_maps",
+        "type": "search",
+        "q": "monopolowy",
+        "ll": "@53.016108236310934,18.57749943348069,14z",
+        "google_domain": "google.com",
+        "hl": "en"
+    },
+    "search_information": {
+        "local_results_state": "Results for exact spelling",
+        "query_displayed": "monopolowy"
+    },
+    "local_results": [
+        {
+            "position": 1,
+            "title": "Faktoria alkoholi Marcel",
+            "place_id": "ChIJJwyogOI0A0cRxiC8X5dyOOA",
+            "data_id": "0x470334e280a80c27:0xe03872975fbc20c6",
+            "data_cid": "16156789657663447238",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334e280a80c27%3A0xe03872975fbc20c6&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334e280a80c27%3A0xe03872975fbc20c6&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.012066999999995,
+                "longitude": 18.603991999999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJJwyogOI0A0cRxiC8X5dyOOA",
+            "provider_id": "/g/1tdxp47l",
+            "rating": 4.2,
+            "reviews": 82,
+            "unclaimed_listing": true,
+            "type": "State liquor store",
+            "types": [
+                "State liquor store"
+            ],
+            "type_id": "state_liquor_store",
+            "type_ids": [
+                "state_liquor_store"
+            ],
+            "address": "Chełmińska 26, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 10 AM",
+            "hours": "Closed ⋅ Opens 10 AM",
+            "operating_hours": {
+                "saturday": "10 AM–12 AM",
+                "sunday": "10 AM–5 PM",
+                "monday": "9 AM–9 PM",
+                "tuesday": "9 AM–9 PM",
+                "wednesday": "9 AM–9 PM",
+                "thursday": "9 AM–9 PM",
+                "friday": "9 AM–12 AM"
+            },
+            "phone": "+48 504 062 633",
+            "extensions": [
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                }
+            ],
+            "service_options": {
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noYM5j0r2wF73GlJTGXbujn6QaDLKlPOoOfO4VcFZa-v4pzB_jjenFDx0z9-Oe52FAegZL8gp27nXYk-e8ECYwMZZ69OuezEPjmBKrOPC4kzWwxpeZ7v8_kRIg68NMn9AkceynJ7w=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/bCEz43icBcHRToMwFADQL-qYwKA18YGxsbgNi8bo6Msym2tJy24bCuvkB_0G_8Zz_n67cXT-MYr6Llkoa1UPk4dBWhwBx4W010g5T6QnPipK1qVo23qll0McqjzZ9fv33elr0pi9XjbHQ99wy795-iErcSG31M3rs9aA1ea-nBnhsIqrApQ4UuXiHE-tIUC3ZRtqITLGJ5i3jb6uDwNvytTMn-HuQOQ3ejZvzyqjLzWywkj4wX0ensJDQknHYmII2n8L9ES7"
+        },
+        {
+            "position": 2,
+            "title": "Delikatesy Staromiejskie",
+            "place_id": "ChIJ2Zq0f-I0A0cRpUGIZReU5NA",
+            "data_id": "0x470334e27fb49ad9:0xd0e49417658841a5",
+            "data_cid": "15052318682787627429",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334e27fb49ad9%3A0xd0e49417658841a5&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334e27fb49ad9%3A0xd0e49417658841a5&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0119851,
+                "longitude": 18.6041612
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ2Zq0f-I0A0cRpUGIZReU5NA",
+            "provider_id": "/g/11g6wsn9hg",
+            "rating": 4.3,
+            "reviews": 458,
+            "price": "$$",
+            "unclaimed_listing": true,
+            "type": "Grocery store",
+            "types": [
+                "Grocery store"
+            ],
+            "type_id": "grocery_store",
+            "type_ids": [
+                "grocery_store"
+            ],
+            "address": "Chełmińska 22, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 2:45 AM",
+            "hours": "Open ⋅ Closes 2:45 AM",
+            "operating_hours": {
+                "saturday": "8 AM–2:45 AM",
+                "sunday": "10 AM–11:45 PM",
+                "monday": "6:30 AM–9:45 PM",
+                "tuesday": "6:30 AM–12:45 AM",
+                "wednesday": "6:30 AM–12:45 AM",
+                "thursday": "6:30 AM–12:45 AM",
+                "friday": "6:30 AM–2:45 AM"
+            },
+            "phone": "+48 509 926 149",
+            "website": "https://godziny-otwarcia-teraz.pl/0784349/Delikatesy_Staromiejskie",
+            "extensions": [
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npmMa6kH_S2bYk2ii-VefZLCQtiisKhvmJakwtdDWN2v9BCbe-st-HD2AmY3fdI40qZY6hYCklkLCpLCvx9vtRkRoKeT6hyYGGT8gP3ZJq1-Af8MISJQFmxBTUcgMGO9ASRlaA=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/K72mr3icBcFRboIwGADgE_2ixRC7xIdaI4iwKbCZ8mIQSktKKa4V3f12CW_j973-pXOj_fC8XvozYYzo-d3y39oMjg9uVhvtidFCbcF6hGK5HEadVoGKLjm6MoW6Dn54Wyb05LrOHuSk40o9XLM9f6IJb-iVg3UQbRHRzG-b_XJ-K1kgGVW9SuiY0OmJJ5epzBx4Ecg_FobFShz9Mr4tgLSrdJ_Hp51-borvWqThFyZ51ldk_VggBBIjUDCYN5jIQ74"
+        },
+        {
+            "position": 3,
+            "title": "Generał Alkohole",
+            "place_id": "ChIJuUIlHKs1A0cR6mHotoiwYk0",
+            "data_id": "0x470335ab1c2542b9:0x4d62b088b6e861ea",
+            "data_cid": "5576213389868818922",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335ab1c2542b9%3A0x4d62b088b6e861ea&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335ab1c2542b9%3A0x4d62b088b6e861ea&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0140403,
+                "longitude": 18.578334599999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJuUIlHKs1A0cR6mHotoiwYk0",
+            "provider_id": "/g/11b724tsng",
+            "rating": 4.7,
+            "reviews": 62,
+            "type": "State liquor store",
+            "types": [
+                "State liquor store"
+            ],
+            "type_id": "state_liquor_store",
+            "type_ids": [
+                "state_liquor_store"
+            ],
+            "address": "Broniewskiego 4, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 10:30 AM",
+            "hours": "Closed ⋅ Opens 10:30 AM",
+            "operating_hours": {
+                "saturday": "10:30 AM–3 PM",
+                "sunday": "Closed",
+                "monday": "10:30 AM–3 PM",
+                "tuesday": "10:30 AM–6:30 PM",
+                "wednesday": "10:30 AM–6:30 PM",
+                "thursday": "10:30 AM–6:30 PM",
+                "friday": "10:30 AM–6:30 PM"
+            },
+            "phone": "+48 535 192 347",
+            "website": "http://general-alkohole.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "In-store pickup",
+                        "In-store shopping"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "service_options": {
+                "in_store_shopping": true,
+                "curbside_pickup": true,
+                "delivery": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npn_cOkzV9rcH0w7YpkxDnxjCIpiNkxyRglnB1Sg-T4lnKr1cZ6xk7JbD1TvKUGC-i0bspT_Z6DiHf-d9NyYL_6X_zTSA5Q6XbXy65cb4uziAhN7UfhYJRwmgPoJElomvxmYlw=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/8RgsH3icBcFtDoIgAADQE6FZitnWD9NWWbMvbdofN8nAQGBiiZ6vS3Sb3vt9SddJtTBNRmYGFgKz6q2qFgneVbwzkGhMLBVACijTDzxic8kLdKTjzWvRdtK7uaQ65PoV7GQdUz1cMOMr64pBYjO-by10h5q6URlayWefbgJQT0olk-IOw3r7BA8vHvJDAbNiTK6-c4ZZmQ3QQaX9HmufxG76JHl06Rt8EtGaieajm5z1y96azQHxpoACLv72dkWg"
+        },
+        {
+            "position": 4,
+            "title": "\"Amiculus\" sklep spożywczy",
+            "place_id": "ChIJc1e8DgI1A0cRNhO7kOrpy10",
+            "data_id": "0x470335020ebc5773:0x5dcbe9ea90bb1336",
+            "data_cid": "6758752859459359542",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335020ebc5773%3A0x5dcbe9ea90bb1336&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335020ebc5773%3A0x5dcbe9ea90bb1336&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.013067199999995,
+                "longitude": 18.593409599999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJc1e8DgI1A0cRNhO7kOrpy10",
+            "provider_id": "/g/11ddxrz8tn",
+            "rating": 4.7,
+            "reviews": 326,
+            "type": "Grocery store",
+            "types": [
+                "Grocery store"
+            ],
+            "type_id": "grocery_store",
+            "type_ids": [
+                "grocery_store"
+            ],
+            "address": "Stanisława Moniuszki 31, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 10 PM",
+            "hours": "Open ⋅ Closes 10 PM",
+            "operating_hours": {
+                "saturday": "8 AM–10 PM",
+                "sunday": "1–10 PM",
+                "monday": "6:30 AM–10 PM",
+                "tuesday": "6:30 AM–10 PM",
+                "wednesday": "6:30 AM–10 PM",
+                "thursday": "6:30 AM–10 PM",
+                "friday": "6:30 AM–10 PM"
+            },
+            "website": "https://www.facebook.com/Amiculus.minimarket",
+            "extensions": [
+                {
+                    "service_options": [
+                        "In-store shopping"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Bakery",
+                        "Food",
+                        "Organic products",
+                        "Prepared foods"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "recycling": [
+                        "Batteries",
+                        "Glass bottles"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot",
+                        "Free street parking"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noPO4ys3-RdQ-Hlta6gyvVweoDBvGSuBQJlb23lH7nB3Q8attsqa0ERvr4KC6-dQNpdnnr6WeiN5Nyf8aedsDvjhuxB9O_BP2J6LnIPDd83rgWjSLehnpkk988jEs8l9lbd1CmBAA=w80-h106-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/F997VXicBcHRboIwFADQL6qgxa4s2QMFo3MGQRN9NEhrK9Rbxi04vtBv8G92zvtlvO_wMwisoTPtnLZqQNXXDrwCP6vdI9AdkhoJBkkamwhcsY8mpOQgS7KxvmJ6Gk9P5TIxro-DKLf2uqB28wGClrzyHn-rcHUY--gnZUSWeScBenZW93yZTzdeKYnZ2JjhT8T7iygWW7aD7yKTnPb63Bx3ykDXtjHnzQq5je1VztOHSJKvJw-JmYeMtATcP2b6RRc"
+        },
+        {
+            "position": 5,
+            "title": "Daniel Adamczyk",
+            "place_id": "ChIJjdAmS7E1A0cRbfiFtUgXhJE",
+            "data_id": "0x470335b14b26d08d:0x91841748b585f86d",
+            "data_cid": "10485531433475897453",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335b14b26d08d%3A0x91841748b585f86d&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335b14b26d08d%3A0x91841748b585f86d&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.012285,
+                "longitude": 18.60851
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJjdAmS7E1A0cRbfiFtUgXhJE",
+            "provider_id": "/g/11p9w618bv",
+            "rating": 3.9,
+            "reviews": 33,
+            "type": "Grocery store",
+            "types": [
+                "Grocery store",
+                "Alcoholic beverage wholesaler",
+                "Beer store",
+                "Coffee shop",
+                "Courier service",
+                "Hot dog restaurant",
+                "Store"
+            ],
+            "type_id": "grocery_store",
+            "type_ids": [
+                "grocery_store",
+                "alcoholic_beverage_wholesaler",
+                "beer_store",
+                "coffee_shop",
+                "courier_service",
+                "hot_dog_restaurant",
+                "store"
+            ],
+            "address": "Prosta 19, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 794 337 406",
+            "website": "http://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "In-store pickup",
+                        "In-store shopping"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Organic products",
+                        "Prepared foods"
+                    ]
+                },
+                {
+                    "crowd": [
+                        "LGBTQ+ friendly",
+                        "Transgender safespace"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot",
+                        "Wheelchair accessible restroom",
+                        "Wheelchair accessible seating"
+                    ]
+                }
+            ],
+            "service_options": {
+                "in_store_shopping": true,
+                "in_store_pickup": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP7CVgI0SuplsduFBMvQFU2Zb4kEqMpiInq-tiH=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/EBG1InicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQYO4clu5pEFxakFOcUurm5FsW6BZqFJVkku1a6FuQ6ZlXqFuS6WFbbmhmrJthaaSbrZuXDwCtvSGG"
+        },
+        {
+            "position": 6,
+            "title": "Somm+",
+            "place_id": "ChIJX2jeHg41A0cRbnW7VtfZ7-I",
+            "data_id": "0x4703350e1ede685f:0xe2efd9d756bb756e",
+            "data_cid": "16352528290901882222",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703350e1ede685f%3A0xe2efd9d756bb756e&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703350e1ede685f%3A0xe2efd9d756bb756e&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0149128,
+                "longitude": 18.611701399999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJX2jeHg41A0cRbnW7VtfZ7-I",
+            "provider_id": "/g/11pqzbkn7s",
+            "rating": 4.9,
+            "reviews": 49,
+            "type": "Wine store",
+            "types": [
+                "Wine store",
+                "Coffee shop",
+                "Soft drinks shop",
+                "Wine cellar",
+                "Wine club"
+            ],
+            "type_id": "wine_store",
+            "type_ids": [
+                "wine_store",
+                "coffee_shop",
+                "soft_drinks_shop",
+                "wine_cellar",
+                "wine_club"
+            ],
+            "address": "Generała Jana Henryka Dąbrowskiego 6, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 10 AM",
+            "hours": "Closed ⋅ Opens 10 AM",
+            "operating_hours": {
+                "saturday": "10 AM–3 PM",
+                "sunday": "Closed",
+                "monday": "10 AM–6 PM",
+                "tuesday": "10 AM–6 PM",
+                "wednesday": "10 AM–6 PM",
+                "thursday": "10 AM–6 PM",
+                "friday": "10 AM–6 PM"
+            },
+            "phone": "+48 886 811 549",
+            "website": "http://www.sommplus.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Drive-through",
+                        "In-store pickup",
+                        "In-store shopping"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot",
+                        "Wheelchair accessible seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Gender-neutral restroom",
+                        "Wi-Fi",
+                        "Free Wi-Fi"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "service_options": {
+                "in_store_shopping": true,
+                "in_store_pickup": true,
+                "delivery": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noQXf9T1bcGRE1Z9_ehye-W5gRhBWnEKXsmFjT0jUDH5T17ujKAo7ibGHRyCuXtll9LPr_vuwFfdbDIv8xC5PuIjaX3N4b9XJ0pgw9CsOp2XqqEhcwduCy0hiVPdASlTuDU5dLurA=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/y7fqA3icBcFbEoIgAADAE5GPcopm-jC095SZFtNPk0iQEZhA5gk7Q7dp9_flxtR67DiC93tMKSao1bQhShoqTY-op8NqDYgG2gkR5AOp9vgGM68g8zT2zvBCeUfBKWApn55kvMb6Oasyt8qjRZB5Q1utQzW8F_NF2iGLjRBwkzSXt21nt7KIlu_RBwWJXVZX3N8OCohXbs1aiPSu9vHrFXPSlhZ1Lr8fkzI8iMxGeVBubBNOWs_3AYc-eACp_kpfRZA"
+        },
+        {
+            "position": 7,
+            "title": "Winiarski Dom Kapka Wina",
+            "place_id": "ChIJNbMXUAA1A0cRliF9gvj1mcU",
+            "data_id": "0x470335005017b335:0xc599f5f8827d2196",
+            "data_cid": "14238682144598466966",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335005017b335%3A0xc599f5f8827d2196&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335005017b335%3A0xc599f5f8827d2196&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0112603,
+                "longitude": 18.6051189
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJNbMXUAA1A0cRliF9gvj1mcU",
+            "provider_id": "/g/11w46phrdg",
+            "rating": 5,
+            "reviews": 146,
+            "type": "Wine store",
+            "types": [
+                "Wine store",
+                "Wine bar"
+            ],
+            "type_id": "wine_store",
+            "type_ids": [
+                "wine_store",
+                "wine_bar"
+            ],
+            "address": "Szewska 19, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 12 PM",
+            "hours": "Closed ⋅ Opens 12 PM",
+            "operating_hours": {
+                "saturday": "12 PM–12 AM",
+                "sunday": "12–10 PM",
+                "monday": "12–10 PM",
+                "tuesday": "12–10 PM",
+                "wednesday": "12–10 PM",
+                "thursday": "12–10 PM",
+                "friday": "12 PM–12 AM"
+            },
+            "phone": "+48 570 769 938",
+            "website": "https://www.kapkawina.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "In-store pickup"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "service_options": {
+                "in_store_pickup": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npRuCNZGEq1jWhStJdAgEXZIKr24g2LpyM4_8WtGpqrCQVM3Yu0bP27gKK5BBFagXXSdaGvKWTCr-Ny5BwxAKaSJPdsTeNf8QoNRuGB7zxUB3rvo5ngXGBlDxdogyvgTqhaD1jZ=w86-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/C9EpHHicBcFbcoIwFADQFUWUR0Vn_CBoMzXKqKAgPw4FejMWk5AEBNfXTXQ3nvP_x4yRemlZDXMmIAQ0dadrVQpuam4mpXhYIDUqNdJWEC6Yy-WpC6OcbNrZPWWx2VYBbLL8iyrbBXsnx71781NDZKvC42XvXLvp98GeA6Uexp8FZFlcFaSnaRIqFI0efg4BLeLtodJJHf34RxGdOoLnr-GMHdULj0NGcLMeKgFjD0nLivXsnq-e_gdiCxv9Ii7eYYVElQ"
+        },
+        {
+            "position": 8,
+            "title": "Lewiatan",
+            "place_id": "ChIJU4XBj8SRHEcRrM0vU6ttBgs",
+            "data_id": "0x471c91c48fc18553:0xb066dab532fcdac",
+            "data_cid": "794442966879948204",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x471c91c48fc18553%3A0xb066dab532fcdac&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x471c91c48fc18553%3A0xb066dab532fcdac&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.019580999999995,
+                "longitude": 18.594336
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJU4XBj8SRHEcRrM0vU6ttBgs",
+            "provider_id": "/g/1hc0t1pb_",
+            "rating": 3.9,
+            "reviews": 391,
+            "type": "Grocery store",
+            "types": [
+                "Grocery store"
+            ],
+            "type_id": "grocery_store",
+            "type_ids": [
+                "grocery_store"
+            ],
+            "address": "Generała Józefa Bema 20A, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "Closed",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 56 622 16 55",
+            "website": "http://www.lewiatan.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "In-store shopping"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "in_store_shopping": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noaJq0RUSNi14AR9do7fCeHPom4mEiZaXhPNubrHVeaO2D-VnvxenhsKaj0T7a_8Dob-dkuCZrO5XotqPo2SaQdR-m7nlbjg7YH4uCUiBFBa5puOym-D-HOuhREdNPsKb6vSkUQ=w80-h142-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/2X0xyXicBcHdEoFAGADQJ_qULGHGBcU0zFRKBjdmq9Wmdr-0u34e0EN4G-f8vlzrTs0tq-WjQYVYtcwo1hcoNZN6UKCwqk5BoUBZS2_GiUS6fdhJlob1kCyTWYnuzWNBjIKIdX2hJx6HJu-DI6OR48NRPt9McrWjd_vg0uvUxxzKxniXPhqfUD9idFK6LxMQrmzze-WeA2K8rF5tVnTcmegjwIcgMjxZl2GsdvnkmTbZfvGa2sCHxIEGJP4B211Evg"
+        },
+        {
+            "position": 9,
+            "title": "ZygZak • Piwa Rzemieślnicze",
+            "place_id": "ChIJ_4IWrh01A0cRbpV-MajdcK0",
+            "data_id": "0x4703351dae1682ff:0xad70dda8317e956e",
+            "data_cid": "12497732680407749998",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703351dae1682ff%3A0xad70dda8317e956e&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703351dae1682ff%3A0xad70dda8317e956e&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0095124,
+                "longitude": 18.603092999999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ_4IWrh01A0cRbpV-MajdcK0",
+            "provider_id": "/g/11g68wl3dj",
+            "rating": 4.5,
+            "reviews": 143,
+            "type": "Beer store",
+            "types": [
+                "Beer store",
+                "Craft store",
+                "General store"
+            ],
+            "type_id": "beer_store",
+            "type_ids": [
+                "beer_store",
+                "craft_store",
+                "general_store"
+            ],
+            "address": "Ducha Świętego 15, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 10 AM",
+            "hours": "Closed ⋅ Opens 10 AM",
+            "operating_hours": {
+                "saturday": "10 AM–9 PM",
+                "sunday": "10 AM–3 PM",
+                "monday": "11 AM–8 PM",
+                "tuesday": "11 AM–8 PM",
+                "wednesday": "11 AM–8 PM",
+                "thursday": "11 AM–8 PM",
+                "friday": "10 AM–9 PM"
+            },
+            "phone": "+48 507 235 259",
+            "website": "http://www.sklepzygzak.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "In-store pickup",
+                        "In-store shopping"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot"
+                    ]
+                }
+            ],
+            "service_options": {
+                "in_store_shopping": true,
+                "in_store_pickup": true,
+                "delivery": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr1vWw5XOxSv6fAjSDoT-M6YGpwssj2vQ6z_h1aluBdViX2DHVRIlbPhFcSd6sf2-rxFh4Z7nmrbJ9DVbbf3JDdKXwldNFOllfNOPhFRnnaFoF5lorHbyFABoAQVF0q2A7NXrg=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/qLs-LXicDcrdEoFAGADQJ9rSUk1mXCzN-huFTOLGtP0t1n7ZTeH5vIS34Vyf74c3Ta2Hpil436gAKlE8dKEykE0hGyODm1nVGmUaaZNMPD6Qymr3nZ2Ez6h1SnKJfNihlXOY1p3WF9xunPeJW6l4jPP4nGB_Fm_ngq05zaLc0SVG6kn54OjKm2ILz48ZK_sLP18mncgDGgpRBuF_b6VMKVBbgJqxFyVjIJuY9u6YuEGiqlFnYYy4h9EVSfgBvdFEiw"
+        },
+        {
+            "position": 10,
+            "title": "EUROSPAR",
+            "place_id": "ChIJb2j15_Q0A0cRD28XBJGpPBY",
+            "data_id": "0x470334f4e7f5686f:0x163ca99104176f0f",
+            "data_cid": "1602342007741050639",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334f4e7f5686f%3A0x163ca99104176f0f&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334f4e7f5686f%3A0x163ca99104176f0f&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.032911899999995,
+                "longitude": 18.602439999999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJb2j15_Q0A0cRD28XBJGpPBY",
+            "provider_id": "/g/1td7l_t8",
+            "rating": 4.1,
+            "reviews": 1322,
+            "type": "Supermarket",
+            "types": [
+                "Supermarket"
+            ],
+            "type_id": "supermarket",
+            "type_ids": [
+                "supermarket"
+            ],
+            "address": "Legionów 216F, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 10 PM",
+            "hours": "Open ⋅ Closes 10 PM",
+            "operating_hours": {
+                "saturday": "8 AM–10 PM",
+                "sunday": "Closed",
+                "monday": "8 AM–10 PM",
+                "tuesday": "8 AM–10 PM",
+                "wednesday": "8 AM–10 PM",
+                "thursday": "8 AM–10 PM",
+                "friday": "8 AM–10 PM"
+            },
+            "phone": "+48 56 657 13 40",
+            "website": "https://spar.pl/",
+            "description": "Local standby for groceries & drinks. Convenience supermarket chain selling food, drink & everyday household products.",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot",
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Bakery",
+                        "Organic products",
+                        "Prepared foods"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "recycling": [
+                        "Batteries"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot"
+                    ]
+                }
+            ],
+            "service_options": {
+                "delivery": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nopqGQj9k9RGSUtmvCc6ZOrhG-nRRsCrySDPgPt7ew6vrrMKdyOUl2tkDmTHVFgybLngT_dkU_WNgNZbhyxPjGYKvv0TGF-ssvhACvvI5-MW_K8WKQd89oCxugOqcVUYVtwZmo2PA=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/GesdlXicBcFtDoIgAADQE5FlZdLWD0eTmplmfiz_uIkOlgoGhHnCztBteu_3ZVqPam9ZPVsvqBC0b9-qlURw3XK9IGKw6KgAUUBZHoJsw8X4wrcn7GCC75keDCJOGUmGAU8SheR8P8Y01rt2coyUYdDMUdbbujsO6Sn36VxfOE2rpsuq4kqvZc3mT_zEj8CYZYp9oJRhHjLmvAVhUQVuEdwaFwr0edPoRfLskeupHIQde4dp5awBgzboABd_EOlHMw"
+        },
+        {
+            "position": 11,
+            "title": "Żabka",
+            "place_id": "ChIJi2LgVHM1A0cRGi3ju5Sg-GY",
+            "data_id": "0x4703357354e0628b:0x66f8a094bbe32d1a",
+            "data_cid": "7419856946760723738",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703357354e0628b%3A0x66f8a094bbe32d1a&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703357354e0628b%3A0x66f8a094bbe32d1a&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.017400099999996,
+                "longitude": 18.6209319
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJi2LgVHM1A0cRGi3ju5Sg-GY",
+            "provider_id": "/g/11gmwjhd_k",
+            "rating": 4.3,
+            "reviews": 149,
+            "type": "Grocery store",
+            "types": [
+                "Grocery store",
+                "Beer store",
+                "Coffee shop",
+                "Coffee store",
+                "Courier service",
+                "Fast food restaurant",
+                "Greengrocer",
+                "Hot dog restaurant",
+                "Lottery shop",
+                "Restaurant"
+            ],
+            "type_id": "grocery_store",
+            "type_ids": [
+                "grocery_store",
+                "beer_store",
+                "coffee_shop",
+                "coffee_store",
+                "courier_service",
+                "fast_food_restaurant",
+                "green_grocers",
+                "hot_dog_restaurant",
+                "lottery_shop",
+                "restaurant"
+            ],
+            "address": "Jana Sobieskiego 16, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "10 AM–10 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "In-store pickup",
+                        "In-store shopping"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Food",
+                        "Organic products",
+                        "Pharmacy",
+                        "Prepared foods"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Wi-Fi",
+                        "Free Wi-Fi"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "recycling": [
+                        "Glass bottles",
+                        "Metal cans",
+                        "Plastic bottles"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot",
+                        "Free street parking",
+                        "On-site parking"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "in_store_shopping": true,
+                "in_store_pickup": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqlRMWoedhThqoNOE9KZeBhobgXAUonG-FEGy41Fxm4m-A630qiQRJ2wI85kb3PUt3SW2rQfvy-BuXaQ13Yo44Lp9M7TvZ4qolO0uIxxKZHpMtwq0BClHSz-LBJS0v-GI3uNooj=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/h3iS9nicBcFbcoIwFADQFV15JGrpjB_AIKKiIjoqf4qRtIZcYsLD7q-L6G56zt8vN6bRn5YlOBlViJVgrWavEqVh0oxKrK2q0VBq0JYfepxKJfbpCdmdH7jCzTbyVgULON6qs39EGcM8it_UmQ81rcGfEFt9Zful2ycf4-eN7I6G5Cf3lT26NwTt-Zo55IKUrhsvnR66gioUW7tNhmFVLJrU9MoOQrHIf2AdLHO7gzgh7Qbxe9Y7EwLcc-EJEv8BjjdDhA"
+        },
+        {
+            "position": 12,
+            "title": "Przepompownia",
+            "place_id": "ChIJD_qZax41A0cRXL-XxQGDTqs",
+            "data_id": "0x4703351e6b99fa0f:0xab4e8301c597bf5c",
+            "data_cid": "12343947672302370652",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703351e6b99fa0f%3A0xab4e8301c597bf5c&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703351e6b99fa0f%3A0xab4e8301c597bf5c&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0094528,
+                "longitude": 18.6082955
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJD_qZax41A0cRXL-XxQGDTqs",
+            "provider_id": "/g/1tknzg_q",
+            "rating": 4.5,
+            "reviews": 696,
+            "price": "zł 1–20",
+            "type": "Brewpub",
+            "types": [
+                "Brewpub",
+                "Beer hall",
+                "Beer store",
+                "Dart bar",
+                "Diner",
+                "Lounge",
+                "Pool hall"
+            ],
+            "type_id": "brewpub",
+            "type_ids": [
+                "brewpub",
+                "beer_hall",
+                "beer_store",
+                "dart_bar",
+                "diner",
+                "lounge",
+                "pool_hall"
+            ],
+            "address": "Mostowa 9, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 4 PM",
+            "hours": "Closed ⋅ Opens 4 PM",
+            "operating_hours": {
+                "saturday": "4 PM–3 AM",
+                "sunday": "4 PM–12 AM",
+                "monday": "4 PM–12 AM",
+                "tuesday": "4 PM–12 AM",
+                "wednesday": "4 PM–12 AM",
+                "thursday": "4 PM–12 AM",
+                "friday": "4 PM–3 AM"
+            },
+            "phone": "+48 532 184 275",
+            "website": "https://m.facebook.com/Przepompownia-440844722661023/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Bar games",
+                        "Great beer selection",
+                        "Live performances"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Cocktails",
+                        "Dancing",
+                        "Food",
+                        "Hard liquor",
+                        "Wine"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Seating"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual",
+                        "Cozy",
+                        "Trendy"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Accepts reservations"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery",
+                        "Takeout"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": false,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noKHtBq1lN4zP-kxH0ef3Pe8FhFV1vkoGcKyQrZnIPlLYKw6a6ulUkSdlpSncJBc7IADVTGvQH8JQZ40rTlhiC55BOJDnnZgeMcPA8uAiTuT-O12wvFXSNvk9ivIH8uuOKp3iW-zQ=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/lOk-wHicBcHbEoFAAADQL1pJSZnxUEy6oJoSejNrtc2u3bSX8IO-wd845_fFUvZiaRgUW5OW85YiJdAAOZOIyQnkD6PtBYACCMNfe9hmPI1k8DTpwf7kgLyiKbpbOXJDHNamJnwL03cxNCzO6e6Sjs7VUfRIyhvtSwaTAC5if1NXW11EblI09nSoKO7W83mQJRvGmhbtYe67yu8qVYHMnI06PJcHTbxOx5GrVJb2VncCn2I1mo4FsDcDBDD-B0PyRNg"
+        },
+        {
+            "position": 13,
+            "title": "sklep \"Alkohole Wina Świata\"",
+            "place_id": "ChIJDfjCAfg0A0cRytyHHRTDh1Q",
+            "data_id": "0x470334f801c2f80d:0x5487c3141d87dcca",
+            "data_cid": "6091051512204090570",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334f801c2f80d%3A0x5487c3141d87dcca&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334f801c2f80d%3A0x5487c3141d87dcca&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0297187,
+                "longitude": 18.5907461
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJDfjCAfg0A0cRytyHHRTDh1Q",
+            "provider_id": "/g/1tfvxvnz",
+            "rating": 4.5,
+            "reviews": 89,
+            "type": "Store",
+            "types": [
+                "Store"
+            ],
+            "type_id": "store",
+            "type_ids": [
+                "store"
+            ],
+            "address": "Długa 2, 87-100 Toruń, Poland",
+            "open_state": "Closed ⋅ Opens 10 AM",
+            "hours": "Closed ⋅ Opens 10 AM",
+            "operating_hours": {
+                "saturday": "10 AM–2 PM",
+                "sunday": "Closed",
+                "monday": "10 AM–7 PM",
+                "tuesday": "10 AM–7 PM",
+                "wednesday": "10 AM–7 PM",
+                "thursday": "10 AM–7 PM",
+                "friday": "10 AM–7 PM"
+            },
+            "phone": "+48 56 621 90 81",
+            "website": "http://www.alkoholewina.pl/",
+            "extensions": [
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPfvL89Vf51unGkXxQHVWl64Oh7lS2x9vxXXu9e=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/UvaG-HicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQkFbmY2EZlmZqWJrnnh1REegRFp5jZuKfYZ4TbFRhWVYREVFqmWpbbmhmrJthaaSbrZuXDwCmqyFJ"
+        },
+        {
+            "position": 14,
+            "title": "Artykuły Spożywcze",
+            "place_id": "ChIJ4QL4GP40A0cRDAccnI5JF4Q",
+            "data_id": "0x470334fe18f802e1:0x8417498e9c1c070c",
+            "data_cid": "9518157214324098828",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334fe18f802e1%3A0x8417498e9c1c070c&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334fe18f802e1%3A0x8417498e9c1c070c&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0144503,
+                "longitude": 18.5908058
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ4QL4GP40A0cRDAccnI5JF4Q",
+            "provider_id": "/g/11fsmn4dnc",
+            "rating": 5,
+            "reviews": 1,
+            "unclaimed_listing": true,
+            "type": "Grocery store",
+            "types": [
+                "Grocery store"
+            ],
+            "type_id": "grocery_store",
+            "type_ids": [
+                "grocery_store"
+            ],
+            "address": "Józefa Ignacego Kraszewskiego 38, 87-100 Toruń, Poland",
+            "open_state": "Open now",
+            "extensions": [
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Bakery"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                }
+            ],
+            "service_options": {
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqeb8gPctWr7Po_zglH_X5Qmm2YWuDR30K4JA0LYAzgFQsviUkn7SH37iJzoRRH1hrDazkD64pLcYLrzrGnSXCUwikwRCFbsDBcN6mLypLtY0zPLMvAVVX6vpNaJEqvJxWmG5mUDw=w80-h173-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/mJ0j6nicBcFtDoIgAADQE5GWptXWD5PKGTWzmfqrFXPglI-AtLhgZ-g2vff7UmOkXjlOT70JEYL0zUs3CgtuGm4mWDCHSA2wBtqJ4iX1-bN5LEiGTanCTNws6ZNbNT8zNqvLF8w99-CnkYvqyJLdWQ9t0fHwknhhm1qR58mUKni3HQx8iXCNlFV7fqniYmy7MY93Dw03-BQw9JHI1K7N0HGIrtcqGOTpnm6fQ_ou2X7OCjiux4UL6DT0QAe4-AOdC0Y-"
+        },
+        {
+            "position": 15,
+            "title": "Biedronka",
+            "place_id": "ChIJG1MF8EXLHEcR9663e-6IfiE",
+            "data_id": "0x471ccb45f005531b:0x217e88ee7bb7aef7",
+            "data_cid": "2413517008176393975",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x471ccb45f005531b%3A0x217e88ee7bb7aef7&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x471ccb45f005531b%3A0x217e88ee7bb7aef7&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.011874,
+                "longitude": 18.609512199999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJG1MF8EXLHEcR9663e-6IfiE",
+            "provider_id": "/g/11b5wlcsbv",
+            "rating": 3.7,
+            "reviews": 809,
+            "type": "Discount supermarket",
+            "types": [
+                "Discount supermarket",
+                "Beer store",
+                "Book store",
+                "Coffee store",
+                "Cosmetics store",
+                "Fruit and vegetable store",
+                "Grocery store",
+                "Home goods store",
+                "Wine store"
+            ],
+            "type_id": "discount_supermarket",
+            "type_ids": [
+                "discount_supermarket",
+                "beer_store",
+                "book_store",
+                "coffee_store",
+                "cosmetics_store",
+                "fruit_and_vegetable_store",
+                "grocery_store",
+                "home_goods_store",
+                "wine_store"
+            ],
+            "address": "Prosta 5, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 9 PM",
+            "hours": "Open ⋅ Closes 9 PM",
+            "operating_hours": {
+                "saturday": "6 AM–9 PM",
+                "sunday": "Closed",
+                "monday": "6 AM–9 PM",
+                "tuesday": "6 AM–9 PM",
+                "wednesday": "6 AM–9 PM",
+                "thursday": "6 AM–9 PM",
+                "friday": "6 AM–9 PM"
+            },
+            "phone": "+48 800 080 010",
+            "website": "https://www.biedronka.pl/pl?utm_source=gmb",
+            "extensions": [
+                {
+                    "service_options": [
+                        "In-store shopping"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "recycling": [
+                        "Batteries"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "in_store_shopping": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrekoqqPWfZGePJmzP52sE6x0ETnhtOF3D4g4tllA-yTO4cB1aziMX76n2i7d88j_xBs3SZX8_Pwv2HQKXbCmSx869jCrz7Q7VTciEXHWdJ0So9fCmtnMO8kALUQOwvsZa5xs0=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/v4Kx3XicBcHdEkJAGADQJ9poidVMF0g1_QyGyrhpatussFu-LfJ8vURv0zm_L1fqAVNNq7kxKqQsavYC1lIpFBNqRGWjFQ9AFBBoru9wU7Ssks9ndLzlSxatmyGaYAisXg9SwVW4MOZmYaq6dtEnDU3qjc9DuctsS-DSvhJyP_UeGEmekVPUvfEq3mQXv0l6Yjl3vx3s2D6ktAyy1fG61hPp3PxGiV1IKne7j8PuDfl50oM-68YYI-5gVCEh_2o7Q7Y"
+        },
+        {
+            "position": 16,
+            "title": "Zodiak. Sklep spożywczo - monopolowy",
+            "place_id": "ChIJbWHaDMA0A0cRD85ns-MLB8U",
+            "data_id": "0x470334c00cda616d:0xc5070be3b367ce0f",
+            "data_cid": "14197329422904184335",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334c00cda616d%3A0xc5070be3b367ce0f&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334c00cda616d%3A0xc5070be3b367ce0f&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.029159899999996,
+                "longitude": 18.6308757
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJbWHaDMA0A0cRD85ns-MLB8U",
+            "provider_id": "/g/1tf5z_5_",
+            "rating": 4.4,
+            "reviews": 356,
+            "type": "Liquor store",
+            "types": [
+                "Liquor store",
+                "Food store",
+                "State liquor store"
+            ],
+            "type_id": "liquor_store",
+            "type_ids": [
+                "liquor_store",
+                "food_store",
+                "state_liquor_store"
+            ],
+            "address": "Bolesława Chrobrego 26, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 8 PM",
+            "hours": "Open ⋅ Closes 8 PM",
+            "operating_hours": {
+                "saturday": "9 AM–8 PM",
+                "sunday": "10 AM–3 PM",
+                "monday": "6:30 AM–8 PM",
+                "tuesday": "6:30 AM–8 PM",
+                "wednesday": "6:30 AM–8 PM",
+                "thursday": "6:30 AM–8 PM",
+                "friday": "6:30 AM–8 PM"
+            },
+            "phone": "+48 665 834 429",
+            "website": "http://www.zodiakalkohole.pl/",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                }
+            ],
+            "service_options": {
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrbr1uUc851Y9EAIuf2fxmGDUsYrlVQTQo9Vvd2YiPMC83nwvmQNUOPEBzsSJewZWu--TNwEZGj5Ur8ixhr872V-EvQcfso8AysE_Xb4F_-2bonRLVs1sj-ecKkRgTafsrN4s6hyA=w80-h106-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/tMUN1HicBcHrEoFAFADgJzpSwmbGj7CMW0RF_hitrUXtmj1d8IKewdv4vt9XlOUTB4aRi04rUyrLeYVcMyVLLssWU4WRPREYAhru2BG21Ik2q5CRrhk71J1XqZW-itkkxFjnkR_4yonqqxXftusx6cimLnwv3Gzp6IP7BW9Ohwog8Bp6mt27oSa3l9Ckb0VAa5-lqIj7Rno-Jvb0DFai5G4VoYl34Gz52GXBJUXt2dgTb3fYkDYIs92DB0j1B2ITRYQ"
+        },
+        {
+            "position": 17,
+            "title": "Sklep Osiedlowy",
+            "place_id": "ChIJrxJdHfE0A0cR6YYaaZmqsxg",
+            "data_id": "0x470334f11d5d12af:0x18b3aa99691a86e9",
+            "data_cid": "1779953853611542249",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334f11d5d12af%3A0x18b3aa99691a86e9&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334f11d5d12af%3A0x18b3aa99691a86e9&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.025732399999995,
+                "longitude": 18.604030299999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJrxJdHfE0A0cR6YYaaZmqsxg",
+            "provider_id": "/g/11f_0x3grp",
+            "rating": 4.6,
+            "reviews": 54,
+            "type": "Grocery store",
+            "types": [
+                "Grocery store"
+            ],
+            "type_id": "grocery_store",
+            "type_ids": [
+                "grocery_store"
+            ],
+            "address": "Józefa Wybickiego 34, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 7 PM",
+            "hours": "Open ⋅ Closes 7 PM",
+            "operating_hours": {
+                "saturday": "7 AM–7 PM",
+                "sunday": "9 AM–3 PM",
+                "monday": "6 AM–8 PM",
+                "tuesday": "6 AM–8 PM",
+                "wednesday": "6 AM–8 PM",
+                "thursday": "6 AM–8 PM",
+                "friday": "6 AM–8 PM"
+            },
+            "extensions": [
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                }
+            ],
+            "service_options": {
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noTZFE2BNQcCK_IPRz-9b5wuQQL70uvKOvcB432EovouZr7faWaVrudH3ht9jLMNWbQ2-RmIUX7WaORU2Zvy05U2NFfTmJ4y7Q3tTBoWffesKwnTpAKpl3wvsDxdJhBpi4fJaHM=w80-h142-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/jxIMx3icBcHdboIwGADQJ6qwtoaxZBfiNAqKK4GxcGOwUuoG_Rr6w9z77SF8m53z-JPWavMSBIMkix6gHzpnuomDsp2yCw5j0GuDuEEmWK1jSRWUzXaDk5zxdXbevxe_KL4sZ8fYIQqdz06eJ5TgDXhwzRSJtm4_JnfdEWnjr8Mxry8Mo2LcV59R3Z6KCjf-Hi4rnG9FOab0HjFiywRqITqTzarUq0wPZPbm7eeaykTfqEjb3fF1fg6RfKIYfSMF_33tRDk"
+        },
+        {
+            "position": 18,
+            "title": "Paluszek Marzena I Piotr Paluch Spółka Jawna",
+            "place_id": "ChIJ3_VNqyU1A0cR_WFDljWGdEM",
+            "data_id": "0x47033525ab4df5df:0x43748635964361fd",
+            "data_cid": "4860657462551994877",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x47033525ab4df5df%3A0x43748635964361fd&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x47033525ab4df5df%3A0x43748635964361fd&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0008145,
+                "longitude": 18.6219179
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ3_VNqyU1A0cR_WFDljWGdEM",
+            "provider_id": "/g/11h0vpzj4r",
+            "rating": 5,
+            "reviews": 2,
+            "unclaimed_listing": true,
+            "type": "Grocery store",
+            "types": [
+                "Grocery store"
+            ],
+            "type_id": "grocery_store",
+            "type_ids": [
+                "grocery_store"
+            ],
+            "address": "Podgórska 12A, 87-100 Toruń, Poland",
+            "website": "http://paluszek.net.pl/kontakt/",
+            "extensions": [
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                }
+            ],
+            "service_options": {
+                "delivery": false
+            },
+            "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gEQt40MmkBjY_Mf-TQi05Q&cb_client=search.gws-prod.gps&w=80&h=92&yaw=266.64005&pitch=0&thumbfov=100",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/WnGV3nicHc1BDoIwEADA3_RGWQgQNWlMTDxyIPHiiZRS2tVCG7pS_Y3f8jcaPzDzeVuiEA95HmnVmjbUKeBTu5gFyY33xmkZMHLl53wrcrKPeVgkumOQi8dRmHNHFbTz_XS79u2UXTqEumNq6JVDvZCIWq7KcpN-4upHbkJkSeyAWbEv2UsmUTYNbyqAmgUkZQWw_zL5TRQAX1EZOQc"
+        },
+        {
+            "position": 19,
+            "title": "Piwex - sklep z piwami regionalnymi",
+            "place_id": "ChIJXTFECAI1A0cRMGhVnY0O3Vc",
+            "data_id": "0x470335020844315d:0x57dd0e8d9d556830",
+            "data_cid": "6331232652545583152",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335020844315d%3A0x57dd0e8d9d556830&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335020844315d%3A0x57dd0e8d9d556830&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0133837,
+                "longitude": 18.5933624
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXTFECAI1A0cRMGhVnY0O3Vc",
+            "provider_id": "/g/11cfjclpg",
+            "unclaimed_listing": true,
+            "type": "Liquor store",
+            "types": [
+                "Liquor store",
+                "Tobacco shop"
+            ],
+            "type_id": "liquor_store",
+            "type_ids": [
+                "liquor_store",
+                "tobacco_shop"
+            ],
+            "address": "Stanisława Moniuszki 35/37, 87-100 Toruń, Poland",
+            "open_state": "Permanently closed",
+            "hours": "Permanently closed",
+            "phone": "+48 607 589 607",
+            "extensions": [
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                }
+            ],
+            "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nNqIrSXGT_dQTEI0-yArSw&cb_client=search.gws-prod.gps&w=80&h=92&yaw=284.53748&pitch=0&thumbfov=100",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/vIsooXicHc1RCsIgGADg2_g2dbVoBRI9ROwliO2ht-HcnwpOTW2223StblN0ge_7vFVKPu4JiSkApFlD9voFJhaeY-mcNMC9jli4icwlSeo5DZZrc_DcOj0ye3k0ob2du368dqeGFssxtBmJoRdGg00sAg9CYZl_YnAjlj6izGqKFNut0MIzW9UV3qy3VY28TkIxiv7L3c2spPQLeLQ5iA"
+        }
+    ]
+}

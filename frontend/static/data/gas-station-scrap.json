@@ -1,0 +1,1540 @@
+{
+    "search_metadata": {
+        "id": "68fc7a5abadf0bc5917752de",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/68c3842693c09e9f/68fc7a5abadf0bc5917752de.json",
+        "created_at": "2025-10-25 07:20:58 UTC",
+        "processed_at": "2025-10-25 07:20:58 UTC",
+        "google_maps_url": "https://www.google.com/maps/search/Gas+station/@53.01896626995,18.6078370132,14z?hl=en",
+        "raw_html_file": "https://serpapi.com/searches/68c3842693c09e9f/68fc7a5abadf0bc5917752de.html",
+        "total_time_taken": 1.15
+    },
+    "search_parameters": {
+        "engine": "google_maps",
+        "type": "search",
+        "q": "Gas station",
+        "ll": "@53.01896626995,18.6078370132,14z",
+        "google_domain": "google.com",
+        "hl": "en"
+    },
+    "search_information": {
+        "local_results_state": "Results for exact spelling",
+        "query_displayed": "Gas station"
+    },
+    "local_results": [
+        {
+            "position": 1,
+            "title": "Circle K Express",
+            "place_id": "ChIJU6ZOd-M0A0cRI3bXvgAyYrA",
+            "data_id": "0x470334e3774ea653:0xb0623200bed77623",
+            "data_cid": "12709776077176141347",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334e3774ea653%3A0xb0623200bed77623&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334e3774ea653%3A0xb0623200bed77623&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.01621,
+                "longitude": 18.6064
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJU6ZOd-M0A0cRI3bXvgAyYrA",
+            "provider_id": "/g/1td4nd8g",
+            "rating": 4.2,
+            "reviews": 209,
+            "price": "$",
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Diesel fuel supplier",
+                "Public bathroom"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "diesel_fuel_supplier",
+                "public_bathroom"
+            ],
+            "address": "Przy Kaszowniku 2, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 22 255 22 55",
+            "website": "https://www.circlek.pl/station/circle-k-express-torun-przy-kaszowniku?utm_source=google&utm_medium=local&utm_campaign=google-local",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwaGxIzWmgII4YMRf7IFC1xttWfoI9n_afhC6-o2fhd6dpme1f5e98t7mT3Ov7qDhvXcdAl3eYDGAhj3FEp7wGaLdTuoYuuPqwtI8dDy0rej0k_nj2d-I2nSwNZG5a3-dWH5a3V=w184-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/BLeZrXicDcVdDoIgAADgExEqldrWg8sitv6WLrOX5gQkU7DAqO7XIbpNfS_f9yOM6fQEwkagQaVU1bBes3uppGHSDErVwqrToNRAwwg7lyaxBX6Sd9ZWhAzz9Z77ZDFzn8ZkXJFQngsuZmOgPC7omHYtc_mIhYHx2xRtH_4tFo9jSaMGsTzGkajRYt75FhcrmvYq7_vdzRoS0Pjl3FntXM-y9iggnkzs5oRHBQI0W_47TK0bDIEIPXAFUv0A-MdEiw"
+        },
+        {
+            "position": 2,
+            "title": "Shell",
+            "place_id": "ChIJGwf6EOk0A0cRZaOcEsgKacw",
+            "data_id": "0x470334e910fa071b:0xcc690ac8129ca365",
+            "data_cid": "14729315910713910117",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334e910fa071b%3A0xcc690ac8129ca365&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334e910fa071b%3A0xcc690ac8129ca365&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.024544,
+                "longitude": 18.626756999999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJGwf6EOk0A0cRZaOcEsgKacw",
+            "provider_id": "/g/1tczp1gd",
+            "rating": 3.9,
+            "reviews": 88,
+            "price": "$$",
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Coffee shop",
+                "Convenience store",
+                "Fast food restaurant",
+                "Gas shop",
+                "Hamburger restaurant",
+                "Sandwich shop"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "coffee_shop",
+                "convenience_store",
+                "fast_food_restaurant",
+                "gas_shop",
+                "hamburger_restaurant",
+                "sandwich_shop"
+            ],
+            "address": "Tadeusza Kościuszki 76, 87-101 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 571 303 062",
+            "website": "https://find.shell.com/pl/fuel/10034877-2507-kosciuszki-toru/pl_PL",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Full service gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Convenience store",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "On-site parking"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM551yD5K0-mbfpuzrJYP7t0hLgGqsP5jrwfsNg=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/Ef9UrXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFnga2pqWOli6m2gm5uUVlBaVeQVGWBeYpDhk-5eWBxgmlVUnlbsl25bbmhsoZthaaSbrZuXDwChlCGA"
+        },
+        {
+            "position": 3,
+            "title": "Petrol Station ORLEN",
+            "place_id": "ChIJc7un1M40A0cRKcwn7GUzguk",
+            "data_id": "0x470334ced4a7bb73:0xe9823365ec27cc29",
+            "data_cid": "16826067670656338985",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334ced4a7bb73%3A0xe9823365ec27cc29&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334ced4a7bb73%3A0xe9823365ec27cc29&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0216965,
+                "longitude": 18.645619999999997
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJc7un1M40A0cRKcwn7GUzguk",
+            "provider_id": "/g/1vrq8bjx",
+            "rating": 4.3,
+            "reviews": 728,
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Car wash",
+                "Grocery store"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "car_wash",
+                "grocery_store"
+            ],
+            "address": "Szosa Lubicka 55, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 24 256 05 77",
+            "website": "https://www.orlen.pl/pl/dla-ciebie",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot",
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPF_dhLtBFsKKzWVy-hzYc3r1BeMHE5C7-prjTL=w196-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/5dOdmHicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQ4BafkuFT4uRW7O1dFR5WqZtRFZlsXGTolOrr4WrqbK5bUJQV4mNbbmhpppthaaSbrZuXDwCqXyEe"
+        },
+        {
+            "position": 4,
+            "title": "Orlen",
+            "place_id": "ChIJ_Qtdb8g0A0cRncVVDo7mu9E",
+            "data_id": "0x470334c86f5d0bfd:0xd1bbe68e0e55c59d",
+            "data_cid": "15112926472372077981",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334c86f5d0bfd%3A0xd1bbe68e0e55c59d&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334c86f5d0bfd%3A0xd1bbe68e0e55c59d&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0253332,
+                "longitude": 18.6450364
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ_Qtdb8g0A0cRncVVDo7mu9E",
+            "provider_id": "/g/11bxfjhbyr",
+            "rating": 4.2,
+            "reviews": 227,
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Grocery store"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "grocery_store"
+            ],
+            "address": "Trasa Wschodnia 36a, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 10 PM",
+            "hours": "Open ⋅ Closes 10 PM",
+            "operating_hours": {
+                "saturday": "6 AM–10 PM",
+                "sunday": "6 AM–10 PM",
+                "monday": "6 AM–10 PM",
+                "tuesday": "6 AM–10 PM",
+                "wednesday": "6 AM–10 PM",
+                "thursday": "6 AM–10 PM",
+                "friday": "6 AM–10 PM"
+            },
+            "phone": "+48 56 659 11 69",
+            "website": "https://www.orlen.pl/pl/dla-ciebie",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOWGzCF1EvBO7ZFXjwWIB2FvjiL_1Bi_D-w_Tg9=w181-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/QRpWq3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngH-5e5exm6Frm5G8e5RaRVR7u6WTkVpaV6RNv6JQZ76JbHh-SbmlbbmhhqJthaaSbrZuXDwCV4iC9"
+        },
+        {
+            "position": 5,
+            "title": "Petrol Station ORLEN",
+            "place_id": "ChIJn3DgAF00A0cRD1fpzseeFUI",
+            "data_id": "0x4703345d00e0709f:0x42159ec7cee9570f",
+            "data_cid": "4761886762021246735",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703345d00e0709f%3A0x42159ec7cee9570f&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703345d00e0709f%3A0x42159ec7cee9570f&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0345733,
+                "longitude": 18.5852678
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJn3DgAF00A0cRD1fpzseeFUI",
+            "provider_id": "/g/1vc6c2by",
+            "rating": 4.1,
+            "reviews": 690,
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Grocery store"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "grocery_store"
+            ],
+            "address": "Polna 10, 87-100 Tn, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 24 256 42 71",
+            "website": "https://www.orlen.pl/pl/dla-ciebie",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot",
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "user_review": "As a normal petrol station",
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOVWm-r7Ok9dSBqP1eLooOdp3bA4hoGbLxFqeY=w162-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/jJeQYnicuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngHxaeq1tk7p9tmRLsVBhgmOqTn--fUmCc5GiSke-e5FPhVpgaaVtuaGakm2FppJutm5cPAIYtIQw"
+        },
+        {
+            "position": 6,
+            "title": "bp",
+            "place_id": "ChIJ4YrJ3PI0A0cRlE9Ba5Ld568",
+            "data_id": "0x470334f2dcc98ae1:0xafe7dd926b414f94",
+            "data_cid": "12675343297191956372",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334f2dcc98ae1%3A0xafe7dd926b414f94&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334f2dcc98ae1%3A0xafe7dd926b414f94&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.032317,
+                "longitude": 18.6102047
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ4YrJ3PI0A0cRlE9Ba5Ld568",
+            "provider_id": "/g/11b7fxx0m1",
+            "rating": 4.6,
+            "reviews": 405,
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Alternative fuel station",
+                "Cafe",
+                "Car wash",
+                "Supermarket"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "alternative_fuel_station",
+                "cafe",
+                "car_wash",
+                "supermarket"
+            ],
+            "address": "Grudziądzka 125/127, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 56 655 88 85",
+            "website": "https://map.bp.com/pl-PL/PL/stacja-paliw/torun/piernik/916468139",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Full service gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwWtHphbhjAC25K07Ex--SOawDKE8xyR-3HNjFfbwobObpZySUZxt1ewUQhXaDH64bvuV-JfKDgKlp2ak6myghAOMxsCutwaYRzArmb4jurRj6j24fOQft6ntYNTnKMxgI89n3cCg=w162-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/mNpx93icBcHRToMwFADQL7pjK1g3Ex8ITNFmIwOnbm-UQGsHbUMvtviDfoN_4zl_vxLRuocoGmS8EsaIoZtdN7VGY6dx1ZoxEtZB68BF6fP6a6j9BxZWcqnSjNyx9f0-ANRl43O234algrg4qqeee8NLbq9Lfb4G3HT-fJKfTV7QhH_P7_Das1ywwZLmRsdFyLQ8BJfN6JtL9ZNOI0_UPFWKKpL05alHqvFyfNPsEMTLdqfjNhOPfkMJyB2BG2jzD5rKRlQ"
+        },
+        {
+            "position": 7,
+            "title": "Stacja Paliw ORLEN",
+            "place_id": "ChIJS0XHcwA1A0cROiJ5DWkAFFE",
+            "data_id": "0x4703350073c7454b:0x511400690d79223a",
+            "data_cid": "5842295067803984442",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703350073c7454b%3A0x511400690d79223a&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703350073c7454b%3A0x511400690d79223a&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.019343799999994,
+                "longitude": 18.6421724
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJS0XHcwA1A0cROiJ5DWkAFFE",
+            "provider_id": "/g/11lw0623k2",
+            "rating": 4.6,
+            "reviews": 67,
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Grocery store"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "grocery_store"
+            ],
+            "address": "Szosa Lubicka 24, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 24 256 46 91",
+            "website": "https://www.orlen.pl/pl/dla-ciebie",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot",
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyVGCeMxhMcG1qrui15TukID8c4-tgKyU2DVwmEXOQAf7JdvZ3rOIzPlZSPhvmGSYk7anmOJV06g6iu7gJWakkpL5WAR59ThkS1SMF0v7IwV_-VGp6LUTy7IaieROCI7FTxVFt1=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/NkZeq3icBcFRboIwAADQE1UoCtUl-yAqTVGCs1g3fwzpupYUKKMFZPfbIbyN7z3_lXOdffO8Wi0X0hhZi8GKnpvWidYtuGk82VnALbBejP2qpjPDW5E9VMYx_O2HCobFoMluzVfAycN8CXZsavaf-Uf8g9Lv8bbsc_J3qm_0pMYG0y-NyrbJU-ZHMqoGJNNrqXV3DK_xOdwUSlNIs8QfEZnYHTDcRcdLMSNSVuKcbwlKigdLHHyfYBAAtQmABq15AckZQ88"
+        },
+        {
+            "position": 8,
+            "title": "Shell",
+            "place_id": "ChIJyVu9ms80A0cRsyRObSCuq3w",
+            "data_id": "0x470334cf9abd5bc9:0x7cabae206d4e24b3",
+            "data_cid": "8983465336016610483",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334cf9abd5bc9%3A0x7cabae206d4e24b3&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334cf9abd5bc9%3A0x7cabae206d4e24b3&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.019194,
+                "longitude": 18.640188
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJyVu9ms80A0cRsyRObSCuq3w",
+            "provider_id": "/g/1tm__y27",
+            "rating": 4,
+            "reviews": 120,
+            "price": "$$",
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Car wash",
+                "Coffee shop",
+                "Convenience store",
+                "Fast food restaurant",
+                "Hamburger restaurant",
+                "Sandwich shop"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "car_wash",
+                "coffee_shop",
+                "convenience_store",
+                "fast_food_restaurant",
+                "hamburger_restaurant",
+                "sandwich_shop"
+            ],
+            "address": "Szosa Lubicka 5-9, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 571 303 064",
+            "website": "https://find.shell.com/pl/fuel/10034941-2510-szosa-torun/pl_PL",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Full service gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Convenience store",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN1sRntHxhsGZE3YpboRmFB6hDYADSnr1i_MQ2d=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/Yusz3nicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngZ1gclFfiUZFR7B7lahxZkJQflOvmZJbhEunoEpxXZJgZ7xtolGJbbmhsoZthaaSbrZuXDwCx7CFZ"
+        },
+        {
+            "position": 9,
+            "title": "Shell",
+            "place_id": "ChIJAQIlifI0A0cR3UwWngNI2rs",
+            "data_id": "0x470334f289250201:0xbbda48039e164cdd",
+            "data_cid": "13536210810389810397",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334f289250201%3A0xbbda48039e164cdd&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334f289250201%3A0xbbda48039e164cdd&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.030266999999995,
+                "longitude": 18.611214999999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJAQIlifI0A0cR3UwWngNI2rs",
+            "provider_id": "/g/1tdl9ds0",
+            "rating": 3.8,
+            "reviews": 115,
+            "price": "$$",
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Car wash",
+                "Coffee shop",
+                "Convenience store",
+                "Fast food restaurant",
+                "Hamburger restaurant",
+                "Sandwich shop"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "car_wash",
+                "coffee_shop",
+                "convenience_store",
+                "fast_food_restaurant",
+                "hamburger_restaurant",
+                "sandwich_shop"
+            ],
+            "address": "Grudziądzka 120, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 571 303 061",
+            "website": "https://find.shell.com/pl/fuel/10034789-2503-torak-torun/pl_PL",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Full service gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Convenience store",
+                        "Gender-neutral restroom",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "On-site parking"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxJK4_ZbMM14rl12iKsOqGqq4vMbtHu-8R-QSuphWLCCRN28alZFGa_1QtNqV8Lq4jisxg25ykK-dfhjPS1J5A0XAg71zD3tHDFIvs5GlDIjWU9jOI4sDA5JYOS6kQ0fWyNk5kj=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/_u_OQnicBcFRboIwGADgE1VobTdcsgciEQGBIdmYvhhFbGk7Sv2L091vh9ht9n1_v8K5EV48T4v5jBvDdTdBd23N4LrBzVrz5fERUAsIvDD2e13f04we9qc8x_SqMekzKG1sLb3lJ7eeULBFVT2Notksl9uCBEe9X8XHA65cYT-CjaWyhzsn7KEydL4I-VbjlIX-Z8if8U80d-toldyAxTpKZPO-kGVCIQpZuivrJ1X5l-ZRKKbk6zcmBIkFQQoN5h9ftkLf"
+        },
+        {
+            "position": 10,
+            "title": "bp",
+            "place_id": "ChIJ8Taaiu00A0cRtEaJ6JLmSLU",
+            "data_id": "0x470334ed8a9a36f1:0xb548e692e88946b4",
+            "data_cid": "13062944237829047988",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334ed8a9a36f1%3A0xb548e692e88946b4&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334ed8a9a36f1%3A0xb548e692e88946b4&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.028532899999995,
+                "longitude": 18.6115858
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ8Taaiu00A0cRtEaJ6JLmSLU",
+            "provider_id": "/g/1tcvy34n",
+            "rating": 4.2,
+            "reviews": 239,
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Alternative fuel station",
+                "Cafe",
+                "Car wash",
+                "Supermarket"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "alternative_fuel_station",
+                "cafe",
+                "car_wash",
+                "supermarket"
+            ],
+            "address": "Grudziądzka 108/112, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 56 655 84 51",
+            "website": "https://map.bp.com/pl-PL/PL/stacja-paliw/torun/jowisz/2133915916",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Full service gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Gender-neutral restroom",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "user_review": "I had a great experience, the service was top notch.",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSze9awrh0MUOwzifUMcEMS8OC52spyRe0jh4uXVlU5OsbnHs5kYIiGfdEN6dJK28MDCfpAQSs0PG__eyhGhe4f7HXXEf1ZPpjDsOysTASaTVXImH7kaTYNX_158hUiP-EJ02sk=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/rHpfo3icBcHxDkJAHADgJzrORamtPyxGNVFop39M3DmRu_XTTM_XS_Q2fd_vK8ZRwUbXe7HQGimbnr2BvSo5jGwYtUo-9UYBqgCB7vi47ZMPW5fTS-Awi6ZPy7Ow8sLEjnYWATVfGH4I802vfWZFcB8CsLp83_q89k7L-nAkdujuuHLOCeDYLwo2C18wk68CSj1u3GL1cCGaIXWSMr3S_TNYdWWan2hhWLbI2hh5B0yg204GIUisCerQIP-i6kO_"
+        },
+        {
+            "position": 11,
+            "title": "Stacja Paliw MOL",
+            "place_id": "ChIJObv_J4w0A0cRBwuZGasaxXg",
+            "data_id": "0x4703348c27ffbb39:0x78c51aab19990b07",
+            "data_cid": "8702391177134541575",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703348c27ffbb39%3A0x78c51aab19990b07&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703348c27ffbb39%3A0x78c51aab19990b07&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0385323,
+                "longitude": 18.6124535
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJObv_J4w0A0cRBwuZGasaxXg",
+            "provider_id": "/g/1tfg1spy",
+            "rating": 4.3,
+            "reviews": 383,
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Car wash",
+                "Store"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "car_wash",
+                "store"
+            ],
+            "address": "Grudziądzka 171/173, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "6 AM–11 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 519 075 762",
+            "website": "https://molpolska.pl/pl/",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Ethanol-free gas",
+                        "Full service gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwT-whZ-N-Zn5pDBsefELnoUOgCosi58CzqlA0Ja5jzI5XLIPuNKzAI1CLcJfWgxVy7Q_uq78QX6QFHIL6wK8imC1mv0-6HH2-T6e4E5YTzy1sJVNvqEC1dDXz76NdEyOTQ7Avn=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/u3oz2nicBcFbcoIwFADQFV0haAJ2xg-MtIAMlpEq-uM4GAMtJGB4SPbnIrobz_l_FV3XqA_DqIr5jEvJK9Yr9sil6JjoZrmsDd4oyBUow_0yy2o_pjAWZ4jhLHCzWSt29yIhf3acSlVih-q2cs3win91gLMo-O7jrXYDRKM8vB_58zDZyaVvbSfJSPLpBxEZt05ZU1QPJhDftyAlbOHhU6onpMJDPLQeRbdNpm0S37xplya2O4jViCwLiqUFfyDkG2-gQs8"
+        },
+        {
+            "position": 12,
+            "title": "Stacja Paliw AMIC Energy",
+            "place_id": "ChIJczrxCQA1A0cRbdq6YLGZiV4",
+            "data_id": "0x4703350009f13a73:0x5e8999b160bada6d",
+            "data_cid": "6812144898485705325",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703350009f13a73%3A0x5e8999b160bada6d&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703350009f13a73%3A0x5e8999b160bada6d&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0139844,
+                "longitude": 18.5841994
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJczrxCQA1A0cRbdq6YLGZiV4",
+            "provider_id": "/g/1vxvgkkd",
+            "rating": 4.3,
+            "reviews": 329,
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Butane gas supplier",
+                "Food court",
+                "Fuel supplier",
+                "Lottery shop",
+                "Tobacco shop",
+                "Wi-Fi spot"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "butane_gas_supplier",
+                "food_court",
+                "fuel_supplier",
+                "lottery_shop",
+                "tobacco_shop",
+                "wi_fi_spot"
+            ],
+            "address": "Generała Józefa Bema 124, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 56 640 01 67",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Diesel gas",
+                        "Oil change",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "user_review": "Nice gas station and small store",
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzFlEm1onkIxxh58xA9rpukz5FqxglMZA3R85l7y2oR-8X8AHTsi6wghFrRx8TzDp8A8y-l1a-mYr25VWD4-lHAms5PE38SXYNGs7cIzHrrj6yhek5XvzDTsIYtHd1huRaRMjxQ=w184-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/2VsFfHicBcHRboIwFADQL7oywOp1yR6aIMKDZqtkA98MI61SKPaWWfp_-4j9zc75-1XOTfQaRVqlK2mM1N1MnW3N6LrRrVozRHIiaAko4oeXmz6HXO-H2Ix96b1i6PnOTnMfWP7wUh8vPBXI9HZJjACskRcV3TZPqXIrPFYhm5DjAjq-wtDYhH1-ZWvQBR-Ive9TPNfN6UDbtgyFtffNorqe1T8hq6hsXPEdq1lcxfHuP96eMa5B7RLoYTT_4OJEug"
+        },
+        {
+            "position": 13,
+            "title": "Shell",
+            "place_id": "ChIJB8I0txc1A0cRNREDStBWiSY",
+            "data_id": "0x47033517b734c207:0x268956d04a031135",
+            "data_cid": "2776846097845522741",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x47033517b734c207%3A0x268956d04a031135&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x47033517b734c207%3A0x268956d04a031135&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 52.998554999999996,
+                "longitude": 18.604865699999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJB8I0txc1A0cRNREDStBWiSY",
+            "provider_id": "/g/1tdy354r",
+            "rating": 4,
+            "reviews": 182,
+            "price": "$$",
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Coffee shop",
+                "Convenience store",
+                "Fast food restaurant",
+                "Gas shop",
+                "Hamburger restaurant",
+                "Pizza Takeout",
+                "Sandwich shop"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "coffee_shop",
+                "convenience_store",
+                "fast_food_restaurant",
+                "gas_shop",
+                "hamburger_restaurant",
+                "pizzatakeaway",
+                "sandwich_shop"
+            ],
+            "address": "Plac Armii Krajowej 1A, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 571 303 063",
+            "website": "https://find.shell.com/pl/fuel/10034878-2508-mikolaj-torun/pl_PL",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Full service gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Convenience store",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMWixbgWecWdO6H8nBP7MK8u8EXFLD43LE0JqjS=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/WLi4InicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngG55ZkZQenpocnuJv5mGR5xRg7uttUWrhGuHm42Ji7ONq4FWYFWxbbmhsoZthaaSbrZuXDwCY7yBy"
+        },
+        {
+            "position": 14,
+            "title": "Self Service Gas Station MZK Torun",
+            "place_id": "ChIJL-nxNQs1A0cR3KdD836lQrI",
+            "data_id": "0x4703350b35f1e92f:0xb242a57ef343a7dc",
+            "data_cid": "12845011051879835612",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703350b35f1e92f%3A0xb242a57ef343a7dc&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703350b35f1e92f%3A0xb242a57ef343a7dc&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0337539,
+                "longitude": 18.6012721
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJL-nxNQs1A0cR3KdD836lQrI",
+            "provider_id": "/g/11jgf3j2gh",
+            "rating": 4.5,
+            "reviews": 148,
+            "type": "Gas station",
+            "types": [
+                "Gas station"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station"
+            ],
+            "address": "Wielki Rów 1, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 10 PM",
+            "hours": "Open ⋅ Closes 10 PM",
+            "operating_hours": {
+                "saturday": "6 AM–10 PM",
+                "sunday": "6 AM–10 PM",
+                "monday": "6 AM–10 PM",
+                "tuesday": "6 AM–10 PM",
+                "wednesday": "6 AM–10 PM",
+                "thursday": "6 AM–10 PM",
+                "friday": "6 AM–10 PM"
+            },
+            "phone": "+48 515 869 727",
+            "website": "https://mzk-torun.pl/uslugi-dodatkowe/stacja-paliw-2",
+            "extensions": [
+                {
+                    "offerings": [
+                        "Diesel gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxiGm0dErQAphHcfmQpbAvcIFHYl3T2sqlz8ZP0R9jhEJb6MwBGKbImGL1ayyEXxom7XJaFmO2bGdtytJIhwjL_ZtjSpg4jsry9Psy0Vh_lAGSgClbWaLyZ6LZ_gPL7pobeXSaV=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/OhvY-HicBcFRboIwAADQE1WgGpAl-0ADFdZFHIsiP4RWbMWWVtoNu_vtELvN3vv75dZq8-J5gi8XTCkm-i_TT1SNth_tgirpMW0ANcB4CfJvonrekPQv6XRINN_RqzxoknzTPNudxfITmof4WTel_xEPPC1I-D5v0BvJJcJB51xaP5WM6qLL5B4SdLHOFjmfB9w2dqg0Ww1mcnFpnH_krUhQxbaCnDrsmhA3LStxpBXp66o7vs4BhIDHENzBqP4BVdhGYQ"
+        },
+        {
+            "position": 15,
+            "title": "Stacja Paliw WATIS",
+            "place_id": "ChIJd9ftTwA1A0cRt21TdH24iKA",
+            "data_id": "0x470335004fedd777:0xa088b87d74536db7",
+            "data_cid": "11567698491863166391",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335004fedd777%3A0xa088b87d74536db7&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335004fedd777%3A0xa088b87d74536db7&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.024796699999996,
+                "longitude": 18.6032998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJd9ftTwA1A0cRt21TdH24iKA",
+            "provider_id": "/g/11w1vk9crn",
+            "rating": 4.6,
+            "reviews": 58,
+            "type": "Gas station",
+            "types": [
+                "Gas station"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station"
+            ],
+            "address": "Joachima Lelewela 9, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 10 PM",
+            "hours": "Open ⋅ Closes 10 PM",
+            "operating_hours": {
+                "saturday": "6 AM–10 PM",
+                "sunday": "6 AM–10 PM",
+                "monday": "6 AM–10 PM",
+                "tuesday": "6 AM–10 PM",
+                "wednesday": "6 AM–10 PM",
+                "thursday": "6 AM–10 PM",
+                "friday": "6 AM–10 PM"
+            },
+            "phone": "+48 571 230 073",
+            "website": "https://watis.com.pl/",
+            "extensions": [
+                {
+                    "offerings": [
+                        "Diesel gas",
+                        "Full service gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSytx_rM67dopb8CALk8j_E3vhewKeEzp6B_smQ2JCK0ZcC0Em2SeYltB7AlFcU7yWE7t8CH4sVfCRuR8KeT__ZihYfPDmahXexrPlmqL2PkCSRfMP39MWccf7WBpC6wlywY1y4a=w128-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/agedsHicBcFRboIwAADQE1WwEFqX7AM63DIkYaAy_Gm0K1RpaaVVZPfbIXYb3_v_E84Z--J5UgSLTutO8pvlI9OD44NbMK28zljALLBe_O6fZTW7Bx3zCP1oc8Ik3vT4QtPgLviU8fTXRAm16gt-ksw_MOKnCla8kS5BsVyzHZrrFDlMPkK7b0l5K3HGt5QezqJpizd1FN_8MRZSXTew6ElVtnkRrPKasRbViSHRJOepWc7h8XVaQgzECoIeDPoJ6UdE0A"
+        },
+        {
+            "position": 16,
+            "title": "bp",
+            "place_id": "ChIJg5Da1bM1A0cRlkXsOUjhsgM",
+            "data_id": "0x470335b3d5da9083:0x3b2e14839ec4596",
+            "data_cid": "266523028293961110",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335b3d5da9083%3A0x3b2e14839ec4596&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335b3d5da9083%3A0x3b2e14839ec4596&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0132202,
+                "longitude": 18.5614295
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJg5Da1bM1A0cRlkXsOUjhsgM",
+            "provider_id": "/g/1tfll3w4",
+            "rating": 3.9,
+            "reviews": 231,
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Alternative fuel station",
+                "Cafe",
+                "Car wash",
+                "Supermarket"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "alternative_fuel_station",
+                "cafe",
+                "car_wash",
+                "supermarket"
+            ],
+            "address": "Szosa Bydgoska 30, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 56 655 41 98",
+            "website": "https://map.bp.com/pl-PL/PL/stacja-paliw/torun/mars/108449438",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Full service gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free street parking"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxPurMtcoAUpecOdb3VmbqWVs1_uk-e801y-0N4_9xKkLCYieScf7oeZYeRvkpQjxeak9lL3KEmj8-UY_tLgEXq1QIDj38A8p_vkj86FBgukVUWPZSWPgIxMCgG9MDImNDLp8jB=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/9_AMyHicBcHxEoEwHADgJ5rKHMudPyJcp4iukn865mfZqo0t8oAewtv4vt-3MkbpqWXVFR4wKVkNnYYnla2B1gyobCymNKIaactb2_c66ePuGRkqvVQB3V0vOGsujzzTTtkJBMR2Psjejkq334hwUdwhobeJhFMBh5dQe97DWbh1iDfLhhOUFqUJ2fL4cPaBzzHxiCpfgpPxas46kaV5fErymAV9tGBrN_KDZuuHivD57O2MMarcIRKolX8nbkTF"
+        },
+        {
+            "position": 17,
+            "title": "AWIX OIL Stacja Paliw i Myjnia",
+            "place_id": "ChIJVXNl1Qk1A0cRepEwIv-xpyU",
+            "data_id": "0x47033509d5657355:0x25a7b1ff2230917a",
+            "data_cid": "2713333009862398330",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x47033509d5657355%3A0x25a7b1ff2230917a&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x47033509d5657355%3A0x25a7b1ff2230917a&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.03651,
+                "longitude": 18.5958942
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVXNl1Qk1A0cRepEwIv-xpyU",
+            "provider_id": "/g/11p_4pt01p",
+            "rating": 4.2,
+            "reviews": 131,
+            "type": "Gas station",
+            "types": [
+                "Gas station"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station"
+            ],
+            "address": "Polna 14, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 537 040 767",
+            "website": "http://www.awix-oil.pl/",
+            "extensions": [
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPfJ6AY5AVtvzEJjwAR3FAUwJRVfhDexnGp7_lY=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/mr6FbHicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQkOZl5hhp6hhWUlbl6pVV7hhk7OYYWu4VFJaW4ZJakedeYB6fE2lbbmhkpJthaaSbrZuXDwCmnyFh"
+        },
+        {
+            "position": 18,
+            "title": "Circle K",
+            "place_id": "ChIJO_2wEcs0A0cRBsJljQBMJVw",
+            "data_id": "0x470334cb11b0fd3b:0x5c254c008d65c206",
+            "data_cid": "6639796790883631622",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334cb11b0fd3b%3A0x5c254c008d65c206&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334cb11b0fd3b%3A0x5c254c008d65c206&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.022059999999996,
+                "longitude": 18.6557253
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJO_2wEcs0A0cRBsJljQBMJVw",
+            "provider_id": "/g/1tvykgd7",
+            "rating": 4.2,
+            "reviews": 442,
+            "price": "$",
+            "type": "Gas station",
+            "types": [
+                "Gas station",
+                "Coffee store",
+                "Convenience store",
+                "Diesel fuel supplier",
+                "Grocery store",
+                "Public bathroom",
+                "Snack bar"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station",
+                "coffee_store",
+                "convenience_store",
+                "diesel_fuel_supplier",
+                "grocery_store",
+                "public_bathroom",
+                "snack_bar"
+            ],
+            "address": "Szosa Lubicka 62, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 56 659 93 00",
+            "website": "https://www.circlek.pl/station/circle-k-torun-szosa-lubicka?utm_source=google&utm_medium=local&utm_campaign=google-local",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot",
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Convenience store",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy5pe5-Vx-k2fqRbWZTbWK4sah_7QYAQwP_UJzl9dlLJXTNQfxga4rEectdfNdBzBu9mKRwSVLhjBnY-FuwIpLxl_4UNS-gNrWryMCQaNolZjrmiHypwM-QC0hwX5v1YDQZoRih=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/dVBQ1nicBcFbcoIwFADQFV1RCuPQmX6IfamYMaAi_DAIIUEDiUlowP11Ed1Nz_n7ZcZI_eo4nL3MqBCUk0ETVYnekN7MKtE5VGqoNGhn9TVveTL5kvhwHuHuNo_4mubHa7rzdMmKJc5W2B6K0_bJg5pH28sR4Wakpac-SGXqBtXhMxyCbhfb5ByxW9hn8DnYjYxGXngnlABFKlXTfo1LJHh-U137PUm7B7yeM3vxfxbZO85F3LI3u3BdYIELd-jFP0eBRjg"
+        },
+        {
+            "position": 19,
+            "title": "MOYA Stacja Paliw",
+            "place_id": "ChIJDx5THYM1A0cRUuTipVqMxOY",
+            "data_id": "0x470335831d531e0f:0xe6c48c5aa5e2e452",
+            "data_cid": "16628570045116769362",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335831d531e0f%3A0xe6c48c5aa5e2e452&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335831d531e0f%3A0xe6c48c5aa5e2e452&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0393043,
+                "longitude": 18.6474428
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJDx5THYM1A0cRUuTipVqMxOY",
+            "provider_id": "/g/11nfw538jb",
+            "rating": 4.3,
+            "reviews": 171,
+            "type": "Gas station",
+            "types": [
+                "Gas station"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station"
+            ],
+            "address": "Polna 142, 87-100 Toruń, Poland",
+            "open_state": "Open 24 hours",
+            "hours": "Open 24 hours",
+            "operating_hours": {
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours",
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours"
+            },
+            "phone": "+48 882 790 739",
+            "website": "https://moyastacja.pl/stacje-paliw/411.html",
+            "extensions": [
+                {
+                    "accessibility": [
+                        "Wheelchair accessible restroom"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump",
+                        "Restroom"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOHp7jAm_ink9qZ3qMDWG7efi4yjQs4ulmOyctR=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/VBjSrHicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFng71FgnuWYG5-Zl21ZGGVc6OsS7m6empZpUpkVWGxSmpPrX5lcEmRbbmhkpJthaaSbrZuXDwC7jiH-"
+        },
+        {
+            "position": 20,
+            "title": "Ama sp.j. Stacja paliw. Prowadzisz M., Wiligalski A.",
+            "place_id": "ChIJyV3l9r80A0cRvuwhHJf6cWo",
+            "data_id": "0x470334bff6e55dc9:0x6a71fa971c21ecbe",
+            "data_cid": "7670187167307656382",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334bff6e55dc9%3A0x6a71fa971c21ecbe&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334bff6e55dc9%3A0x6a71fa971c21ecbe&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0301464,
+                "longitude": 18.6318912
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJyV3l9r80A0cRvuwhHJf6cWo",
+            "provider_id": "/g/1trqfxvh",
+            "rating": 4.6,
+            "reviews": 32,
+            "type": "Gas station",
+            "types": [
+                "Gas station"
+            ],
+            "type_id": "gas_station",
+            "type_ids": [
+                "gas_station"
+            ],
+            "address": "Bolesława Chrobrego 30, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 8 PM",
+            "hours": "Open ⋅ Closes 8 PM",
+            "operating_hours": {
+                "saturday": "6 AM–8 PM",
+                "sunday": "Closed",
+                "monday": "6 AM–10 PM",
+                "tuesday": "6 AM–10 PM",
+                "wednesday": "6 AM–10 PM",
+                "thursday": "6 AM–10 PM",
+                "friday": "6 AM–10 PM"
+            },
+            "phone": "+48 506 560 387",
+            "website": "https://www.amalubianka.pl/gorsk/",
+            "extensions": [
+                {
+                    "offerings": [
+                        "Car wash",
+                        "Diesel gas",
+                        "Propane exchange"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Air pump"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNi7K2WEyIsaZkwt4Zv0uINIY8DWg-0Du5LrZf1=w138-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/gzThYnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngl2nubRTuWulZnBiVXV5iElVmUOrp5xlp4RKermvgUmrqUxSVZmhbbmhsoZthaaSbrZuXDwCg9iDh"
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4053.01896626995%2C18.6078370132%2C14z&q=Gas+station&start=20&type=search"
+    }
+}
