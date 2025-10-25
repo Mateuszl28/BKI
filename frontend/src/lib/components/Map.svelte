@@ -14,36 +14,25 @@
 	// ---- STAN (Svelte 5 runes)
 	let isSheetOpen = $state(false);      // Filtry
 	let isLegendOpen = $state(false);     // Legenda
-	let humorMode = $state(true);         // Tryb humoru
+	let humorMode = $state(true);         // Tryb humoru (domyślnie włączony, bo czemu nie?)
 	let toast = $state<string | null>(null);
 
-	// Map tiles
-	let darkTilesOn = $state(false);
-	let baseOSM: any = null;
-	let baseDark: any = null;
-
-	// Szukanie
 	let searchQuery = $state('');
 	let searchResults = $state<Array<{ display_name: string; lat: string; lon: string }>>([]);
 	let showSuggestions = $state(false);
 
-	// Filtry
-	const allTypes = ['monopolowy', 'klub', 'pub', 'policja', 'stacjabenzynowa', 'user'] as const;
+	const allTypes = ['monopolowy', 'klub', 'pub', 'policja', 'stacjabenzynowa'] as const;
 	type PoiType = typeof allTypes[number];
 
 	let enabledTypes = $state<Record<PoiType, boolean>>({
-		monopolowy: true, klub: true, pub: true, policja: true, stacjabenzynowa: true, user: true
+		monopolowy: true, klub: true, pub: true, policja: true, stacjabenzynowa: true
 	});
 	let minDanger = $state(7);
 	let filterRadiusKm = $state(3);
 	let filterCenter = $state<{ lat: number; lng: number } | null>(null);
 
-	// Własne POI tworzone przez usera (localStorage)
-	type CustomPOI = POI & { id: string; createdAt: number };
-	let customPois = $state<CustomPOI[]>([]);
-
-	const dangerIcons: Record<PoiType, string> = {
-		monopolowy: '🍷', klub: '🎵', pub: '🍺', policja: '🚨', stacjabenzynowa: '⛽', user: '⚠️'
+	const dangerIcons: Record<PoiType | 'user', string> = {
+		monopolowy: '🍷', klub: '🎵', pub: '🍺', policja: '🚨', stacjabenzynowa: '⛽', user: '📍'
 	};
 
 	const DEFAULT_VIEW = { lat: 53.01812167, lng: 18.60666329, zoom: 13 };
@@ -56,34 +45,25 @@
 		'Zachowaj spokój i przesuń mapę.',
 		'Kto pyta, nie błądzi — najwyżej zoomuje.'
 	];
-	const typeQuips: Record<Exclude<PoiType,'user'>, string[]> = {
-		monopolowy: ['Tu butelki mają marzenia.', 'Półka z wodą — dla pozoru.', 'Promocja na „korki do zmartwień”.'],
+	const typeQuips: Record<PoiType, string[]> = {
+		monopolowy: ['Tu butelki mają marzenia.', 'Półka z wodą — tylko dla pozoru.', 'Promocja na „korki do zmartwień”.'],
 		klub: ['Wejście wolne, wyjście… jak wyjdziesz.', 'DJ prosi o ciszę — na 3 sekundy.', 'Toaleta zna najwięcej historii.'],
-		pub: ['Pianka znika szybciej niż honor po drugiej.', 'Hasło Wi-Fi: „jeszczedwa”.', 'Zamknęli o 22… w innym wszechświecie.'],
-		policja: ['Tu kończy się kariera rajdowca.', 'Mandat — pamiątka na lata.', 'Nie testuj sprintu.'],
-		stacjabenzynowa: ['Kawa +95 oktanów.', 'Hot-dog to filozof.', 'Zapach sukcesu i benzyny.']
+		pub: ['Tu pianka szybciej znika niż honor po drugiej.', 'Hasło do Wi-Fi: „jeszczedwa”.', 'Zamknęli o 22… w innym wszechświecie.'],
+		policja: ['Tu zakończyła się niejedna kariera rajdowca.', 'Mandat — pamiątka na lata.', 'Nie testuj sprintu.'],
+		stacjabenzynowa: ['Kawa +95 oktanów.', 'Hot-dog tu bywa filozofem.', 'Zapach sukcesu i benzyny.']
 	};
 	function rand<T>(arr: T[]) { return arr[Math.floor(Math.random() * arr.length)] as T; }
 
-	// ——— zapis widoku / ustawień ———
+	// ——— zapisywanie widoku ———
 	function saveView() {
 		if (!browser || !map) return;
 		const c = map.getCenter();
 		localStorage.setItem('map:view', JSON.stringify({ lat: c.lat, lng: c.lng, zoom: map.getZoom() }));
-		localStorage.setItem('map:dark', JSON.stringify(darkTilesOn));
-		localStorage.setItem('map:humor', JSON.stringify(humorMode));
-		localStorage.setItem('map:custom', JSON.stringify(customPois));
 	}
 	function loadView() {
 		if (!browser) return DEFAULT_VIEW;
 		try {
 			const raw = localStorage.getItem('map:view');
-			const d = localStorage.getItem('map:dark');
-			const h = localStorage.getItem('map:humor');
-			const c = localStorage.getItem('map:custom');
-			if (d) darkTilesOn = !!JSON.parse(d);
-			if (h) humorMode = !!JSON.parse(h);
-			if (c) customPois = JSON.parse(c);
 			if (!raw) return DEFAULT_VIEW;
 			const p = JSON.parse(raw);
 			return { lat: p.lat ?? DEFAULT_VIEW.lat, lng: p.lng ?? DEFAULT_VIEW.lng, zoom: p.zoom ?? DEFAULT_VIEW.zoom };
@@ -126,7 +106,7 @@
 			lat: e.lat,
 			lng: e.lon,
 			name: e.tags?.name || 'Miejsce',
-			type: mapType(e.tags || {}) as any,
+			type: mapType(e.tags || {}),
 			danger: e.tags?.amenity === 'nightclub' ? 9 : e.tags?.amenity === 'police' ? 7 : e.tags?.shop === 'alcohol' ? 8 : 7,
 			description: e.tags?.brand || e.tags?.operator || ''
 		}));
@@ -170,10 +150,7 @@
 		const view = loadView();
 
 		map = L.map(mapContainer, { center: [view.lat, view.lng], zoom: view.zoom, zoomControl: false });
-		baseOSM = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors', maxZoom: 19 });
-		baseDark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { attribution: '© OpenStreetMap © Carto', maxZoom: 20 });
-		(darkTilesOn ? baseDark : baseOSM).addTo(map);
-
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors', maxZoom: 19 }).addTo(map);
 		L.control.zoom({ position: 'bottomright' }).addTo(map);
 		poiLayer = L.layerGroup().addTo(map);
 
@@ -185,17 +162,22 @@
 
 		map.on('moveend', saveView);
 		map.on('zoomend', saveView);
-
-		// klik – przenieś centrum filtra
 		map.on('click', (e: any) => { filterCenter = { lat: e.latlng.lat, lng: e.latlng.lng }; drawRadiusCircle(); refreshPOIMarkers(); });
 
-		// long-press (700ms) – dodaj custom POI
-		setupLongPress();
-
-		// Easter eggs
+		// Easter eggs (konami + „beer”)
 		if (typeof window !== 'undefined') {
 			setupKonami();
-			setupBeerWord();
+			window.addEventListener('keydown', (e) => {
+				if (!map) return;
+				const target = e.target as HTMLElement;
+				if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA')) return;
+				if (e.key.toLowerCase() === 'b') secretWord += 'b';
+				else if (e.key.toLowerCase() === 'e') secretWord += 'e';
+				else if (e.key.toLowerCase() === 'r') secretWord += 'r';
+				else if (e.key.toLowerCase() === 'a') secretWord += 'a';
+				else secretWord = '';
+				if (secretWord.endsWith('beer')) rainEmojis(['🍺','🎵','🚨','⛽'], 1200);
+			});
 		}
 
 		refreshPOIMarkers();
@@ -204,12 +186,7 @@
 
 	onDestroy(() => { if (map) { map.remove(); map = null; } });
 
-	// ——— Reaktywnie: odśwież, gdy zmienia się humor / filtry / customy ———
-	$effect(() => { const _ = humorMode; if (map) { (map as any)?.closePopup?.(); refreshPOIMarkers(); } });
-	$effect(() => { const _ = JSON.stringify(enabledTypes) + '|' + minDanger + '|' + filterRadiusKm; if (map) refreshPOIMarkers(); });
-	$effect(() => { const _ = JSON.stringify(customPois); if (map) refreshPOIMarkers(); });
-
-	// ——— rysowanie promienia ———
+	// ——— Rysowanie
 	function drawRadiusCircle() {
 		const L = Llib!; if (!map || !filterCenter) return;
 		if (radiusCircle) { radiusCircle.setLatLng([filterCenter.lat, filterCenter.lng]); radiusCircle.setRadius(filterRadiusKm * 1000); }
@@ -220,55 +197,36 @@
 		}
 	}
 
-	// ——— dystans ———
-	function distanceMeters(a: {lat: number; lng: number}, b: {lat: number; lng: number}) {
-		const R = 6371e3, φ1 = a.lat*Math.PI/180, φ2 = b.lat*Math.PI/180;
-		const Δφ = (b.lat-a.lat)*Math.PI/180, Δλ = (b.lng-a.lng)*Math.PI/180;
-		const s = Math.sin(Δφ/2)**2 + Math.cos(φ1)*Math.cos(φ2)*Math.sin(Δλ/2)**2;
-		return 2*R*Math.asin(Math.sqrt(s));
-	}
-
-	// ——— połącz systemowe i własne POI, przefiltruj i narysuj ———
-	function getFilteredPOIs(): (POI | CustomPOI)[] {
-		const sys = (poiStore.pois ?? []) as POI[];
-		const all: (POI | CustomPOI)[] = [...sys, ...customPois];
-		let filtered = all.filter((p: any) => enabledTypes[p.type as PoiType] && (p.danger ?? 0) >= minDanger);
-		if (filterCenter && filterRadiusKm > 0) {
-			filtered = filtered.filter(p => distanceMeters(filterCenter!, { lat: p.lat, lng: p.lng }) <= filterRadiusKm * 1000);
-		}
-		return filtered;
-	}
-
+	// ——— Markery
 	function refreshPOIMarkers() {
 		const L = Llib!; if (!map || !poiLayer) return;
 		poiLayer.clearLayers();
-		const pois = getFilteredPOIs();
+
+		let pois: POI[] = poiStore.pois ?? [];
+		pois = pois.filter((p) => enabledTypes[p.type as PoiType] && (p.danger ?? 0) >= minDanger);
+
 		for (const poi of pois) {
 			const icon = L.divIcon({
-				html: `<div class="danger-marker danger-${Math.min(10, Math.max(0, (poi as any).danger ?? 0))}${humorMode ? ' wiggle' : ''}">${dangerIcons[(poi as any).type as PoiType]}</div>`,
+				html: `<div class="danger-marker danger-${Math.min(10, Math.max(0, poi.danger ?? 0))}${humorMode ? ' wiggle' : ''}">${dangerIcons[poi.type]}</div>`,
 				className: 'custom-div-icon', iconSize: [44, 44], iconAnchor: [22, 22]
 			});
-			const copyId = `copy-${poi.lat.toFixed(5)}-${poi.lng.toFixed(5)}`.replace(/[^\w-]/g, '');
-			const rmId = `rm-${(poi as any).id ?? ''}`;
-			const quip = humorMode && (poi as any).type !== 'user'
-				? `<p style="margin:6px 0 0 0;font-size:12px;opacity:.8;">${rand(typeQuips[((poi as any).type) as Exclude<PoiType,'user'>])}</p>`
-				: (humorMode ? `<p style="margin:6px 0 0 0;font-size:12px;opacity:.8;">„Uważaj, to moje dzieło.” — Ty</p>` : '');
 
-			const rmLink = (poi as any).id
-				? ` • <a id="${rmId}" href="#" data-id="${(poi as any).id}">Usuń</a>` : '';
+			const copyId = `copy-${poi.lat.toFixed(5)}-${poi.lng.toFixed(5)}`.replace(/[^\w-]/g, '');
+			const quip = humorMode ? `<p style="margin:6px 0 0 0;font-size:12px;opacity:.8;">${rand(typeQuips[poi.type])}</p>` : '';
 
 			const popup = `
 				<div style="text-align:center;padding:8px;min-width:220px">
-					<h3 style="margin:0 0 6px 0;color:#d32f2f;font-size:16px;">${(poi as any).name ?? 'Miejsce'}</h3>
-					<p style="margin:2px 0;font-size:14px;"><strong>Poziom:</strong> ${(poi as any).danger ?? '?'} / 10 🔴</p>
-					${(poi as any).description ? `<p style="margin:4px 0;font-size:13px;color:#666;"><em>${(poi as any).description}</em></p>` : ''}
+					<h3 style="margin:0 0 6px 0;color:#d32f2f;font-size:16px;">${poi.name ?? 'Miejsce'}</h3>
+					<p style="margin:2px 0;font-size:14px;"><strong>Poziom:</strong> ${poi.danger ?? '?'} / 10 🔴</p>
+					${poi.description ? `<p style="margin:4px 0;font-size:13px;color:#666;"><em>${poi.description}</em></p>` : ''}
 					<p style="margin:6px 0 0 0;font-size:14px;">
 						<a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=${poi.lat}%2C${poi.lng}" target="_blank" rel="noopener">Nawiguj ↗</a> •
-						<a id="${copyId}" href="#" data-lat="${poi.lat}" data-lng="${poi.lng}">Kopiuj</a>${rmLink}
+						<a id="${copyId}" href="#" data-lat="${poi.lat}" data-lng="${poi.lng}">Kopiuj</a>
 					</p>
 					${quip}
 				</div>
 			`;
+
 			const m = L.marker([poi.lat, poi.lng], { icon }).bindPopup(popup, { closeButton: true });
 			m.on('popupopen', () => {
 				setTimeout(() => {
@@ -279,111 +237,29 @@
 							const lat = el.getAttribute('data-lat'); const lng = el.getAttribute('data-lng');
 							navigator.clipboard?.writeText(`${lat},${lng}`);
 							el.textContent = humorMode ? 'Skopiowano, nie mów nikomu 🤫' : 'Skopiowano!';
-							showToast('Współrzędne w schowku ✨');
+							showToast('Współrzędne uciekły do schowka ✨');
 							setTimeout(() => (el.textContent = 'Kopiuj'), 1600);
-						}, { once: true } as any);
-					}
-					const rel = rmId ? document.getElementById(rmId) : null;
-					if (rel) {
-						rel.addEventListener('click', (ev) => {
-							ev.preventDefault();
-							const id = rel.getAttribute('data-id');
-							customPois = customPois.filter(c => c.id !== id);
-							saveView(); // zapis po usunięciu
-							showToast('Punkt usunięty 🧹');
-							(map as any)?.closePopup?.();
-							refreshPOIMarkers();
 						}, { once: true } as any);
 					}
 				}, 0);
 			});
+
 			m.addTo(poiLayer);
 		}
 	}
 
-	// ——— Long-press to add custom POI ———
-	function setupLongPress() {
-		if (!map) return;
-		let pressTimer: any = null;
-		let pressed = false;
-		map.on('mousedown', (e: any) => {
-			pressed = true;
-			pressTimer = setTimeout(() => {
-				if (!pressed) return;
-				const lat = e.latlng.lat, lng = e.latlng.lng;
-				addCustomPOI(lat, lng);
-			}, 700);
-		});
-		map.on('mouseup', () => { pressed = false; clearTimeout(pressTimer); });
-		map.on('mouseout', () => { pressed = false; clearTimeout(pressTimer); });
-		map.on('touchstart', (e: any) => {
-			pressed = true;
-			const touch = e.latlng ? e : (e.latlngs?.[0] || null);
-			const latlng = touch?.latlng || e?.latlng || null;
-			pressTimer = setTimeout(() => {
-				if (!pressed || !latlng) return;
-				addCustomPOI(latlng.lat, latlng.lng);
-			}, 750);
-		});
-		map.on('touchend', () => { pressed = false; clearTimeout(pressTimer); });
-	}
+	// ——— Żart dnia (w legendzie)
+	const dadJokes = [
+		'Kupiłem mapę. Teraz wiem, gdzie zgubiłem poprzednią.',
+		'Dlaczego mapa się uśmiecha? Bo ma fajne kontury.',
+		'GPS mówi „skręć w lewo”… ja mówię „gdzie?”.',
+		'Kiedy mapa jest smutna? Gdy ją ciągle składamy.',
+		'Kompas na diecie: trzyma się północy.'
+	];
+	let currentJoke = $state(rand(dadJokes));
+	function newJoke() { currentJoke = rand(dadJokes); }
 
-	function addCustomPOI(lat: number, lng: number) {
-		const id = Math.random().toString(36).slice(2);
-		const newPoi: CustomPOI = {
-			id, createdAt: Date.now(),
-			lat, lng,
-			name: humorMode ? 'Mój dziki punkt' : 'Własny punkt',
-			type: 'user' as any,
-			danger: Math.floor(6 + Math.random() * 4),
-			description: humorMode ? '„Nie pytaj, długo by opowiadać.”' : ''
-		};
-		customPois = [newPoi, ...customPois];
-		saveView();
-		refreshPOIMarkers();
-		showToast('Dodano punkt ⚠️ (długi tap)');
-	}
-
-	// ——— Statystyki ———
-	function getStats() {
-		const items = getFilteredPOIs();
-		const byType: Record<PoiType, number> = { monopolowy:0, klub:0, pub:0, policja:0, stacjabenzynowa:0, user:0 };
-		let avg = 0;
-		items.forEach((p: any) => { byType[p.type as PoiType] = (byType[p.type as PoiType] ?? 0) + 1; avg += (p.danger ?? 0); });
-		const count = items.length;
-		return { count, avg: count ? (avg / count) : 0, byType };
-	}
-
-	// ——— Link widoku / GPX ———
-	function copyViewLink() {
-		if (!map) return;
-		const c = map.getCenter(); const z = map.getZoom();
-		const url = `https://www.openstreetmap.org/#map=${z}/${c.lat}/${c.lng}`;
-		navigator.clipboard?.writeText(url);
-		showToast('Skopiowano link do widoku 🔗');
-	}
-	function downloadGPX() {
-		const items = getFilteredPOIs();
-		const gpx = [
-			'<?xml version="1.0" encoding="UTF-8"?>',
-			'<gpx version="1.1" creator="Map" xmlns="http://www.topografix.com/GPX/1/1">',
-			...items.map((p: any) =>
-				`  <wpt lat="${p.lat}" lon="${p.lng}"><name>${escapeXml(p.name || 'POI')}</name><desc>${escapeXml((p.type||'') + ' | danger ' + (p.danger??'?'))}</desc></wpt>`
-			),
-			'</gpx>'
-		].join('\n');
-		const blob = new Blob([gpx], { type: 'application/gpx+xml' });
-		const a = document.createElement('a');
-		a.href = URL.createObjectURL(blob);
-		a.download = 'poi.gpx';
-		document.body.appendChild(a);
-		a.click();
-		setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 0);
-		showToast('Pobrano GPX 🗺️');
-	}
-	function escapeXml(s: string) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-
-	// ——— Toast ———
+	// ——— Toasty
 	let toastTimer: any;
 	function showToast(msg: string) {
 		toast = msg;
@@ -391,7 +267,8 @@
 		toastTimer = setTimeout(() => (toast = null), 2200);
 	}
 
-	// ——— Konami & beer ———
+	// ——— Konami & emoji rain
+	let secretWord = '';
 	function setupKonami() {
 		const seq = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
 		let idx = 0;
@@ -401,18 +278,6 @@
 			const k = e.key;
 			if (k === seq[idx] || k.toLowerCase() === seq[idx]) { idx++; if (idx === seq.length) { idx = 0; rainEmojis(['🍺','🎵','🚨','⛽','🗺️'], 1800); } }
 			else idx = 0;
-		});
-	}
-	function setupBeerWord() {
-		let word = '';
-		window.addEventListener('keydown', (e) => {
-			const t = e.target as HTMLElement;
-			if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA')) return;
-			const ch = e.key.toLowerCase();
-			if ('abcdefghijklmnopqrstuvwxyz'.includes(ch)) {
-				word = (word + ch).slice(-4);
-				if (word === 'beer') { rainEmojis(['🍺','🍺','🍺'], 1500); word = ''; }
-			}
 		});
 	}
 	function rainEmojis(emojis: string[], duration = 1500) {
@@ -429,39 +294,6 @@
 		document.body.appendChild(container);
 		setTimeout(() => container.remove(), duration);
 	}
-
-	// ——— Presety ———
-	function presetNight() {
-		enabledTypes = { monopolowy:false, klub:true, pub:true, policja:false, stacjabenzynowa:false, user:true };
-		minDanger = 7; filterRadiusKm = 3;
-		drawRadiusCircle(); refreshPOIMarkers(); showToast('Preset: Nocne 🎶🍺');
-	}
-	function presetServices() {
-		enabledTypes = { monopolowy:false, klub:false, pub:false, policja:true, stacjabenzynowa:true, user:true };
-		minDanger = 6; filterRadiusKm = 5;
-		drawRadiusCircle(); refreshPOIMarkers(); showToast('Preset: Służby 🚨⛽');
-	}
-	function presetAll() {
-		enabledTypes = { monopolowy:true, klub:true, pub:true, policja:true, stacjabenzynowa:true, user:true };
-		minDanger = 7; filterRadiusKm = 3;
-		drawRadiusCircle(); refreshPOIMarkers(); showToast('Preset: Wszystko 🌐');
-	}
-	function setRadius(km: number) {
-		filterRadiusKm = km; drawRadiusCircle(); refreshPOIMarkers(); showToast(`Promień: ${km} km 📏`);
-	}
-
-	// ——— Tiles toggle ———
-	function toggleTiles() {
-		if (!map) return;
-		if (darkTilesOn) {
-			map.removeLayer(baseDark); baseOSM.addTo(map);
-		} else {
-			map.removeLayer(baseOSM); baseDark.addTo(map);
-		}
-		darkTilesOn = !darkTilesOn;
-		saveView();
-		showToast(darkTilesOn ? 'Ciemno wszędzie… 🌙' : 'Słońce w zenicie ☀️');
-	}
 </script>
 
 <!-- FAB-y -->
@@ -471,7 +303,6 @@
 	<button class="fab" onclick={() => { humorMode = !humorMode; showToast(humorMode ? 'Humor włączony 🤡' : 'Humor wyłączony 😶'); }} title="Tryb humoru">
 		{humorMode ? '🤡' : '🙂'}
 	</button>
-	<button class="fab" onclick={toggleTiles} title="Jasne/Ciemne">🌓</button>
 </div>
 
 <!-- Odznaka „Humor ON” -->
@@ -507,12 +338,12 @@
 		</ul>
 		{/if}
 
-		<div class="row sliders">
+		<div class="row">
 			<label for="minDanger">Min. zagrożenie: <strong>{minDanger}</strong></label>
 			<input id="minDanger" type="range" min="0" max="10" step="1" bind:value={minDanger} onchange={() => { refreshPOIMarkers(); humorMode && showToast('Podkręciłeś dramatyzm. 🎭'); }} />
 		</div>
 
-		<div class="row sliders">
+		<div class="row">
 			<label for="radius">Promień: <strong>{filterRadiusKm} km</strong></label>
 			<input id="radius" type="range" min="0" max="15" step="0.5" bind:value={filterRadiusKm} oninput={drawRadiusCircle} onchange={() => { refreshPOIMarkers(); humorMode && showToast('Horyzont się rozszerzył. 🌌'); }} />
 		</div>
@@ -526,49 +357,23 @@
 			{/each}
 		</div>
 
-		<div class="row presets">
-			<button class="btn ghost" onclick={presetNight}>Nocne 🎶🍺</button>
-			<button class="btn ghost" onclick={presetServices}>Służby 🚨⛽</button>
-			<button class="btn ghost" onclick={presetAll}>Wszystko 🌐</button>
-		</div>
-		<div class="row presets">
-			<button class="btn chip" onclick={() => setRadius(1)}>1 km</button>
-			<button class="btn chip" onclick={() => setRadius(3)}>3 km</button>
-			<button class="btn chip" onclick={() => setRadius(5)}>5 km</button>
-		</div>
-
-		<div class="row actions">
-			<button class="btn secondary" onclick={copyViewLink}>Kopiuj link widoku 🔗</button>
-			<button class="btn secondary" onclick={downloadGPX}>Eksport GPX ⤓</button>
+		<div class="row buttons">
+			<button class="btn secondary" onclick={() => { refreshPOIMarkers(); showToast('Dopasowano do POI. 📌'); }}>Dopasuj do POI</button>
+			<button class="btn secondary" onclick={() => { minDanger = 7; filterRadiusKm = 3; enabledTypes = { monopolowy: true, klub: true, pub: true, policja: true, stacjabenzynowa: true }; refreshPOIMarkers(); showToast('Zresetowano filtry. ♻️'); }}>Reset filtrów</button>
 		</div>
 	</div>
 </div>
 
-<!-- PANEL LEGENDY (bez nagłówka, z żartem dnia + staty) -->
+<!-- PANEL LEGENDY (bez nagłówka, z żartem dnia) -->
 <div class="sheet legend {isLegendOpen ? 'open' : ''}" role="dialog" aria-modal="false" aria-label="Legenda">
 	<div class="sheet-handle" onclick={() => (isLegendOpen = !isLegendOpen)}></div>
 	<div class="sheet-content legend-content">
-		<!-- Statystyki -->
-		{#key JSON.stringify(getStats())}
-		{#let stats = getStats()}
-		<div class="stats">
-			<div>Widoczne: <strong>{stats.count}</strong></div>
-			<div>Średni poziom: <strong>{stats.avg.toFixed(1)}</strong></div>
-			<div class="stats-types">
-				{#each Object.keys(stats.byType) as k}
-					<span class="pill">{k}: {stats.byType[k]}</span>
-				{/each}
-			</div>
-		</div>
-		{/let}
-		{/key}
-
 		<ul class="legend-list">
-			<li><span class="ico">🍷</span> Sklep monopolowy <small class="hint">{humorMode ? '„Kolejka łączy ludzi.”' : ''}</small></li>
-			<li><span class="ico">🎵</span> Klub nocny <small class="hint">{humorMode ? '„DJ ma zawsze rację.”' : ''}</small></li>
-			<li><span class="ico">🍺</span> Pub/Bar <small class="hint">{humorMode ? '„Pianka w formie.”' : ''}</small></li>
-			<li><span class="ico">🚨</span> Zgłoszenie policyjne <small class="hint">{humorMode ? '„Prawo to nie sugestia.”' : ''}</small></li>
-			<li><span class="ico">⚠️</span> Własny punkt <small class="hint">{humorMode ? '„Nie mów mamie.”' : ''}</small></li>
+			<li><span class="ico">🍷</span> Sklep monopolowy <small class="hint">{humorMode ? '„Nic tak nie łączy jak kolejka przy kasie.”' : ''}</small></li>
+			<li><span class="ico">🎵</span> Klub nocny <small class="hint">{humorMode ? '„DJ ma rację — zawsze.”' : ''}</small></li>
+			<li><span class="ico">🍺</span> Pub/Bar <small class="hint">{humorMode ? '„Pianka dziś w formie.”' : ''}</small></li>
+			<li><span class="ico">🚨</span> Zgłoszenie policyjne <small class="hint">{humorMode ? '„Prawko w szachy nie gra.”' : ''}</small></li>
+			<li><span class="ico">⚠️</span> User-generated <small class="hint">{humorMode ? '„Nie pytaj. Po prostu uważaj.”' : ''}</small></li>
 		</ul>
 
 		<div class="legend-scale">
@@ -580,10 +385,11 @@
 
 		<div class="joke-box">
 			<p class="joke-title">Żart dnia:</p>
-			<p class="joke">{rand(['Kupiłem mapę… teraz wiem, gdzie zgubiłem poprzednią.','Kompas na diecie: trzyma się północy.','GPS mówi „skręć w lewo”… ja: „gdzie?”.','Mapa się uśmiecha, bo ma fajne kontury.'])}</p>
+			<p class="joke">{currentJoke}</p>
+			<button class="btn tiny" onclick={newJoke}>Jeszcze! 😄</button>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!-- TOAST -->
 {#if toast}
@@ -609,15 +415,12 @@
 	.sheet.open { transform: translateY(-55vh); }
 	.sheet-handle { width: 50px; height: 5px; border-radius: 3px; background: #ccc; margin: 8px auto; }
 	.sheet-content { padding: 12px 16px; }
-
+	.legend-content { padding-top: 4px; }
 	.row { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; flex-wrap: wrap; }
-	.sliders { align-items: center; }
 	input[type="text"] { flex: 1; min-height: 44px; padding: 10px 12px; font-size: 16px; border: 1px solid #ddd; border-radius: 10px; outline: none; }
 	.btn { min-height: 44px; padding: 0 14px; border-radius: 10px; border: none; background: #1a73e8; color: #fff; font-size: 15px; cursor: pointer; }
 	.btn.secondary { background: #e0e0e0; color: #222; }
-	.btn.ghost { background: #eef3ff; color: #1a73e8; }
-	.btn.chip { background: #f5f5f5; color: #222; padding: 4px 10px; min-height: 34px; border-radius: 999px; }
-	.actions { gap: 8px; }
+	.btn.tiny { min-height: 34px; font-size: 14px; padding: 0 12px; }
 
 	/* Sugestie */
 	.suggestions { width: 100%; max-height: 35vh; overflow: auto; list-style: none; margin: -2px 0 8px; padding: 0; border: 1px solid #e5e5e5; border-radius: 10px; background: #fff; }
@@ -629,21 +432,17 @@
 	.tag { display: inline-flex; align-items: center; gap: 6px; background: #f7f7f7; border: 1px solid #eee; border-radius: 999px; padding: 8px 12px; font-size: 14px; }
 	.tag input { accent-color: #1a73e8; width: 18px; height: 18px; }
 
-	/* Legenda + staty */
-	.legend-content { padding-top: 4px; }
+	/* Legenda */
 	.legend-list { list-style: none; margin: 4px 0 12px; padding: 0; }
 	.legend-list li { display: flex; align-items: center; gap: 10px; padding: 6px 0; font-size: 15px; }
 	.legend-list .ico { width: 22px; text-align: center; font-size: 18px; }
 	.legend-list .hint { color: #6b7280; margin-left: auto; font-size: 12px; }
+
 	.legend-scale .scale-row { display: flex; align-items: center; gap: 10px; margin: 4px 0; }
 	.legend-scale .chip { display: inline-block; width: 80px; height: 14px; border-radius: 6px; }
 	.chip-low  { background: #dff3e3; border: 1px solid #b8e1c1; }
 	.chip-mid  { background: #ffe9cc; border: 1px solid #ffd19b; }
 	.chip-high { background: #ffd6d9; border: 1px solid #ffb3ba; }
-
-	.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 10px; margin-bottom: 8px; }
-	.stats-types { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; }
-	.pill { background: #f5f5f5; border: 1px solid #eaeaea; border-radius: 999px; padding: 2px 8px; font-size: 12px; }
 
 	/* Toast */
 	.toast { position: fixed; left: 50%; bottom: 80px; transform: translateX(-50%); background: #111; color: #fff; padding: 8px 12px; border-radius: 10px; z-index: 2000; box-shadow: 0 6px 16px rgba(0,0,0,.35); font-size: 14px; }
@@ -660,7 +459,13 @@
 	:global(.danger-7), :global(.danger-8) { background: linear-gradient(135deg, #ffa500, #ff6b00); }
 	:global(.danger-9), :global(.danger-10) { background: linear-gradient(135deg, #ff0000, #cc0000); }
 
-	@keyframes wiggle { 0% { transform: rotate(0deg) } 25% { transform: rotate(-3.5deg) } 50% { transform: rotate(0deg) } 75% { transform: rotate(3.5deg) } 100% { transform: rotate(0deg) } }
+	@keyframes wiggle {
+		0% { transform: rotate(0deg) }
+		25% { transform: rotate(-3.5deg) }
+		50% { transform: rotate(0deg) }
+		75% { transform: rotate(3.5deg) }
+		100% { transform: rotate(0deg) }
+	}
 
 	/* Emoji rain */
 	.emoji-rain { position: fixed; inset: 0; pointer-events: none; z-index: 3000; overflow: hidden; }
@@ -676,6 +481,5 @@
 		.suggestions li { border-bottom-color: #222; }
 		.tag { background: #141414; border-color: #333; }
 		.toast { background: #eaeaea; color: #111; }
-		.pill { background: #222; border-color: #333; color: #eaeaea; }
 	}
 </style>
