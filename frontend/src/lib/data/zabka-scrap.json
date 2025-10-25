@@ -1,0 +1,2229 @@
+{
+    "search_metadata": {
+        "id": "68fc79287a3b051bcf81a277",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/8f8511c60bb370ea/68fc79287a3b051bcf81a277.json",
+        "created_at": "2025-10-25 07:15:52 UTC",
+        "processed_at": "2025-10-25 07:15:52 UTC",
+        "google_maps_url": "https://www.google.com/maps/search/%C5%BCabka/@53.01896626995,18.6078370132,14z?hl=en",
+        "raw_html_file": "https://serpapi.com/searches/8f8511c60bb370ea/68fc79287a3b051bcf81a277.html",
+        "total_time_taken": 1.19
+    },
+    "search_parameters": {
+        "engine": "google_maps",
+        "type": "search",
+        "q": "żabka",
+        "ll": "@53.01896626995,18.6078370132,14z",
+        "google_domain": "google.com",
+        "hl": "en"
+    },
+    "search_information": {
+        "local_results_state": "Results for exact spelling",
+        "query_displayed": "żabka"
+    },
+    "local_results": [
+        {
+            "position": 1,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJ2TvsTeM0A0cRHm8Ws2D5naA",
+            "data_id": "0x470334e34dec3bd9:0xa09df960b3166f1e",
+            "data_cid": "11573680811128811294",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334e34dec3bd9%3A0xa09df960b3166f1e&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334e34dec3bd9%3A0xa09df960b3166f1e&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.016853499999996,
+                "longitude": 18.6038271
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ2TvsTeM0A0cRHm8Ws2D5naA",
+            "provider_id": "/g/1pp2wyjjc",
+            "rating": 4.1,
+            "reviews": 402,
+            "price": "zł 1–20",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Grudziądzka 14/1, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "10 AM–10 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Breakfast"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nofCtrX5Eelj50BkPsZxZ-EXEZ_wBTI0e42XX4nEvxOL4K8aBs_pCZfny5SYKJCEkfug0dkwlrL4OzZkJfdNiPJ-H5dvrmqydxsM80R7mzZ-hlkmjnWeq7NHCA79mq2PNmAQahJ=w149-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/vxh4pnicBcFJDoIwAADAF1UQSxATD9A0UVTEJRF7IQYK1W5Aq6D_8xH-xpnfl1nbmoXjCDabNFo3gj4N7UutLFV2UmrpNK0BpQHGiVDIoNI1sn3uYyoevhvzzJCRAJxjUgzxee1S6OU5VPg17rdwM7_FpmgRqdXbP103CcK8fjZuxQfRb-H-Q3hSV-k9S8DKr1697N7VaHZz9xjIDwFMcPlQF9oF6QpFQSg7L0tldLixZDlMYQhY6AEOlP4D5BpFAA"
+        },
+        {
+            "position": 2,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJTTljxv01A0cR7rvPZeUa2pc",
+            "data_id": "0x470335fdc663394d:0x97da1ae565cfbbee",
+            "data_cid": "10942087817207987182",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335fdc663394d%3A0x97da1ae565cfbbee&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335fdc663394d%3A0x97da1ae565cfbbee&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0181891,
+                "longitude": 18.5798158
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJTTljxv01A0cR7rvPZeUa2pc",
+            "provider_id": "/g/11h7cwgd18",
+            "rating": 4.5,
+            "reviews": 136,
+            "price": "zł 1–20",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Jurija Gagarina 212/216 4, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Coffee",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq-H9QDuD6eNqggn2FsTIwk8NEA7dn4iC0GqA-Tm5_qyl_SZT-lRYVIl3cxaGkfh1iOwUNXTAKU16bl46j6HAUTnva6APN7HHVMJdx1JTwrM99szN8uIGdvRfkSdKxnm5B-v-T_=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/KaMNvXicBcFJkoIwFADQE30RwWiscpF2ALSMU6C6e0MpYKKERAyT3s9DeBvf-7xFVd3NxLKkcHpcay6z2mSPRKsqU1Uv0YXF7wYSA8YiMyxcVYKP9_N6jjJacq4GS8OCNh_TBRmlyr3O-l5JgBXDuHzK-PjPQB7-okA6SXfy8ouwr9s2pL-MrEMbnaWLbsgnIVPNCZEdHfl-tFmlnb1i7WODsXnRcR14aXO45Md03ali-AMNsHja2sgBgQeQg9JfYQBDbA"
+        },
+        {
+            "position": 3,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJzUVBAc81A0cRJCLYKuir4yI",
+            "data_id": "0x470335cf014145cd:0x22e3abe82ad82224",
+            "data_cid": "2514042030642438692",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335cf014145cd%3A0x22e3abe82ad82224&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335cf014145cd%3A0x22e3abe82ad82224&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0140592,
+                "longitude": 18.5779147
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJzUVBAc81A0cRJCLYKuir4yI",
+            "provider_id": "/g/11h0__95hs",
+            "rating": 4.4,
+            "reviews": 171,
+            "price": "$$",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Broniewskiego 4/79, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "10 AM–10 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrf53WRvtgSs_nQL6XTfAHCFPfmsE5ebB5D3o1D2b0GU9zi_RMoHeKNh5uW1vNnE-66P_H4zi-p12hZdi4oYc8MORKmvlkkNil3xP5JNLoj1n_gANXEmrLFjGAyM5JnAbf2WjnG=w144-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/4Wg4K3icBcHdboIwGADQJ6pYaMkw2UVVhChUhi44b0hgpeXvK6GVbb7fHmJvs3P-fpW1k9k4zqC8ldRaDuJhxFxrsALsqtajIyeDaoOMw3aBIjA31CvyxcqLKeEt8W_XhsW7Q9aMJqSi2tK9p_HerdbRe_BsyzzVsThxRR8FXjiEyPezMibPFk3YVffPluiP-iU956dxGfqet4P3ndEjT3SHoZSM38JxTg5dxH5SegRWNW7RQfT6hQlBKnBRj0D_A2iuQ4Q"
+        },
+        {
+            "position": 4,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJY8sppeE0A0cRm0i5p5XYr7Q",
+            "data_id": "0x470334e1a529cb63:0xb4afd895a7b9489b",
+            "data_cid": "13019863185027057819",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334e1a529cb63%3A0xb4afd895a7b9489b&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334e1a529cb63%3A0xb4afd895a7b9489b&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0125889,
+                "longitude": 18.6117356
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJY8sppeE0A0cRm0i5p5XYr7Q",
+            "provider_id": "/g/11cs9m42f4",
+            "rating": 4,
+            "reviews": 413,
+            "price": "zł 1–20",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Plac Świętej Katarzyny 7, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Breakfast"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Paid street parking"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqc2ouDWEavgvmmFvZZVekawUKlpeCH6DGuZks6xuaKvpLvoJE-dx-WugXoXD1mTt_BDA3jYzzlk0e8LPDMqKA2NtYAKiN2o500hmtuCpDwJWuDNSCEKwBldxqWpqr17TLLY6h8Rw=w93-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/H1YZUHicBcHbboIwGADgJ6ogbExMvEDKtlhGFg9DuFkINu1Gy1_sifiAvoNv4_c97twYpddBIHi8YABMUKvptYfR0NEsepABUxr1Gukgy1P-Mk59BBbXReeYk_Ldte0PHTp_IkLR_DPBH7YddDLbjjhVOtgV6DKj2rIznPFSHs3vFmfxf3O7iSGkq_Ibf00kiyrTZOSviuA1DLk0NlfY72qLq0NeEL8Vl3mq1XRdvh3Lskn4au83Po0RTyM0oBGeySlGZQ"
+        },
+        {
+            "position": 5,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJ4VMBba01A0cRgpTuPHkqCAg",
+            "data_id": "0x470335ad6d0153e1:0x8082a793cee9482",
+            "data_cid": "578759252318786690",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335ad6d0153e1%3A0x8082a793cee9482&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335ad6d0153e1%3A0x8082a793cee9482&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.015347999999996,
+                "longitude": 18.569884899999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ4VMBba01A0cRgpTuPHkqCAg",
+            "provider_id": "/g/1tcx5qc6",
+            "rating": 3.7,
+            "reviews": 411,
+            "price": "zł 1–20",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Juliana Fałata 34/46, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "popular_for": [
+                        "Solo dining"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free street parking"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqw3ZWvzCUtxDNyNTudgpkeQql2d8ZYMVIBNBzstSj1m6TEcPqADq4iiY97KliRIC_R3sr7rDotukQqTEjJRzQWjOL_YEbq5pER_7EJZ0Dc20CA-yovLDly3vaYbOb_slRHm__8Qg=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/L47CCHicBcFdboIwAADgE1WUosgSH5A2mc7hqKiBl0YqKT-FUlpQuODOsNvs-_5-C2M6_WFZooALLiUX-aDznsnW5K1ZMNlYvNOAaaAtP_AKp1UvmN7HObiaNwqnMB6evKvzSAn7uU2T79thH-5nbS7VqtnEmP0oHymnLBPP_RIlOQSUQN27PZJmqCMV4-pI5uhenU80wZlad5hQFx_TJWL2MvDBJMcTEhMcH0l2zqgW5LOhdBvx3Wu1gaDwbFCDVv4D3NFGRQ"
+        },
+        {
+            "position": 6,
+            "title": "Żabka",
+            "place_id": "ChIJ58rGl_U1A0cRBQMmu2LgkZ4",
+            "data_id": "0x470335f597c6cae7:0x9e91e062bb260305",
+            "data_cid": "11426160444266906373",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335f597c6cae7%3A0x9e91e062bb260305&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335f597c6cae7%3A0x9e91e062bb260305&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.017688799999995,
+                "longitude": 18.6336896
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ58rGl_U1A0cRBQMmu2LgkZ4",
+            "provider_id": "/g/11vd8xng33",
+            "rating": 3.6,
+            "reviews": 49,
+            "unclaimed_listing": true,
+            "type": "Store",
+            "types": [
+                "Store"
+            ],
+            "type_id": "store",
+            "type_ids": [
+                "store"
+            ],
+            "address": "Antoniego Antczaka 37, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "In-store pickup"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                }
+            ],
+            "service_options": {
+                "in_store_pickup": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrp2ZshWIAF2PcBCBjdvbfxnX1X6xzDxEnEMwezTukVnFA1TQE43t5ybwBJhUSsLaJMw6ODjYmEYyMM6qFojuX0YWr5kdwBHj-bNfTZabbBOBldb70TatsI7dyKFVnGTNS2UVxQMED7PtWi=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/siS7lXicBcFZcoIwAADQE0UkKozO9INIcGnjMkYW_wggETBBEhrwjj1Ab-N7_39c61atLKvhs0kpZdkUvSq6TApdCD3J5NMqWwUyBZTlrZd8LroW3hSPdl4ATxlaoyr_ZfdBxHbsDG9_wAITU7xpX4ci8Gx6xvOZXozMoD2_XtRPuifGOfpV8sTJSIjzCmTVx9Mk6hZ1btC2Auxwp7eUMXRETc7cKU212rn5-B2EYkMPF3gNhzPBvnvS0ePL2BACvoSgBkJ-AFMFR70"
+        },
+        {
+            "position": 7,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJKVC90wY1A0cRlrdkmWawO_o",
+            "data_id": "0x47033506d3bd5029:0xfa3bb0669964b796",
+            "data_cid": "18031199487814580118",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x47033506d3bd5029%3A0xfa3bb0669964b796&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x47033506d3bd5029%3A0xfa3bb0669964b796&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0090023,
+                "longitude": 18.58542
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKVC90wY1A0cRlrdkmWawO_o",
+            "provider_id": "/g/11f4jd1jld",
+            "rating": 4,
+            "reviews": 237,
+            "price": "$$",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Rybaki 40/40a lok. I, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–8 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free street parking"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npD14WE2EjCO0nZv4BGT0r9je9vm45mECP1-RLKhB2m3nT5a9iezzXRh8-VftZ5QrNcz4Wda0aQLN-sPHmBqp1djgp25z8GA35D5UDCYlbNdRxSob4lQeKQwAesetekDib2D7Ck=w183-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/17qKJnicBcHbboIwGADgJ6pAaTO6xAtoiUs0TNCp847DPyrQw2inC--3h9jb-H3_f9J7616DYJLxqjemn-DHwdwa7UH7VWtU0FuHWodckHImibYiIucc5wN_D_X1TrLNMZzZAOyuCFU530eo2m1lhlWsj7RmN1iWSyUTdPryV1rORbuQc1eHdbkrkNu_qezbRt3QW0yXZJPGVNAPwT-npuiq34NpyFTCtnyk4MDDKG4NFi98XD-iJEaSYTQibZ72IULA"
+        },
+        {
+            "position": 8,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJC28csl80A0cRzX4SbTjUvXY",
+            "data_id": "0x4703345fb21c6f0b:0x76bdd4386d127ecd",
+            "data_cid": "8556228205886996173",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703345fb21c6f0b%3A0x76bdd4386d127ecd&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703345fb21c6f0b%3A0x76bdd4386d127ecd&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0337281,
+                "longitude": 18.594042899999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJC28csl80A0cRzX4SbTjUvXY",
+            "provider_id": "/g/11c2p88wvs",
+            "rating": 4.2,
+            "reviews": 193,
+            "price": "zł 20–40",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Mohna 52- 54/lok. uż. 2 oraz 3, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "popular_for": [
+                        "Solo dining"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN4BqLmW6EKPf7DHsizU-Fx2xh0cLJjgdrlWbyn=w92-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/cNwCCnicuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngZ-JU6JMbbubqHZBm7uJRnFkVqutWYVSRYZDs45WVnlKUE55UmWdbbmmkmwHE2bp5-QCDTCFU"
+        },
+        {
+            "position": 9,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJWWmQ-eE0A0cR3bByYT1TGSI",
+            "data_id": "0x470334e1f9906959:0x2219533d6172b0dd",
+            "data_cid": "2457086594800333021",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334e1f9906959%3A0x2219533d6172b0dd&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334e1f9906959%3A0x2219533d6172b0dd&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.011576,
+                "longitude": 18.608546
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJWWmQ-eE0A0cR3bByYT1TGSI",
+            "provider_id": "/g/11b5s2b5js",
+            "rating": 3.7,
+            "reviews": 135,
+            "price": "$$",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Małe Garbary 15, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM8F2FCuy7G_KZVgKlWNtLVqDSwDcOJjeLTct4=w92-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/7H-e1HicuxmTUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFnga-Fm5OZcWmnuHu8dFZbunRPuV-ITVugSXO6S7O-VleoTklxiYltuaaSbAcTZunn5AF0qIKk"
+        },
+        {
+            "position": 10,
+            "title": "Żabka",
+            "place_id": "ChIJi2LgVHM1A0cRGi3ju5Sg-GY",
+            "data_id": "0x4703357354e0628b:0x66f8a094bbe32d1a",
+            "data_cid": "7419856946760723738",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703357354e0628b%3A0x66f8a094bbe32d1a&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703357354e0628b%3A0x66f8a094bbe32d1a&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.017400099999996,
+                "longitude": 18.6209319
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJi2LgVHM1A0cRGi3ju5Sg-GY",
+            "provider_id": "/g/11gmwjhd_k",
+            "rating": 4.3,
+            "reviews": 149,
+            "type": "Grocery store",
+            "types": [
+                "Grocery store",
+                "Beer store",
+                "Coffee shop",
+                "Coffee store",
+                "Courier service",
+                "Fast food restaurant",
+                "Greengrocer",
+                "Hot dog restaurant",
+                "Lottery shop",
+                "Restaurant"
+            ],
+            "type_id": "grocery_store",
+            "type_ids": [
+                "grocery_store",
+                "beer_store",
+                "coffee_shop",
+                "coffee_store",
+                "courier_service",
+                "fast_food_restaurant",
+                "green_grocers",
+                "hot_dog_restaurant",
+                "lottery_shop",
+                "restaurant"
+            ],
+            "address": "Jana Sobieskiego 16, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "10 AM–10 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "In-store pickup",
+                        "In-store shopping"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great produce"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance",
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Food",
+                        "Organic products",
+                        "Pharmacy",
+                        "Prepared foods"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Wi-Fi",
+                        "Free Wi-Fi"
+                    ]
+                },
+                {
+                    "planning": [
+                        "Quick visit"
+                    ]
+                },
+                {
+                    "recycling": [
+                        "Glass bottles",
+                        "Metal cans",
+                        "Plastic bottles"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot",
+                        "Free street parking",
+                        "On-site parking"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "in_store_shopping": true,
+                "in_store_pickup": true
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqlRMWoedhThqoNOE9KZeBhobgXAUonG-FEGy41Fxm4m-A630qiQRJ2wI85kb3PUt3SW2rQfvy-BuXaQ13Yo44Lp9M7TvZ4qolO0uIxxKZHpMtwq0BClHSz-LBJS0v-GI3uNooj=w163-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/h3iS9nicBcFbcoIwFADQFV15JGrpjB_AIKKiIjoqf4qRtIZcYsLD7q-L6G56zt8vN6bRn5YlOBlViJVgrWavEqVh0oxKrK2q0VBq0JYfepxKJfbpCdmdH7jCzTbyVgULON6qs39EGcM8it_UmQ81rcGfEFt9Zful2ycf4-eN7I6G5Cf3lT26NwTt-Zo55IKUrhsvnR66gioUW7tNhmFVLJrU9MoOQrHIf2AdLHO7gzgh7Qbxe9Y7EwLcc-EJEv8BjjdDhA"
+        },
+        {
+            "position": 11,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJQ8dt9wA1A0cRO5RjtqNaXp8",
+            "data_id": "0x47033500f76dc743:0x9f5e5aa3b663943b",
+            "data_cid": "11483715759027491899",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x47033500f76dc743%3A0x9f5e5aa3b663943b&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x47033500f76dc743%3A0x9f5e5aa3b663943b&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0117443,
+                "longitude": 18.5854626
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQ8dt9wA1A0cRO5RjtqNaXp8",
+            "provider_id": "/g/11bx1h7_n0",
+            "rating": 4.2,
+            "reviews": 359,
+            "price": "zł 1–20",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Marii Konopnickiej 23a, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "10 AM–7 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "popular_for": [
+                        "Solo dining"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noBzMnz9Hcq7piYEzCDLb79GdP_ZRkHBcrVaVKSJ4WyInxBK1WXdXoC-7ZMRk8vVwlPGxaqfi0n05ylMUgsCBXqCjWvyZfcLoi2mpZMx0r56h7Uvc-xZXX2unkKXX_C_svTAHs=w122-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/btdRg3icBcHbEkJAAADQL1qXjaSZHrI1KZlpurDti9GSFXaxEr6vn-hvOuf3ZV1Xy6WqlmymZEJkZfqWaUsF71LeKVRUalZLQCWQ6hrZzODCmXw-2S5trDq_bye0OT4se5ecInIuXIe2QRx4l4MRjns-OJ4e4gQLBCzin4tFH3zK026Im2eucc0cS_-WSeTgBr3CfiRPehQ5rGriD1przpl16ykYCMbwzQsP4whFsr-uXbn66BACZkNQAC7-yKVFSw"
+        },
+        {
+            "position": 12,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJLSMI0140A0cRKnC2sAv_WyM",
+            "data_id": "0x4703345ed308232d:0x235bff0bb0b6702a",
+            "data_cid": "2547910439882616874",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703345ed308232d%3A0x235bff0bb0b6702a&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703345ed308232d%3A0x235bff0bb0b6702a&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0308454,
+                "longitude": 18.5906676
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJLSMI0140A0cRKnC2sAv_WyM",
+            "provider_id": "/g/11gf9cy6fq",
+            "rating": 3.8,
+            "reviews": 96,
+            "price": "$$",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Świętego Andrzeja Boboli 49, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Coffee",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM6t43NwPslYdBLew1yzF_6LTCc2Wj3tyjZNdOu=w92-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/VlFc03icuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFnga1ZiYuxXHlCcE5ni5JNablhZ5RZv5hPinGwUnmVcUpkV5ZfiX2pbbmmkmwHE2bp5-QCL0SFX"
+        },
+        {
+            "position": 13,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJDRiivkQ1A0cRFxfJyV9vE4I",
+            "data_id": "0x47033544bea2180d:0x82136f5fc9c91717",
+            "data_cid": "9372957706686109463",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x47033544bea2180d%3A0x82136f5fc9c91717&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x47033544bea2180d%3A0x82136f5fc9c91717&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0098287,
+                "longitude": 18.603341099999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJDRiivkQ1A0cRFxfJyV9vE4I",
+            "provider_id": "/g/11kc1y05bq",
+            "rating": 4.4,
+            "reviews": 114,
+            "price": "zł 1–20",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Rynek Staromiejski 13, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "6 AM–11 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "popular_for": [
+                        "Solo dining"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOPePANO9fYGg5WE0_9tx2RRJxX9_0-FHyzziYE=w92-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/2bXvR3icuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngH5Aa4Ojnb5kW6Z5uGu5qEG9ZUmEUFORVEWEZb6Dr5lFZVZUZ6WpbbmmkmwHE2bp5-QByaCCQ"
+        },
+        {
+            "position": 14,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJI3t3Zvo0A0cRfQ7Y2hxynf8",
+            "data_id": "0x470334fa66777b23:0xff9d721cdad80e7d",
+            "data_cid": "18419003519271439997",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334fa66777b23%3A0xff9d721cdad80e7d&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334fa66777b23%3A0xff9d721cdad80e7d&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0220638,
+                "longitude": 18.601440399999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJI3t3Zvo0A0cRfQ7Y2hxynf8",
+            "provider_id": "/g/11b5s2bccy",
+            "rating": 4.1,
+            "reviews": 434,
+            "price": "zł 1–20",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Podgórna 30, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "7 AM–11 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free street parking"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible parking lot"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPcI9N7ThLJrnJun-I6ajK5ZOwi9HmjiQxv4sQe=w92-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/G1hjoXicuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQkOxp6WcekuHjVZTnVZqn62mWmOVtGuVfnmnpkZuVGVhRZlIcmGpbbmmkmwHE2bp5-QCGTiFC"
+        },
+        {
+            "position": 15,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJIXts27k1A0cRi9HGSegwAHY",
+            "data_id": "0x470335b9db6c7b21:0x760030e849c6d18b",
+            "data_cid": "8502849870703808907",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470335b9db6c7b21%3A0x760030e849c6d18b&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470335b9db6c7b21%3A0x760030e849c6d18b&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.032066,
+                "longitude": 18.5981
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJIXts27k1A0cRi9HGSegwAHY",
+            "provider_id": "/g/11h2rhmf_f",
+            "rating": 3.9,
+            "reviews": 136,
+            "price": "$$",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Konfekcyjna 27, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMG_J7y5JJc1D_OmeDa6mchIBVcyiRX2td-Zgpb=w92-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/AuCtiXicuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFng6x7vZV5p6uWVbOgS75-b6pJolpuc4ekUllyZGRRhVJKiG5VekGRbbmmkmwHE2bp5-QB-dSEH"
+        },
+        {
+            "position": 16,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJeUV-Fec0A0cRjPhqJDlp47A",
+            "data_id": "0x470334e7157e4579:0xb0e36939246af88c",
+            "data_cid": "12746147064533678220",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334e7157e4579%3A0xb0e36939246af88c&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334e7157e4579%3A0xb0e36939246af88c&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.017817,
+                "longitude": 18.619457099999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJeUV-Fec0A0cRjPhqJDlp47A",
+            "provider_id": "/g/11dft3g20w",
+            "rating": 4.5,
+            "reviews": 273,
+            "price": "$$",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Bolesława Chrobrego 1, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "popular_for": [
+                        "Solo dining"
+                    ]
+                },
+                {
+                    "accessibility": [
+                        "Wheelchair accessible entrance"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Alcohol",
+                        "Beer",
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Breakfast"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                },
+                {
+                    "parking": [
+                        "Free parking lot"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noWqe2tmJyKM_jG7DMi3zhFkLTy0nTKP6k52Sn2QNVRCKvGk4JCPvHY_HXyearyWgvlj6mVSro9DLY7ItaSlgxCW94UIo3FyzECBJ7RAyhCt6gYbpj5CXJN0GDPbgUopffGNvc=w80-h142-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/-ARaE3icBcHdEoFAGADQJ1qlUjLjgo0omhTSlaFZu_rZL-2K9Xxewts45_dlUrZiomk1MwcUgNbkKUhXAJeEy0EBjUZbgQqBhDbDLrM4ZA9iyCZQ4fZc-o63vZsftqw2e6XzfRjb1chIubGLjgkOe7-yAhz3q_y8Oily6VRG-7q0m2PagettcmctL2lN3zhzrcMazKX6LPA8cJKZYljaNL-25Qifgkj3vfhKD9Debn7UF9PXWEdsaBmoQhz-lvNEXA"
+        },
+        {
+            "position": 17,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJD7v9Glg0A0cR_9KAgrMHI3w",
+            "data_id": "0x470334581afdbb0f:0x7c2307b38280d2ff",
+            "data_cid": "8945001752457958143",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x470334581afdbb0f%3A0x7c2307b38280d2ff&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x470334581afdbb0f%3A0x7c2307b38280d2ff&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.025570699999996,
+                "longitude": 18.590778399999998
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJD7v9Glg0A0cR_9KAgrMHI3w",
+            "provider_id": "/g/11gfgqfkyy",
+            "rating": 4.1,
+            "reviews": 277,
+            "price": "zł 1–20",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Józefa Wybickiego 96, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "popular_for": [
+                        "Solo dining"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOjfu4ITShXoImrf98R1KxAUb2wK_qgVLtIqYq4=w92-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/TPiggXicuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngn5VWauIZEpwRke-ZW5RmaRFk6F3hGJpkVO4dX5ge5lPiWRhZaGJbbmmkmwHE2bp5-QCTWiFp"
+        },
+        {
+            "position": 18,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJmfDpFQ01A0cRzepQFGoXS_w",
+            "data_id": "0x4703350d15e9f099:0xfc4b176a1450eacd",
+            "data_cid": "18179650065185958605",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x4703350d15e9f099%3A0xfc4b176a1450eacd&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x4703350d15e9f099%3A0xfc4b176a1450eacd&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.0117774,
+                "longitude": 18.5864701
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJmfDpFQ01A0cRzepQFGoXS_w",
+            "provider_id": "/g/11mkff6b_2",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Adama Mickiewicza 47/1, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "Closed",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "payments": [
+                        "Debit cards"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMp4yXspfZwbknXanep-EZ3Ghz1P0d4bzAprC5Q=w92-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/aMwrZ3icuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngW2BSGVFckBZVnpSdF5GYl1qg6xpl7J5RZRhgkGKSVOVYUORsGmhbbmmkmwHE2bp5-QCkniGY"
+        },
+        {
+            "position": 19,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJVQc443U1A0cRsRqfc2PqiD0",
+            "data_id": "0x47033575e3380755:0x3d88ea63739f1ab1",
+            "data_cid": "4434051546008722097",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x47033575e3380755%3A0x3d88ea63739f1ab1&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x47033575e3380755%3A0x3d88ea63739f1ab1&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.023542199999994,
+                "longitude": 18.6136206
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVQc443U1A0cRsRqfc2PqiD0",
+            "provider_id": "/g/11yl14p60f",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Tadeusza Kościuszki 12, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "Closed",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "payments": [
+                        "Debit cards"
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNtWMBSkSrnU-6FXU0k0OrWYLUIdPZCo7nRBdtV=w92-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/iYslGnicuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngVxLu6xScHVyUF6pr5hYRapBt4F8UHukT6pkSEOWcb54X5JRSEmZbbmmkmwHE2bp5-QCAfSDd"
+        },
+        {
+            "position": 20,
+            "title": "Żabka | Prosto z pieca",
+            "place_id": "ChIJp4S05wY1A0cRiJlvQQOFHJI",
+            "data_id": "0x47033506e7b484a7:0x921c8503416f9988",
+            "data_cid": "10528436277914605960",
+            "reviews_link": "https://serpapi.com/search.json?data_id=0x47033506e7b484a7%3A0x921c8503416f9988&engine=google_maps_reviews&hl=en",
+            "photos_link": "https://serpapi.com/search.json?data_id=0x47033506e7b484a7%3A0x921c8503416f9988&engine=google_maps_photos&hl=en",
+            "gps_coordinates": {
+                "latitude": 53.024133,
+                "longitude": 18.61115
+            },
+            "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJp4S05wY1A0cRiJlvQQOFHJI",
+            "provider_id": "/g/11fd63yw2t",
+            "rating": 2.7,
+            "reviews": 120,
+            "price": "zł 1–20",
+            "type": "Fast food restaurant",
+            "types": [
+                "Fast food restaurant",
+                "Beer store",
+                "Cafe",
+                "Courier service",
+                "Hot dog restaurant",
+                "Newspaper distribution service",
+                "Wine store"
+            ],
+            "type_id": "fast_food_restaurant",
+            "type_ids": [
+                "fast_food_restaurant",
+                "beer_store",
+                "cafe",
+                "courier_service",
+                "hot_dog_restaurant",
+                "newspaper_distribution",
+                "wine_store"
+            ],
+            "address": "Grudziądzka 79/lok. 1, 87-100 Toruń, Poland",
+            "open_state": "Open ⋅ Closes 11 PM",
+            "hours": "Open ⋅ Closes 11 PM",
+            "operating_hours": {
+                "saturday": "6 AM–11 PM",
+                "sunday": "9 AM–9 PM",
+                "monday": "6 AM–11 PM",
+                "tuesday": "6 AM–11 PM",
+                "wednesday": "6 AM–11 PM",
+                "thursday": "6 AM–11 PM",
+                "friday": "6 AM–11 PM"
+            },
+            "phone": "+48 61 856 37 00",
+            "website": "https://www.zabka.pl/",
+            "extensions": [
+                {
+                    "service_options": [
+                        "Takeout",
+                        "Dine-in"
+                    ]
+                },
+                {
+                    "highlights": [
+                        "Great coffee"
+                    ]
+                },
+                {
+                    "popular_for": [
+                        "Solo dining"
+                    ]
+                },
+                {
+                    "offerings": [
+                        "Coffee",
+                        "Late-night food",
+                        "Quick bite"
+                    ]
+                },
+                {
+                    "atmosphere": [
+                        "Casual"
+                    ]
+                },
+                {
+                    "payments": [
+                        "Credit cards",
+                        "Debit cards",
+                        "NFC mobile payments"
+                    ]
+                }
+            ],
+            "unsupported_extensions": [
+                {
+                    "service_options": [
+                        "Delivery"
+                    ]
+                },
+                {
+                    "dining_options": [
+                        "Table service"
+                    ]
+                },
+                {
+                    "amenities": [
+                        "Restroom"
+                    ]
+                }
+            ],
+            "service_options": {
+                "dine_in": true,
+                "takeout": true,
+                "delivery": false
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOa3WvRF0tk8yJIVW4B08uFlu6MLdReQ_bnZXUC=w92-h92-k-no",
+            "serpapi_thumbnail": "https://serpapi.com/images/url/7N-iY3icuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngn2gcXhbkZlCSbVHp5RkWbuJkYFHqllNq5uuTEpQaGJ-UFxUR6mxbbmmkmwHE2bp5-QB7NCDC"
+        }
+    ],
+    "serpapi_pagination": {
+        "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4053.01896626995%2C18.6078370132%2C14z&q=%C5%BCabka&start=20&type=search"
+    }
+}

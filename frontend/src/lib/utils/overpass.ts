@@ -11,10 +11,10 @@ interface OverpassQuery {
 
 // Mapowanie typów POI na tagi OSM
 const OSM_QUERIES: OverpassQuery[] = [
-	{ type: 'monopolowy', osmTag: 'shop=alcohol', dangerLevel: 8 },
-	{ type: 'pub', osmTag: 'amenity=pub', dangerLevel: 7 },
-	{ type: 'pub', osmTag: 'amenity=bar', dangerLevel: 7 },
-	{ type: 'klub', osmTag: 'amenity=nightclub', dangerLevel: 8 }
+	{ type: 'stacjabenzynowa', osmTag: '"amenity"="fuel"', dangerLevel: 4 },
+	{ type: 'monopolowy', osmTag: '"shop"="convenience"', dangerLevel: 7 },
+	// { type: 'pub', osmTag: 'amenity=bar', dangerLevel: 7 },
+	// { type: 'klub', osmTag: 'amenity=nightclub', dangerLevel: 8 },
 ];
 
 /**
@@ -52,10 +52,10 @@ async function fetchPOIsByTag(
 	// Zapytanie Overpass QL
 	const overpassQuery = `
 		[out:json][timeout:25];
+		area["name"="Toruń"]["admin_level"="6"]->.searchArea;
 		(
-			node["${query.osmTag}"](around:${radius},${lat},${lng});
-			way["${query.osmTag}"](around:${radius},${lat},${lng});
-			relation["${query.osmTag}"](around:${radius},${lat},${lng});
+			node[${query.osmTag}](around:${radius},${lat},${lng});
+			way[${query.osmTag}](around:${radius},${lat},${lng});
 		);
 		out center;
 	`;
@@ -102,6 +102,7 @@ async function fetchPOIsByTag(
 function getTypeName(type: POIType): string {
 	const names: Record<POIType, string> = {
 		monopolowy: 'Sklep alkoholowy',
+		stacjabenzynowa: 'Stacja benzynowa',
 		klub: 'Klub nocny',
 		pub: 'Pub',
 		policja: 'Zgłoszenie',

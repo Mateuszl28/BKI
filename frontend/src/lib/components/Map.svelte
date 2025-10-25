@@ -3,7 +3,9 @@
 	import type L from 'leaflet';
 	import { locationStore } from '$lib/stores/location.svelte';
 	import { poiStore } from '$lib/stores/poi.svelte';
-	import type { POI } from '$lib/types/poi';
+	import type { POI } from '$lib/types/poi'
+	import { mapToPlaces } from '$lib/stores/services/staticDataQueryService';
+	import { fetchPOIsNearby } from '$lib/utils/overpass';
 
 	let mapContainer: HTMLDivElement;
 	let map: L.Map | null = null;
@@ -16,7 +18,8 @@
 		klub: '🎵',
 		pub: '🍺',
 		policja: '🚨',
-		user: '⚠️'
+		user: '⚠️',
+		stacjabenzynowa: '⛽'
 	};
 
 	onMount(async () => {
@@ -24,13 +27,23 @@
 		const L = await import('leaflet');
 		await import('leaflet/dist/leaflet.css');
 
+		const lat = 53.01809179200012;
+		const lng = 18.607055641182555;
+		const newPOIs = await fetchPOIsNearby(lat, lng, 3);
+
 		// Inicjalizacja mapy - centrum na Warszawie domyślnie
 		map = L.map(mapContainer, {
-			center: [52.2297, 21.0122],
+			center: [53.01812167, 18.60666329],
 			zoom: 13,
 			zoomControl: true,
 			attributionControl: true
 		});
+
+		for (let i = 0; i < newPOIs.length; i++ ) {
+			const marker = L.marker([newPOIs[i].lat, newPOIs[i].lng]).addTo(map);
+			// marker.bindPopup(markers[i].name);
+			// bounds.push([markers[i].latitude, markers[i].longitude]);
+		}
 
 		// Dodanie warstwy OpenStreetMap
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -39,21 +52,22 @@
 		}).addTo(map);
 
 		// Załaduj demo dane POI
-		poiStore.loadDemoData();
+		poiStore.loadDemoData(newPOIs);
 
 		// Obserwuj zmiany lokalizacji użytkownika
-		$effect(() => {
-			const location = locationStore.userLocation;
-			if (location && map) {
-				updateUserMarker(L, location.lat, location.lng, location.accuracy);
-				map.setView([location.lat, location.lng], 15);
-			}
-		});
+		// $effect(() => {
+		// 	const location = locationStore.userLocation;
+		// 	if (location && map) {
+		// 		updateUserMarker(L, location.lat, location.lng, location.accuracy);
+		// 		map.setView([location.lat, location.lng], 15);
+		// 	}
+		// });
 
 		// Obserwuj zmiany POI i aktualizuj markery
 		$effect(() => {
 			const pois = poiStore.pois;
 			if (pois.length > 0 && map) {
+				console.log('Aktualizacja markerów POI na mapie...');
 				updatePOIMarkers(L, pois);
 			}
 		});

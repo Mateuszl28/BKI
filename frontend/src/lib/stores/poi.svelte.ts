@@ -1,4 +1,10 @@
 import type { POI } from '$lib/types/poi';
+// import zabki from './data/zabka-scrap.json' assert { type: 'json' };
+import zabki from '$lib/data/zabka-scrap.json';
+// import gasStations from './data/gas-station-scrap.json';
+// import monopolowe from './data/monopolowy-scrap.json';
+// import kluby from './data/klub-scrap.json';
+import { mapToPlaces } from './services/staticDataQueryService'
 
 class POIStore {
 	pois = $state<POI[]>([]);
@@ -44,58 +50,58 @@ class POIStore {
 	}
 
 	// Załaduj demo dane (placeholder przed integracją z API/scraping)
-	loadDemoData() {
+	loadDemoData(demoPois: POI[]) {
 		this.isLoading = true;
 
 		// Przykładowe dane - Warszawa centrum
-		const demoPOIs: POI[] = [
-			{
-				id: '1',
-				name: 'Sklep "U Janusza"',
-				type: 'monopolowy',
-				lat: 52.2297,
-				lng: 21.0122,
-				danger: 9,
-				description: 'Zawsze pełno wątpliwych osobników',
-				verified: true,
-				createdBy: 'system'
-			},
-			{
-				id: '2',
-				name: 'Klub "Przepity Piątek"',
-				type: 'klub',
-				lat: 52.232,
-				lng: 21.015,
-				danger: 8,
-				description: 'Awantury w weekendy',
-				verified: true,
-				createdBy: 'system'
-			},
-			{
-				id: '3',
-				name: 'Pub "Ostatnia Szansa"',
-				type: 'pub',
-				lat: 52.228,
-				lng: 21.01,
-				danger: 7,
-				description: 'Głośno po 22:00',
-				verified: true,
-				createdBy: 'system'
-			},
-			{
-				id: '4',
-				name: 'Nocne zgłoszenie policyjne',
-				type: 'policja',
-				lat: 52.231,
-				lng: 21.013,
-				danger: 10,
-				description: 'Interwencja policji - zakłócanie spokoju',
-				verified: true,
-				createdBy: 'system'
-			}
-		];
+		// const demoPOIs: POI[] = [
+		// 	{
+		// 		id: '1',
+		// 		name: 'Sklep "U Janusza"',
+		// 		type: 'monopolowy',
+		// 		lat: 52.2297,
+		// 		lng: 21.0122,
+		// 		danger: 9,
+		// 		description: 'Zawsze pełno wątpliwych osobników',
+		// 		verified: true,
+		// 		createdBy: 'system'
+		// 	},
+		// 	{
+		// 		id: '2',
+		// 		name: 'Klub "Przepity Piątek"',
+		// 		type: 'klub',
+		// 		lat: 52.232,
+		// 		lng: 21.015,
+		// 		danger: 8,
+		// 		description: 'Awantury w weekendy',
+		// 		verified: true,
+		// 		createdBy: 'system'
+		// 	},
+		// 	{
+		// 		id: '3',
+		// 		name: 'Pub "Ostatnia Szansa"',
+		// 		type: 'pub',
+		// 		lat: 52.228,
+		// 		lng: 21.01,
+		// 		danger: 7,
+		// 		description: 'Głośno po 22:00',
+		// 		verified: true,
+		// 		createdBy: 'system'
+		// 	},
+		// 	{
+		// 		id: '4',
+		// 		name: 'Nocne zgłoszenie policyjne',
+		// 		type: 'policja',
+		// 		lat: 52.231,
+		// 		lng: 21.013,
+		// 		danger: 10,
+		// 		description: 'Interwencja policji - zakłócanie spokoju',
+		// 		verified: true,
+		// 		createdBy: 'system'
+		// 	}
+		// ];
 
-		this.pois = demoPOIs;
+		this.pois = demoPois;
 		this.isLoading = false;
 		console.log('Załadowano demo dane:', this.pois.length, 'POI');
 	}

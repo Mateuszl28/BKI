@@ -7,16 +7,18 @@
 	let isLoading = $state(false);
 
 	const handleClick: MouseEventHandler<HTMLButtonElement> = async (e) => {
-		if (!locationStore.userLocation) {
-			alert('⚠️ Najpierw włącz geolokalizację!');
-			return;
-		}
+		// if (!locationStore.userLocation) {
+		// 	alert('⚠️ Najpierw włącz geolokalizację!');
+		// 	return;
+		// }
 
 		isLoading = true;
 
 		try {
-			const { lat, lng } = locationStore.userLocation;
-			const newPOIs = await fetchPOIsNearby(lat, lng, 2);
+			//const { lat, lng } = locationStore.userLocation;
+			const lat = 53.01809179200012;
+			const lng = 18.607055641182555;
+			const newPOIs = await fetchPOIsNearby(lat, lng, 3);
 
 			// Wyczyść stare dane i dodaj nowe
 			poiStore.pois = newPOIs;

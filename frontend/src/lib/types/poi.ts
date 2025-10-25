@@ -1,6 +1,6 @@
 // Point of Interest Types
 
-export type POIType = 'monopolowy' | 'klub' | 'pub' | 'policja' | 'user';
+export type POIType = 'monopolowy' | 'klub' | 'pub' | 'policja' | 'user' | 'stacjabenzynowa';
 
 export interface POI {
 	id: string;
