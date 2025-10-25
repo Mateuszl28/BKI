@@ -1,69 +1,77 @@
-function injectJokeGenerator() {
-  // dane (możesz dopisać własne)
-  const JOKES = [
-    { t: "Dlaczego programiści mylą Halloween i Boże Narodzenie? Bo 31 OCT = 25 DEC." },
-    { t: "Panie doktorze, wszyscy mnie ignorują! — Następny proszę." },
-    { t: "— Tato, zimno! — To się ociepl. — Ale jak? — No weź weźli i weźli weź." },
-    { t: "Debugowanie: jak bycie detektywem w filmie, w którym sam jesteś mordercą." },
-    { t: "Nie odkładam na później. Po prostu planuję na nieokreśloną przyszłość." },
-    { t: "Kelner! W mojej zupie jest błąd! — To nie błąd, to feature." },
-    { t: "Moje hasło jest jak cebula: doprowadza mnie do łez." }
-  ];
+<script lang="ts">
+	import { onMount, onDestroy } from 'svelte';
+	import type L from 'leaflet';
+	import { locationStore } from '$lib/stores/location.svelte';
+	import { poiStore } from '$lib/stores/poi.svelte';
+	import type { POI } from '$lib/types/poi'
+	import { mapToPlaces } from '$lib/stores/services/staticDataQueryService';
+	import { fetchPOIsNearby } from '$lib/utils/overpass';
 
-  // CSS (wstrzykujemy jako <style>)
-  const css = `
-    .joke-popup {
-      position: fixed; padding: 12px 16px; background: #141a2e; color: #e8edff;
-      border-radius: 12px; border: 1px solid rgba(122,162,255,0.3);
-      box-shadow: 0 8px 24px rgba(0,0,0,.35); z-index: 9999;
-      max-width: 320px; line-height: 1.4; font-family: system-ui, sans-serif;
-      animation: popupIn .3s ease;
-    }
-    .joke-popup button {
-      margin-top: 8px; background: #1a2342; color: #fff; border: none;
-      border-radius: 6px; padding: 4px 8px; cursor: pointer;
-    }
-    @keyframes popupIn { from { opacity:0; transform: scale(.9)} to { opacity:1; transform: scale(1)} }
-  `;
-  const style = document.createElement('style');
-  style.textContent = css;
-  document.head.appendChild(style);
+	let mapContainer: HTMLDivElement;
+	let map: L.Map | null = null;
+	let userMarker: L.Marker | null = null;
+	let poiMarkers: L.Marker[] = [];
 
-  // logika
-  function randomJoke() {
-    const j = JOKES[Math.floor(Math.random() * JOKES.length)];
-    showPopup(j.t);
-  }
+	// Ikony dla różnych typów lokacji
+	const dangerIcons = {
+		monopolowy: '🍷',
+		klub: '🎵',
+		pub: '🍺',
+		policja: '🚨',
+		user: '⚠️',
+		stacjabenzynowa: '⛽'
+	};
 
-  function showPopup(text: string) {
-    const popup = document.createElement('div');
-    popup.className = 'joke-popup';
-    popup.textContent = text;
+	onMount(async () => {
+		// Dynamiczny import Leaflet (client-side only)
+		const L = await import('leaflet');
+		await import('leaflet/dist/leaflet.css');
 
-    const btn = document.createElement('button');
-    btn.textContent = '😂 Jeszcze jeden';
-    btn.onclick = () => { popup.remove(); randomJoke(); };
+		const lat = 53.01809179200012;
+		const lng = 18.607055641182555;
+		const newPOIs = await fetchPOIsNearby(lat, lng, 3);
 
-    popup.appendChild(document.createElement('br'));
-    popup.appendChild(btn);
+		// Inicjalizacja mapy - centrum na Warszawie domyślnie
+		map = L.map(mapContainer, {
+			center: [53.01812167, 18.60666329],
+			zoom: 13,
+			zoomControl: true,
+			attributionControl: true
+		});
 
-    // losowa pozycja na ekranie
-    const vw = window.innerWidth;
-    const vh = window.innerHeight;
-    popup.style.left = Math.floor(Math.random() * Math.max(1, vw - 350)) + 'px';
-    popup.style.top  = Math.floor(Math.random() * Math.max(1, vh - 200)) + 'px';
+		for (let i = 0; i < newPOIs.length; i++ ) {
+			const marker = L.marker([newPOIs[i].lat, newPOIs[i].lng]).addTo(map);
+			// marker.bindPopup(markers[i].name);
+			// bounds.push([markers[i].latitude, markers[i].longitude]);
+		}
 
-    document.body.appendChild(popup);
-    setTimeout(() => popup.remove(), 8000);
-  }
+		// Dodanie warstwy OpenStreetMap
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '© OpenStreetMap contributors',
+			maxZoom: 19
+		}).addTo(map);
 
-  // pierwszy po 5s, potem co 20s
-  setTimeout(randomJoke, 5000);
-  setInterval(randomJoke, 20000);
+		// Załaduj demo dane POI
+		poiStore.loadDemoData(newPOIs);
 
-  // opcjonalnie: wystaw ręczny trigger w konsoli
-  (window as any).jokeNow = randomJoke;
-}
+		// Obserwuj zmiany lokalizacji użytkownika
+		// $effect(() => {
+		// 	const location = locationStore.userLocation;
+		// 	if (location && map) {
+		// 		updateUserMarker(L, location.lat, location.lng, location.accuracy);
+		// 		map.setView([location.lat, location.lng], 15);
+		// 	}
+		// });
+
+		// Obserwuj zmiany POI i aktualizuj markery
+		$effect(() => {
+			const pois = poiStore.pois;
+			if (pois.length > 0 && map) {
+				console.log('Aktualizacja markerów POI na mapie...');
+				updatePOIMarkers(L, pois);
+			}
+		});
+	});
 
 	function updateUserMarker(L: any, lat: number, lng: number, accuracy?: number) {
 		if (!map) return;
